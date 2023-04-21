@@ -1,0 +1,99 @@
+Weekly Statistics For The [TOKEN] Token
+
+Hello friends of [TOKEN], Friends of $HIVE and all others,
+
+here are the:
+
+# TOKEN Statistics for the last week:
+The timeframe is from [DATE_FRAME].
+## Bought [TOKEN] By Time
+This figure shows who has bought how many [TOKEN] at which time:
+BILD_01
+
+## Top [TOKEN] Buyers and $HIVE Sellers
+The inside of the circle shows the buyers of [TOKEN], ordered by $HIVE they have spent. The outside shows the recipients of that $HIVE (sellers of [TOKEN]):
+BILD_02
+
+
+## Commulated Amount Of Bought [TOKEN] Per Person
+This figure shows the top 10 [TOKEN] buyers, how much they got and how much $HIVE they spend for this. It is sorted by $HIVE, that was spent:
+BILD_03
+
+
+## Table Of Top 20 [TOKEN] Buyers
+This table shows the top ten buyers of [TOKEN] sorted by the $HIVE, they have spent:
+buyer.keyword: Descending|Sold $HIVE|Bought [TOKEN]|Avg. Price
+|-|-|-|-|
+TABLE
+
+## Commulated Amount Of Sold [TOKEN] Per Person
+This figure shows the top 10 [TOKEN] Sellers, how much they sold and how much $HIVE they got for this, sorted by $HIVE:
+BILD_04
+
+## Table Of Top 20 [TOKEN] Sellers
+This table shows the top ten sellers of [TOKEN] Sorted by the $HIVE, they have got:
+seller.keyword: Descending|Earned $HIVE|Sold [TOKEN]|Avg. Price
+|-|-|-|-|
+TABLE
+
+## Price of the [TOKEN]
+This figure shows the price of [TOKEN] for the last period:
+BILD_05
+
+## [TOKEN] Summarize Metrics
+
+This table shows how much $HIVE was given by buy-requests, that where equal or higher than the sell order vs. sell-requests, that were equal or lower than the buy order.
+If the buy-requests where higher than the sell-requests, then money comes into the system and the value of the token increases.
+
+Under the total line one can see the sum of $HIVE and sum of [TOKEN] that changed the ownership and the average price of [TOKEN] for the last period.
+
+The average price of the token in the picture is wrong, actually it was: xxx $HIVE/[TOKEN]
+BILD_06
+
+# Comparison With Other Tokens
+## $HIVE/Token
+This figure shows the value of $HIVE compared to some token for the last period. Be aware of the nonlinear (root square) y-axes.
+
+TBILD_01
+
+
+## US-Dollar/Token
+This figure shows the value of $USD compared to some token for the last period. Be aware of the nonlinear (root square) y-axes.
+
+TBILD_02
+
+Bild
+*[origin](https://coinmarketcap.com/currencies/hive-blockchain/)*
+
+## Table Of Token Prices in $HIVE and $USD
+This table shows the average value of the prices of the token for the last period. One can see Hive and the US-Dollar compared to the token.
+
+TBILD_03
+
+
+----
+# Disclaimer
+
+All stats are without warranty.
+They are taken from:
+
+    curl -XPOST -H "Content-type: application/json" -d '{ "jsonrpc": "2.0", "method": "find", "params": { "contract": "market", "table": "tradesHistory", "query": { "symbol": "TOKEN"}, "limit":1000, "offset": 0 }, "id": 1 }' 'https://api.hive-engine.com/rpc/contracts'
+
+I have put them into logfiles and uploaded them to Kibana, from which I took the screenshots.
+If you find errors, please tell me!
+
+If you want me to continue the stats, give me some good upvotes ;-)
+
+If you want to see other statistics (even from totaly other data), please contact me. I can create them weekly or monthly if I get some rewards for it.
+
+For more details see here: [How I Have Set Up Elasticsearch And Kibana On My Raspberry Pi To Monitor Token Activities](https://peakd.com/hive-122315/@achimmertens/how-i-have-set-up-elasticsearch-and-kibana-on-my-raspberry-pi-to-monitor-token-activities) and here: [Do You Want To See Statistics Of Your Favorite HIVE Token?](https://peakd.com/hive-167922/@achimmertens/do-you-want-to-see-statistics-of-your-favorite-hive-token) or on [github](https://github.com/achimmertens/HiveTokenELK/tree/master).
+
+Here are the stats from the other tokens I observe: https://peakd.com/@achimmertens/posts?filter=stats
+
+Regards, Achim Mertens
+
+Sumarize:
+These are the statistics for the [TOKEN] token for last week.
+
+tags:
+leofinance token hive hivestats statistics stats  
