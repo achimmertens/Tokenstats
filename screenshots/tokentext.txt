@@ -1,74 +1,75 @@
-Weekly Statistics For The $BEER Token
+Weekly Statistics For The $SPT Token
 
-Hello friends of $BEER, Friends of $HIVE and all others,
+Hello friends of $SPT, Friends of $HIVE and all others,
 
 here are the:
 
-# TOKEN Statistics for the last week:
-The timeframe is from 2023-04-21 to 2023-04-14.
-## Bought $BEER By Time
-This figure shows who has bought how many $BEER at which time:
+# $SPT Statistics for the last week:
+The timeframe is from 2023-04-17 to 2023-04-24.
+## Bought $SPT By Time
+This figure shows who has bought how many $SPT at which time:
 BILD_01
 
-## Top $BEER Buyers and $HIVE Sellers
-The inside of the circle shows the buyers of $BEER, ordered by $HIVE they have spent. The outside shows the recipients of that $HIVE (sellers of $BEER):
+## Top $SPT Buyers and $HIVE Sellers
+The inside of the circle shows the buyers of $SPT, ordered by $HIVE they have spent. The outside shows the recipients of that $HIVE (sellers of $SPT):
 BILD_02
 
 
-## Commulated Amount Of Bought $BEER Per Person
-This figure shows the top 10 $BEER buyers, how much they got and how much $HIVE they spend for this. It is sorted by $HIVE, that was spent:
+## Commulated Amount Of Bought $SPT Per Person
+This figure shows the top 10 $SPT buyers, how much they got and how much $HIVE they spend for this. It is sorted by $HIVE, that was spent:
 BILD_03
 
 
-## Table Of Top 20 $BEER Buyers
-This table shows the top ten buyers of $BEER sorted by the $HIVE, they have spent:
-buyer.keyword: Descending|Sold $HIVE|Bought $BEER|Avg. Price
+## Table Of Top 20 $SPT Buyers
+This table shows the top ten buyers of $SPT sorted by the $HIVE, they have spent:
+buyer.keyword: Descending|Sold $HIVE|Bought $SPT|Avg. Price
 |-|-|-|-|
 TABLE
 
-## Commulated Amount Of Sold $BEER Per Person
-This figure shows the top 10 $BEER Sellers, how much they sold and how much $HIVE they got for this, sorted by $HIVE:
+## Commulated Amount Of Sold $SPT Per Person
+This figure shows the top 10 $SPT Sellers, how much they sold and how much $HIVE they got for this, sorted by $HIVE:
 BILD_04
 
-## Table Of Top 20 $BEER Sellers
-This table shows the top ten sellers of $BEER Sorted by the $HIVE, they have got:
-seller.keyword: Descending|Earned $HIVE|Sold $BEER|Avg. Price
+## Table Of Top 20 $SPT Sellers
+This table shows the top ten sellers of $SPT Sorted by the $HIVE, they have got:
+seller.keyword: Descending|Earned $HIVE|Sold $SPT|Avg. Price
 |-|-|-|-|
 TABLE
 
-## Price of the $BEER
-This figure shows the price of $BEER for the last period:
+## Price of the $SPT
+This figure shows the price of $SPT for the last period:
 BILD_05
 
-## $BEER Summarize Metrics
+## $SPT Summarize Metrics
 
 This table shows how much $HIVE was given by buy-requests, that where equal or higher than the sell order vs. sell-requests, that were equal or lower than the buy order.
 If the buy-requests where higher than the sell-requests, then money comes into the system and the value of the token increases.
 
-Under the total line one can see the sum of $HIVE and sum of $BEER that changed the ownership and the average price of $BEER for the last period.
+Under the total line one can see the sum of $HIVE and sum of $SPT that changed the ownership and the average price of $SPT for the last period.
 
-The average price of the token in the picture is wrong, actually it was: xxx $HIVE/$BEER
+The average price of the token in the picture is wrong, actually it was: xxx $HIVE/$SPT
 BILD_06
 
 # Comparison With Other Tokens
 ## $HIVE/Token
 This figure shows the value of $HIVE compared to some token for the last period. Be aware of the nonlinear (root square) y-axes.
 
-TBILD_01
+![01_HivePerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jn5CLPtmvZjyXCC7sLCaRrGEfPGh8F9LEtGhDUScjw3FDR1ZNzWs1NyR5TxHj5UM.png)
 
 
 ## US-Dollar/Token
 This figure shows the value of $USD compared to some token for the last period. Be aware of the nonlinear (root square) y-axes.
 
-TBILD_02
+![02_USDPerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jn5CLQeCdmRxiMoao1AH593gX3qHBLsmdbezKLKL2cUNsrrRYHEBYL7AycZJRm3s.png)
 
-Bild
+Rank XXX
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tHbkkZ7awm8coecGnstTALjjYgzXWZevKh16xyrY9rntJ5SCbAZ72kzMvJB2GL1v8TW.png)
 *[origin](https://coinmarketcap.com/currencies/hive-blockchain/)*
 
 ## Table Of Token Prices in $HIVE and $USD
 This table shows the average value of the prices of the token for the last period. One can see Hive and the US-Dollar compared to the token.
 
-TBILD_03
+![03_TableOfTokenPrices.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo2BM1YVEXYT3teMyRWQWmggGHH5nHPmPrbaPtcrxQbDYfo7MxtaTC6UR8JBWLtWYPA.png)
 
 
 ----
@@ -93,7 +94,7 @@ Here are the stats from the other tokens I observe: https://peakd.com/@achimmert
 Regards, Achim Mertens
 
 Sumarize:
-These are the statistics for the $BEER token for last week.
+These are the statistics for the $SPT token for last week.
 
 tags:
-leofinance token hive hivestats statistics stats  
+spt leofinance token hive hivestats statistics stats  
