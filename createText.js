@@ -1,3 +1,14 @@
+// ********************************************************
+// 01. "surfKibana.js ausführen".
+// 02. Ein Screenshot von Hive in CoinMarketCap nehmen und in otherTokensTemplate.txt einfügen
+// 03. manuell ${TOKEN}images.txt befüllen
+// 04. Dieses Script hier ausführen, um die Textbausteine für die jeweiligen Token zu erstellen
+// 05. Die TokenTextbausteine in Peakd.com einfügen und Tabellen und Tokenprice ändern.
+//
+//            Written by Achim Mertens
+// ********************************************************
+
+
 const fs = require('fs');
 let template = fs.readFileSync('tokenStatsTemplate.txt', 'utf-8');
 let otherTokens = fs.readFileSync('otherTokensTemplate.txt', 'utf-8');
@@ -24,7 +35,7 @@ console.log("matchOT3 = ",matchOT3);
 const otherTokenImage03 = matchOT3 ? matchOT3[0] : null;
 console.log("otherTokenImage03 = ",otherTokenImage03); // gibt "03_TableOfTokenPrices.png" aus
 
-let tokens=["BEER","ALIVE"];
+let tokens=["ALIVE","BEER","LEO","POB","SPT"];
 
 for (let token of tokens) {
     let TokenImages = fs.readFileSync(`${token}images.txt`, 'utf-8');
