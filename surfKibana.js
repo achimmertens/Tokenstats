@@ -25,7 +25,8 @@ const queries =
         ["Alive/03_CommulatedAmountOfBoughtAlive", 50, "http://raspi:5601/app/kibana#/visualize/edit/commulated_amount_of_bought_alive?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))"],
         ["Alive/04_CommulatedAmountOfSoldAlive", 50, "http://raspi:5601/app/kibana#/visualize/edit/commulated_amount_of_sold_alive?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))"],
         ["Alive/05_PriceOfAlive", 50, "http://raspi:5601/app/kibana#/visualize/edit/price_of_alive?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))"],
-
+        ["Alive/06_TableOfAliveBuyVsSellRequest", 50, "http://raspi:5601/app/kibana#/visualize/edit/2ba835e0-0a23-11ec-9586-edd1781b885c?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!f%2Cvalue%3A10000)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))"],
+        
         ["LEO/01_BoughtLeoByTime", 50, "http://raspi:5601/app/kibana#/visualize/edit/bought_leo_by_time?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))"],
         ["LEO/02_TopTenLeoBuyers", 50, "http://raspi:5601/app/kibana#/visualize/edit/top_ten_leo_buyers?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))"],
         ["LEO/03_CommulatedAmountOfBoughtLeo", 50, "http://raspi:5601/app/kibana#/visualize/edit/commulated_amount_of_bought_leo?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))"],

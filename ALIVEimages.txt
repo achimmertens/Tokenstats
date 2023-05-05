@@ -1,12 +1,9 @@
+![01_BoughtALiveByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo8ZbTHyM1gr3koPj2pmB5Ug9MuH8c4vfLs7uRmbdH7siTa2KqNW3pLtFKwCJJBVDQU.png)
 
-![01_bought_beer_by_time.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoH5A8QoKfaA6aXH5yjzNiXZfWnKrd3dVivzZnVVtEf2C5skFHgeWot8WAX8UzpMaaj.png)
+![03_CommulatedAmountOfBoughtAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoEwn2xjrqkicrFvpTo8cPiAjZAeTrxr5ProeWdmy4aRvyg7iu7FP1jY7aAjzDSj2V7.png)
 
-![06_TableOfBeerBuyVsSellRequest.png](https://files.peakd.com/file/peakd-hive/achimmertens/Enz3ttRSGeaxxD12Ddh9MmEWNQ3TgB4xFiHy5oVvAk9SqKCXptmJR8psLDKJtDMFEYk.png)
+![04_CommulatedAmountOfSoldAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoEwjCEJYqJk7Di2pVZ514qqAc9AzT3ENdKvSZ6XHr8k1mXjAik2fUfx65yEZTuvjgm.png)
 
-![03_CommulatedAmountOfBoughtBeer.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoH5BE8LFinptzGJ9UWP7AdPZmW1f9Y5kFo7FdqkWeGxXsMtan6g1cVA1euspZ8yxeb.png)
+![05_PriceOfAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo6SDzz7gsMD48jmg83Ta4Xhm3YYmcPRBbuvqkjMST98zgNw7piMKJR5f23mBC4L4Z6.png)
 
-![04_CommulatedAmountOfSoldBeer.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoH5BECDFjr5Lsob35vtaAsvaKFBUuiDewfCfFxmi3APZgBLrdBRQGKUN3UHhBmFjvV.png)
-
-![05_PriceOfBeer.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo2BRcX9cFNjUDmLJtjHLdUbqcRyEQCsWsmXia6915AA81tKp9yjxY57dgMJPbtU6EP.png)
-
-![02_TopTenBeerBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EogUAtoHhjSaux2L9NfUQCkayfNXUVBd6Aj8Ao6QNM8KHjFWciupCiEThsy8VSRJdER.png)
+![02_TopTenAliveBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EokirNvAdLfg2MqvY7g8FMtWcHGtFy5aAhyUCkp5JtBxs69o9UJBDz3XLfVr9MVrMgd.png)

@@ -10,8 +10,8 @@ This figure shows the value of $USD compared to some token for the last period. 
 
 [OT02]
 
-Rank XXX
-[CMC]
+Rank 159
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23uFw4xxtRU9o1g5PoaC2FzjwNxfzRXZTgWwWH8qwkb1bB5CkPQoPhVVs9XiJ2RXGo66o.png)
 *[origin](https://coinmarketcap.com/currencies/hive-blockchain/)*
 
 ## Table Of Token Prices in $HIVE and $USD
