@@ -1,6 +1,6 @@
 // ********************************************************
 // 01. "surfKibana.js ausführen".
-// 02. Ein Screenshot von Hive in CoinMarketCap nehmen und in otherTokensTemplate.txt einfügen
+// 02. Ein Screenshot von Hive in CoinMarketCap nehmen, in peakd.com hochladen und Bild-Text in otherTokensTemplate.txt einfügen
 // 03. manuell ${TOKEN}images.txt befüllen
 // 04. Dieses Script hier ausführen, um die Textbausteine für die jeweiligen Token zu erstellen
 // 05. Die TokenTextbausteine in Peakd.com einfügen und Tabellen und Tokenprice ändern.
