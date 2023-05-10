@@ -40,7 +40,7 @@
               "order": {
                 "1": "desc"
               },
-              "missing": "__missing__",
+              "missing": "__missing__",  //kann das weg?
               "size": 1000 //Todo: Wenn mehr als 1000, soll dies dargestellt werden
             },
             "aggs": {
@@ -92,13 +92,27 @@
     });
 
     console.log ("Here is the sorted by volume list of Leo Buyers and the amount of the sold HIVE and bought LEO:")
-    buckets.forEach(bucket => {
+    let totalVol=0;
+    let totalQuan=0;
+    let avgPr =0;
+    let number=0;
+    buckets.forEach((bucket,index) => {
+      if (index<20){
       const buyer = bucket.key;
       const totalQuantity = bucket['3'].value;
       const totalVolume = bucket['1'].value;
       const avgPrice = bucket['4'].value;
-      console.log(`@${buyer}| ${totalQuantity}|${totalVolume}|${avgPrice}`);
+      console.log(`@${buyer}| ${totalVolume}|${totalQuantity}|${avgPrice}`);
+    }
+    else{
+      totalVol = totalVol+bucket['1'].value;
+      totalQuan = totalQuan+bucket['3'].value;
+      avgPr = avgPr+bucket['4'].value;
+    }
+    number=index;
     });
+
+    console.log(`other|${totalVol}|${totalQuan}|${avgPr/(number-20)}`); // | ${bucket.total_quantity.value} | ${bucket.avg_price.value}     
 
   })();
   
