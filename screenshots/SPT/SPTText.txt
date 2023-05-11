@@ -5,7 +5,7 @@ Hello friends of $SPT, Friends of $HIVE and all others,
 here are the:
 
 # $SPT Statistics for the last week:
-The timeframe is from 2023-04-28 to 2023-05-05.
+The timeframe is from 2023-05-04 to 2023-05-11.
 ## Bought $SPT By Time
 This figure shows who has bought how many $SPT at which time:
 ![01_BoughtSptByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo8ZbTMpyc5Y9gNF1BqTd9xGsPG9KD13JiZNySu7xyVKNqwgGnjuSYGicb3XfcoBAry.png)

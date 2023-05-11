@@ -5,7 +5,7 @@ Hello friends of $POB, Friends of $HIVE and all others,
 here are the:
 
 # $POB Statistics for the last week:
-The timeframe is from 2023-04-28 to 2023-05-05.
+The timeframe is from 2023-05-04 to 2023-05-11.
 ## Bought $POB By Time
 This figure shows who has bought how many $POB at which time:
 ![01_BoughtPobByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoibaJk2qLgvoKMhEX5airZvJMqAtcJMdPUERVjkGi8RqRM9cNRV5vLgdUfBkTbzzUx.png)

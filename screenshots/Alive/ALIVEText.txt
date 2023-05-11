@@ -5,7 +5,7 @@ Hello friends of $ALIVE, Friends of $HIVE and all others,
 here are the:
 
 # $ALIVE Statistics for the last week:
-The timeframe is from 2023-04-28 to 2023-05-05.
+The timeframe is from 2023-05-04 to 2023-05-11.
 ## Bought $ALIVE By Time
 This figure shows who has bought how many $ALIVE at which time:
 ![01_BoughtALiveByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoH58PY7uYqRDRcjWDAha6uxQE8TpUN4P9L4c6RnyccaAxKbxAoLscd8HYjRbvweunQ.png)

@@ -5,7 +5,7 @@ Hello friends of $BEER, Friends of $HIVE and all others,
 here are the:
 
 # $BEER Statistics for the last week:
-The timeframe is from 2023-04-28 to 2023-05-05.
+The timeframe is from 2023-05-04 to 2023-05-11.
 ## Bought $BEER By Time
 This figure shows who has bought how many $BEER at which time:
 ![01_bought_beer_by_time.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo6SCG8Lz2Ba1sX8cFmBrQwAKbsnxSVrP8EuB6ZovQKMfCPEcQT6MGhemEQiEmiwpL9.png)

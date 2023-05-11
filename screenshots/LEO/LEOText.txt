@@ -5,7 +5,7 @@ Hello friends of $LEO, Friends of $HIVE and all others,
 here are the:
 
 # $LEO Statistics for the last week:
-The timeframe is from 2023-04-28 to 2023-05-05.
+The timeframe is from 2023-05-04 to 2023-05-11.
 ## Bought $LEO By Time
 This figure shows who has bought how many $LEO at which time:
 ![01_BoughtLeoByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoAgyetnnXdYSeE2ZUX8vAcT11hFBk6aa3aP6b6YyScqn8ffg2nXSypokwE85iYH3Fs.png)
