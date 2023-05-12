@@ -30,7 +30,21 @@ async function main() {
     const otherTokenImage03 = matchOT3 ? matchOT3[0] : null;
     console.log("otherTokenImage03 = ", otherTokenImage03); // gibt "03_TableOfTokenPrices.png" aus
 
+    // Datum von vor einer Woche
+    let timeFrame = 7;
+    let oneWeekAgo = new Date();
+    let currentDate = new Date();
+    let currentDateString = currentDate.toISOString().slice(0, 10);
+    oneWeekAgo.setDate(oneWeekAgo.getDate() - timeFrame);
+    let oneWeekAgoString = oneWeekAgo.toISOString().slice(0, 10);
+    // Bei Bedarf überschreiben:
+    oneWeekAgoString = '2023-05-05T08:38:08.988Z'
+    currentDateString = '2023-05-12T08:38:08.988Z'
+    let dateFrame = `${oneWeekAgoString} to ${currentDateString}`;
+
     let tokens = ["ALIVE", "BEER", "LEO", "POB", "SPT"];
+
+
 
     for (let token of tokens) {
         let TokenImages = fs.readFileSync(`${token}images.txt`, 'utf-8');
@@ -55,17 +69,12 @@ async function main() {
 
         let filename = `./screenshots/${token}/${token}Text.txt`;
         let tagToken = token.toLowerCase();
-        let timeFrame = 7;
-        let currentDate = new Date();
-        let currentDateString = currentDate.toISOString().slice(0, 10);
-        // Datum von vor einer Woche
-        let oneWeekAgo = new Date();
-        oneWeekAgo.setDate(oneWeekAgo.getDate() - timeFrame);
-        let oneWeekAgoString = oneWeekAgo.toISOString().slice(0, 10);
-        let dateFrame = `${oneWeekAgoString} to ${currentDateString}`;
+
+ 
 
         const { buyersTableResult, sellersTableResult } = await getTables(tagToken, oneWeekAgoString, currentDateString);
-        let replacedTemplate = template.replace('[DATE_FRAME]', dateFrame)
+        let replacedTemplate = template
+            .replace('[DATE_FRAME]', dateFrame)
             .replace('[OTHERTOKENS]', otherTokens)
             .replace('[OT01]', otherTokenImage01)
             .replace('[OT02]', otherTokenImage02)

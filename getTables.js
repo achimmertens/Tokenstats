@@ -11,8 +11,6 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
 
   const buyersTableResult = await
     (async () => {
-      const oneWeekAgoString = '2023-05-05T08:38:08.988Z'
-      const currentDateString = '2023-05-12T08:38:08.988Z'
       const fetch = (await import('node-fetch')).default;
       const response = await fetch(`http://raspi:9200/${token}/_search?size=10000`, {  //Todo: wenn mehr als 10000, dann darstellen
         method: 'POST',
@@ -24,8 +22,8 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
           query: {
             range: {
               timestamp: {
-                gte: oneWeekAgoString, // '2023-05-03T05:38:08.988Z',
-                lte: currentDateString, //'2023-05-10T05:38:08.988Z',
+                gte: oneWeekAgoString, 
+                lte: currentDateString,
                 format: 'strict_date_optional_time||epoch_millis',
               },
             },
@@ -93,7 +91,6 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
           const totalVolume = bucket['1'].value;
           const avgPrice = bucket['4'].value;
           const numberOfTrades = bucket.doc_count;
-          //  console.log(`@${buyer}| ${totalVolume}|${totalQuantity}|${avgPrice}`);
           buyersTable = buyersTable + `@${buyer}| ${totalVolume}|${totalQuantity}|${avgPrice}|${numberOfTrades}\n`
         }
         else {
@@ -103,18 +100,13 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
         }
         number = index;
       });
-      //console.log(`__others__|${totalVol}|${totalQuan}|${avgPr / (number - 20)}`);
       buyersTable = buyersTable + `__others__|${totalVol}|${totalQuan}|${avgPr / (number - 20)}\n`
-      //    console.log('Die buyersTable sieht so aus:');
-      //     console.log(buyersTable);
       return buyersTable;
     })();
 
   // Table of Top 20 Sellers
   const sellersTableResult = await
     (async () => {
-      const oneWeekAgoString = '2023-05-05T08:38:08.988Z'
-      const currentDateString = '2023-05-12T08:38:08.988Z'
       const fetch = (await import('node-fetch')).default;
       const response = await fetch(`http://raspi:9200/${token}/_search?size=10000`, {  //Todo: wenn mehr als 10000, dann darstellen
         method: 'POST',
@@ -202,7 +194,6 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
           const totalVolume = bucket['1'].value;
           const avgPrice = bucket['4'].value;
           const numberOfTrades = bucket.doc_count;
-          //       console.log(`@${seller}| ${totalVolume}|${totalQuantity}|${avgPrice}`);
           sellersTable = sellersTable + `@${seller}| ${totalVolume}|${totalQuantity}|${avgPrice}|${numberOfTrades}\n`
         }
         else {
@@ -213,12 +204,8 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
         number = index;
         console.log(`\n \nData (JSON): \n`, bucket);
       });
-      // console.log(`__others__|${totalVol}|${totalQuan}|${avgPr / (number - 20)}`); // | ${bucket.total_quantity.value} | ${bucket.avg_price.value} 
       sellersTable = sellersTable + `__others__|${totalVol}|${totalQuan}|${avgPr / (number - 20)}\n`
-      //  console.log('Die SellersTable sieht so aus: \n', sellersTable)
       return sellersTable;
     })();
-
   return { buyersTableResult, sellersTableResult }
-
 }

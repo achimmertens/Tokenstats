@@ -5,7 +5,7 @@ Hello friends of $ALIVE, Friends of $HIVE and all others,
 here are the:
 
 # $ALIVE Statistics for the last week:
-The timeframe is from 2023-05-05 to 2023-05-12.
+The timeframe is from 2023-05-05T08:38:08.988Z to 2023-05-12T08:38:08.988Z.
 
 (Some Data from 8. to 9. May is missing, sorry for that)
 
