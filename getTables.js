@@ -1,10 +1,5 @@
 const { By } = require('selenium-webdriver');
 
-// const {buyersTable, sellersTable} = await gettables("LEO",'2023-05-03T05:38:08.988Z','2023-05-10T05:38:08.988Z');
-// console.log(buyersTable); // Output: 'foo'
-// console.log(sellersTable); // Output: 'bar'
-
-
 module.exports = async function getTables(token, oneWeekAgoString, currentDateString) {
 
   // Table of Top 20 Buyers
@@ -63,13 +58,6 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
       const data = await response.json();
       const amount = data.hits.hits.length
 
-      // for (let i = 0; i < amount; i++) {
-      //   console.log("Index:", data.hits.hits[i]._index);
-      //   console.log("ID:", data.hits.hits[i]._id);
-      //   console.log("Symbol:", data.hits.hits[i]._source.symbol);
-      //   console.log("Price:", data.hits.hits[i]._source.price);
-      //   console.log("Timestamp:", data.hits.hits[i]._source.timestamp);
-      // }
       console.log("Menge der Datensätze: ", amount)
       console.log("Inhalt des letzten Datensatzes: ", data.hits.hits[amount - 1])
       const buckets = data.aggregations.buyers.buckets;
@@ -84,6 +72,7 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
       let totalQuan = 0;
       let avgPr = 0;
       let number = 0;
+      let otherTrades =0;
       buckets.forEach((bucket, index) => {
         if (index < 20) {
           const buyer = bucket.key;
@@ -97,10 +86,11 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
           totalVol = totalVol + bucket['1'].value;
           totalQuan = totalQuan + bucket['3'].value;
           avgPr = avgPr + bucket['4'].value;
+          otherTrades = otherTrades+bucket.doc_count
         }
         number = index;
       });
-      buyersTable = buyersTable + `__others__|${totalVol}|${totalQuan}|${avgPr / (number - 20)}\n`
+      buyersTable = buyersTable + `__others__|${totalVol}|${totalQuan}|${avgPr / (number - 20)}|${otherTrades}\n`
       return buyersTable;
     })();
 
@@ -187,6 +177,7 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
       let totalQuan = 0;
       let avgPr = 0;
       let number = 0;
+      let otherTrades=0;
       buckets.forEach((bucket, index) => {
         if (index < 20) {
           const seller = bucket.key;
@@ -200,11 +191,12 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
           totalVol = totalVol + bucket['1'].value;
           totalQuan = totalQuan + bucket['3'].value;
           avgPr = avgPr + bucket['4'].value;
+          otherTrades = otherTrades+bucket.doc_count
         }
         number = index;
         console.log(`\n \nData (JSON): \n`, bucket);
       });
-      sellersTable = sellersTable + `__others__|${totalVol}|${totalQuan}|${avgPr / (number - 20)}\n`
+      sellersTable = sellersTable + `__others__|${totalVol}|${totalQuan}|${avgPr / (number - 20)}|${otherTrades}\n`
       return sellersTable;
     })();
   return { buyersTableResult, sellersTableResult }

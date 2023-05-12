@@ -1,4 +1,5 @@
-
+// createText.js written by Achim Mertens
+// For details see README.md
 
 
 const fs = require('fs');
@@ -43,9 +44,6 @@ async function main() {
     let dateFrame = `${oneWeekAgoString} to ${currentDateString}`;
 
     let tokens = ["ALIVE", "BEER", "LEO", "POB", "SPT"];
-
-
-
     for (let token of tokens) {
         let TokenImages = fs.readFileSync(`${token}images.txt`, 'utf-8');
         const BILD_01 = /\!\[01(.*?)\)/;
@@ -70,8 +68,6 @@ async function main() {
         let filename = `./screenshots/${token}/${token}Text.txt`;
         let tagToken = token.toLowerCase();
 
- 
-
         const { buyersTableResult, sellersTableResult } = await getTables(tagToken, oneWeekAgoString, currentDateString);
         let replacedTemplate = template
             .replace('[DATE_FRAME]', dateFrame)
@@ -86,8 +82,8 @@ async function main() {
             .replace('BILD_04', TokenImage04)
             .replace('BILD_05', TokenImage05)
             .replace('BILD_06', TokenImage06)
-            .replace('TABLE01',buyersTableResult)
-            .replace('TABLE02',sellersTableResult)
+            .replace('TABLE01', buyersTableResult)
+            .replace('TABLE02', sellersTableResult)
             .split('[TOKEN]').join('$' + token)
         fs.writeFile(filename, replacedTemplate, function (err) {
             if (err) {
@@ -96,10 +92,8 @@ async function main() {
                 console.log(`Die Datei ${filename} wurde erfolgreich erstellt!`);
             }
         });
-        
         console.log('buyersTableResult = \n', buyersTableResult);
         console.log('sellersTableResult = \n', sellersTableResult);
-
     }
 }
 
