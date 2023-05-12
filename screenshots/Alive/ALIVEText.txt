@@ -5,40 +5,85 @@ Hello friends of $ALIVE, Friends of $HIVE and all others,
 here are the:
 
 # $ALIVE Statistics for the last week:
-The timeframe is from 2023-05-04 to 2023-05-11.
+The timeframe is from 2023-05-05 to 2023-05-12.
+
+(Some Data from 8. to 9. May is missing, sorry for that)
+
 ## Bought $ALIVE By Time
 This figure shows who has bought how many $ALIVE at which time:
-![01_BoughtALiveByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoH58PY7uYqRDRcjWDAha6uxQE8TpUN4P9L4c6RnyccaAxKbxAoLscd8HYjRbvweunQ.png)
+![01_BoughtALiveByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoAgyetnT55uWqAHAkgDAhMbCgwYe98DDmegFsqvGErPwZNig9E9RRCNUs4KZLMCQcr.png)
 
 ## Top $ALIVE Buyers and $HIVE Sellers
 The inside of the circle shows the buyers of $ALIVE, ordered by $HIVE they have spent. The outside shows the recipients of that $HIVE (sellers of $ALIVE):
-![02_TopTenAliveBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoibZ5q69VaoVpYRURzwqCdUw8AZeBDWGiemBziWGZULeEnnZGVo9QzmJprB9Ffu1KJ.png)
+![02_TopTenAliveBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eoiba5xRSG15ModJuELotGAxNkL5vS6i3wTX3kemtGuYhiGuKCFM3Nh88HzGJgsT79z.png)
 
 
 ## Commulated Amount Of Bought $ALIVE Per Person
 This figure shows the top 10 $ALIVE buyers, how much they got and how much $HIVE they spend for this. It is sorted by $HIVE, that was spent:
-![03_CommulatedAmountOfBoughtAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/EocDj8hnyJgpLMPQRmUF8ypxNeGX4PUxaeSYdNW2Yq6JQjTPwZmWkwHcuAn9JYd3jAP.png)
+![03_CommulatedAmountOfBoughtAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/EopyjZNiaP8BwczjXbG8B8mxXVQ4GvJrubcjCCqDKJmSR3XP4GPCdn2M4biubykyRh6.png)
 
 
 ## Table Of Top 20 $ALIVE Buyers
 This table shows the top ten buyers of $ALIVE sorted by the $HIVE, they have spent:
-buyer.keyword: Descending|Sold $HIVE|Bought $ALIVE|Avg. Price
+buyer(Descending)|Sold $HIVE|Bought $ALIVE|Avg. Price
 |-|-|-|-|
-TABLE
+@hivecurious| 68.55317627279146|1753.8681990238838|0.038827494623101484
+@pwbanker| 53.51825434155762|1294.870505452156|0.04335496167186648
+@oscarps| 51.30519650923088|1350.9841072261333|0.038820934453696915
+@onlydoge| 49.9999974668026|1190.4478206634521|0.04200100153684616
+@mcbot| 42.43464402333484|1061.0965042663738|0.0396594932446113
+@master-lamps| 34.11368344537914|983.1037789285183|0.03632346106072267
+@dimascastillo90| 21.120323844254017|503.5256063938141|0.04191979542374611
+@ben.haase| 17.996616857126355|461.75760684907436|0.03875861583011491
+@visual.alive| 10.647968769073486|280.20970153808594|0.03799999877810478
+@fjworld| 8.199997901916504|200|0.040999989956617355
+@aliveandthriving| 6.929443847388029|161.16680047661066|0.03957014211586544
+@jimmy.adames| 5.643231272697449|134.37910079956055|0.041993300120035805
+@gestion.alive| 5.258706450462341|117.79660320281982|0.04348999448120594
+@lolz.pool| 4.964905261993408|131|0.03790004178881645
+@edgerik| 2.85919588804245|70|0.04049329708019892
+@nickydee| 2.554790496826172|75.1364974975586|0.03400199115276337
+@sammyhive| 2|47.64190101623535|0.041979867964982986
+@cursephantom| 1.5838974304497242|37.729899168014526|0.04197990149259567
+@elikast| 1.4999999850988388|36.15549910068512|0.04135000519454479
+@hive-103505| 1.4994590878486633|35.7185001373291|0.04197990149259567
+__others__|0|0|0
+
 
 ## Commulated Amount Of Sold $ALIVE Per Person
 This figure shows the top 10 $ALIVE Sellers, how much they sold and how much $HIVE they got for this, sorted by $HIVE:
-![04_CommulatedAmountOfSoldAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoKCXaqvephPsHJ5pC6R6B48LvjSML4SX9XHiGDTovHhyjrYn1CRKKfB9EmbFtJnDPK.png)
+![04_CommulatedAmountOfSoldAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoibXygGT6ghtuax1akLPuExBLPC2nHKg8u93sn7s1baQAioRtbuX7TN7czDD7SNQsJ.png)
 
 ## Table Of Top 20 $ALIVE Sellers
 This table shows the top ten sellers of $ALIVE Sorted by the $HIVE, they have got:
-seller.keyword: Descending|Earned $HIVE|Sold $ALIVE|Avg. Price
+seller(Descending)|Earned $HIVE|Sold $ALIVE|Avg. Price
 |-|-|-|-|
-TABLE
+@onlydoge| 86.185800537467|2130.412613093853|0.04227939993143082
+@oscarps| 67.27117068163352|1562.3606153018773|0.04271578594394352
+@mcbot| 56.21702437021304|1363.595815518871|0.04303012144836513
+@pwbanker| 54.0651581697166|1329.369212925434|0.038740255311131476
+@rachaeldwatson| 51.9494324028492|1381.7357540130615|0.03840524982661009
+@ben.haase| 48.4906897470355|1063.9464089870453|0.04348527911034497
+@leemah1| 28.200721621513367|728.8669033050537|0.03885715614472117
+@master-lamps| 26.767422199249268|577.5243949890137|0.04351377561688423
+@generra-abraham| 14.062407493591309|374|0.03760002180933952
+@jlufer| 11.284672785550356|288.82649421691895|0.03868716582655907
+@visual.alive| 11.17997582629323|264.77480113506317|0.044549782574176786
+@sonaker| 4.686712741851807|121.41739654541016|0.03860000893473625
+@jfuji| 4.5000002309679985|100.00000011920929|0.04500000178813934
+@masoom| 3.88700008392334|100|0.03886999934911728
+@zoe24| 3.7707746028900146|76.30999755859375|0.04939968138933182
+@urri2020| 3.522125189192593|89.16750088334084|0.03950009495019913
+@tdctunes| 2.241244316101074|57.62300109863281|0.038894958794116974
+@willendorfia| 1.9708610773086548|50.5349006652832|0.039000000804662704
+@gank| 1.7501014261506498|45.096001118421555|0.03883335615197817
+@steem-holder| 1.655741810798645|41.8314995765686|0.03950000479817391
+__others__|0|0|0
+
 
 ## Price of the $ALIVE
 This figure shows the price of $ALIVE for the last period:
-![05_PriceOfAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo6SDzz7gWcxv432sKg5Zp3WGj6ESJSizskX99UvYSXkAB1Fk3vWz7TqHKDZfPtSEmD.png)
+![05_PriceOfAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo2BRcX9yEttyKS1gu8hNug5kBGzaZjvs5F56WCchoCC4juvgPFLMzoo5BRd5VzSToj.png)
 
 ## $ALIVE Summarize Metrics
 
@@ -48,7 +93,7 @@ If the buy-requests where higher than the sell-requests, then money comes into t
 Under the total line one can see the sum of $HIVE and sum of $ALIVE that changed the ownership and the average price of $ALIVE for the last period.
 
 The average price of the token in the picture is wrong, actually it was: xxx $HIVE/$ALIVE
-![06_TableOfAliveBuyVsSellRequest.png](https://files.peakd.com/file/peakd-hive/achimmertens/Enz3ttRSGeavuerBMsHNYwtpYLdSPBucucinp1abStQsn1vpFBSjL4W7iGQVMznw4PX.png)
+![06_TableOfAliveBuyVsSellRequest.png](https://files.peakd.com/file/peakd-hive/achimmertens/Enz3ttRSGeavuerBMsHp6UkzWwr2V9A847HUr2cAMV1vZfuSMz2pQ2ouFUVvuJ8VT8u.png)
 
 # Comparison With Other Tokens
 ## $HIVE/Token
@@ -64,7 +109,7 @@ This figure shows the value of $USD compared to some token for the last period. 
 
 Rank 155
 
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tSym8556Ap8qFTHWXKsYdd4Sw6Ap28zDWao1HQKjDZPUKmoixtNGFCDs3XBKXLnNaB6.png)
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tHbKgeEo2zMgQ5HjNeRsMWXMLPdoPtMnbSkFbxsU95sM2Y7RrztxDMNzZ7PzguMiWy9.png)
 
 ## Table Of Token Prices in $HIVE and $USD
 This table shows the average value of the prices of the token for the last period. One can see Hive and the US-Dollar compared to the token.

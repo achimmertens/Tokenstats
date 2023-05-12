@@ -38,7 +38,7 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
                   "1": "desc"
                 },
                 "missing": "__missing__",  //kann das weg?
-                "size": 1000 //Todo: Wenn mehr als 1000, soll dies dargestellt werden
+                "size": 20 //Todo: Wenn mehr als 1000, soll dies dargestellt werden
               },
               "aggs": {
                 "1": {
@@ -139,7 +139,7 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
                   "1": "desc"
                 },
                 "missing": "__missing__",  //kann das weg?
-                "size": 1000 //Todo: Wenn mehr als 1000, soll dies dargestellt werden
+                "size": 20 //Todo: Wenn mehr als 1000, soll dies dargestellt werden
               },
               "aggs": {
                 "1": {

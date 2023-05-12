@@ -5,40 +5,80 @@ Hello friends of $SPT, Friends of $HIVE and all others,
 here are the:
 
 # $SPT Statistics for the last week:
-The timeframe is from 2023-05-04 to 2023-05-11.
+The timeframe is from 2023-05-05 to 2023-05-12.
+
+(Some Data from 8. to 9. May is missing, sorry for that)
+
 ## Bought $SPT By Time
 This figure shows who has bought how many $SPT at which time:
-![01_BoughtSptByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo8ZbTMpyc5Y9gNF1BqTd9xGsPG9KD13JiZNySu7xyVKNqwgGnjuSYGicb3XfcoBAry.png)
+![01_BoughtSptByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoEwkwvSwwy4b2PTcpoMhrWhTv1hrZTvX51Y4KnpwRUmTmqVdbPrSn3c2Da38tXrobJ.png)
 
 ## Top $SPT Buyers and $HIVE Sellers
 The inside of the circle shows the buyers of $SPT, ordered by $HIVE they have spent. The outside shows the recipients of that $HIVE (sellers of $SPT):
-![02_TopTenSptBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoibZ5q6U3fuNYAa2bWB9UxkExmpgTHix6zrhTP91rrgJnxxnz5vep8ge5QYmeNh5RA.png)
+![02_TopTenSptBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoibZ5q6ULwmoNXfWhzyVLzGCQBcyZhBMNY1nwdBubs1dhU32MR2mEqMKMQHtvF3P6T.png)
 
 
 ## Commulated Amount Of Bought $SPT Per Person
 This figure shows the top 10 $SPT buyers, how much they got and how much $HIVE they spend for this. It is sorted by $HIVE, that was spent:
-![03_CommulatedAmountOfBoughtSpt.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoCpPp9VL9adUceUxJ8HU3cYyGahgA5raUriSvtxRyays5JJC7SsoNeVVXuTKBvrSqN.png)
+![03_CommulatedAmountOfBoughtSpt.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoCpL1DThEvhRkExSmF1mhQbBmYHGAXZGQApHjfxHuDP9JEtqEboLCbg5FScXrsGhR9.png)
 
 
 ## Table Of Top 20 $SPT Buyers
 This table shows the top ten buyers of $SPT sorted by the $HIVE, they have spent:
-buyer.keyword: Descending|Sold $HIVE|Bought $SPT|Avg. Price
+buyer(Descending)|Sold $HIVE|Bought $SPT|Avg. Price
 |-|-|-|-|
-TABLE
+@vmetelz| 66.77074606855217|111334.67894778308|0.0005997300031594932
+@woody-575| 28.546108142501907|46416.43771779537|0.0006150000263005495
+@mumuwhale| 25.369330426552096|41963.99976522289|0.0006054368149489164
+@mxnsmxn| 20.884882773346817|35336.11572898831|0.0005957086840154309
+@onlydoge| 17.231141466914778|28922.37984032184|0.0005945099983364344
+@imno| 10.825944976133542|18050.75416954048|0.0005998125241603702
+@enthef| 8.36037170659165|9999.99982663244|0.000809335004305467
+@ballsanga| 3.1999499797821045|5000|0.000639989972114563
+@mcbot| 2.876400053501129|3043.8821411132812|0.0009449750068597496
+@credits64| 2.7945887744426727|4171.094268798828|0.0006699875229969621
+@sephiwolf| 2.698912255316827|3564.66130887717|0.0006723587575834244
+@technologix| 1.3463122032892443|2244.7597063481808|0.0005997450061840937
+@dswap| 0.401490181684494|599.248046875|0.0006699900259263813
+@kcempire89| 0.3672489542341282|548.1520515102893|0.000623236681955556
+@gmy| 0.000009999999747378752|0.016774000599980354|0.0005961600109003484
+__others__|0|0|0
+
 
 ## Commulated Amount Of Sold $SPT Per Person
 This figure shows the top 10 $SPT Sellers, how much they sold and how much $HIVE they got for this, sorted by $HIVE:
-![04_CommulatedAmountOfSoldSpt.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jpobu2y43LVPdM6KrZcqk2dNWfmwhSWNHXcKHdgQb81GR4bj2fFLXQxdsp4hdLfh.png)
+![04_CommulatedAmountOfSoldSpt.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoH4esGi9jXpi2gApDJEZWG9cKLu9JHxcJe1sggNVxCHt1m34A5kDqXMFuNFuzq37Bm.png)
 
 ## Table Of Top 20 $SPT Sellers
 This table shows the top ten sellers of $SPT Sorted by the $HIVE, they have got:
-seller.keyword: Descending|Earned $HIVE|Sold $SPT|Avg. Price
+seller(Descending)|Earned $HIVE|Sold $SPT|Avg. Price
 |-|-|-|-|
-TABLE
+@mcbot| 57.85196229303256|93718.05488461256|0.0006404660118278116
+@onlydoge| 14.667249880731106|20744.101760864258|0.0007261681867848066
+@spt-shturm| 12.16285514831543|19777|0.0006150000263005495
+@cryptowoody| 12.02175584435463|20503.02001953125|0.0005870216700714082
+@sirclucksalot| 11.528714179992676|18745.876953125|0.0006150000263005495
+@ukyron3| 8.94225025177002|15000|0.0005961499991826713
+@decepticons| 8.07813549041748|13330.255859375|0.0006060000159777701
+@gank| 6.053659915924072|7550.621337890625|0.0008115666763236126
+@queenstarr| 5.963230133056641|10002.90234375|0.0005961499991826713
+@realsort| 5.892333507537842|9866.27001953125|0.0005972199724055827
+@dswap| 4.239350685151294|7000.64964723587|0.0006079887534724548
+@elderdark| 3.7099859714508057|6032.49755859375|0.0006150000263005495
+@cieliss| 3.456684112548828|5704.09912109375|0.0006060000159777701
+@queen-silvia| 3.377034902572632|5630.92529296875|0.0005997300031594932
+@libertygame27| 3.3212575912475586|5498.5919189453125|0.0006028650095686316
+@hawks21| 2.747792959213257|4467.9560546875|0.0006150000263005495
+@uyobong| 2.68643856048584|4368.19287109375|0.0006150000263005495
+@kaibagt| 2.400773525238037|4003.090576171875|0.0005997300031594932
+@pardinus| 2.4000000953674316|3000|0.0007999999797903001
+@mawit07| 2.3312299251556396|3849.3931274414062|0.0006055100093362853
+__others__|0|0|0
+
 
 ## Price of the $SPT
 This figure shows the price of $SPT for the last period:
-![05_PriceOfSpt.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo6SE14TfoHFh3Mvb5VPErV3G5CPFHnxLu7Gq2esMKdfFVPsxg3HzpLNLXHjGghDsxy.png)
+![05_PriceOfSpt.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo6SDzz7gCxWwtw5ZYgR6LSppwXEZchZqhwkoXfvA63draNuPb3epc3AkzviGKYj8FJ.png)
 
 ## $SPT Summarize Metrics
 
@@ -48,7 +88,7 @@ If the buy-requests where higher than the sell-requests, then money comes into t
 Under the total line one can see the sum of $HIVE and sum of $SPT that changed the ownership and the average price of $SPT for the last period.
 
 The average price of the token in the picture is wrong, actually it was: xxx $HIVE/$SPT
-![06_TableOfSptBuyVsSellRequest.png](https://files.peakd.com/file/peakd-hive/achimmertens/Enz3ttRSGeavufnQkwQZpRFNcYvwEYZmq5GXDmKs1y1uNL7gSqVtSEUF5kimQne6Bgo.png)
+![06_TableOfSptBuyVsSellRequest.png](https://files.peakd.com/file/peakd-hive/achimmertens/Enz3ttRSGxG2oLEmCjHjqQdUcMHq6JXspYzVW6WRJmve45Vofzie8an67U2f8T4Dxev.png)
 
 # Comparison With Other Tokens
 ## $HIVE/Token
@@ -64,7 +104,7 @@ This figure shows the value of $USD compared to some token for the last period. 
 
 Rank 155
 
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tSym8556Ap8qFTHWXKsYdd4Sw6Ap28zDWao1HQKjDZPUKmoixtNGFCDs3XBKXLnNaB6.png)
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tHbKgeEo2zMgQ5HjNeRsMWXMLPdoPtMnbSkFbxsU95sM2Y7RrztxDMNzZ7PzguMiWy9.png)
 
 ## Table Of Token Prices in $HIVE and $USD
 This table shows the average value of the prices of the token for the last period. One can see Hive and the US-Dollar compared to the token.

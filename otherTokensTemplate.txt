@@ -12,7 +12,7 @@ This figure shows the value of $USD compared to some token for the last period. 
 
 Rank 155
 
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tSym8556Ap8qFTHWXKsYdd4Sw6Ap28zDWao1HQKjDZPUKmoixtNGFCDs3XBKXLnNaB6.png)
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tHbKgeEo2zMgQ5HjNeRsMWXMLPdoPtMnbSkFbxsU95sM2Y7RrztxDMNzZ7PzguMiWy9.png)
 
 ## Table Of Token Prices in $HIVE and $USD
 This table shows the average value of the prices of the token for the last period. One can see Hive and the US-Dollar compared to the token.

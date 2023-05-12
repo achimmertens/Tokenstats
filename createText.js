@@ -1,12 +1,4 @@
-// ********************************************************
-// 01. "surfKibana.js ausführen".
-// 02. Ein Screenshot von Hive in CoinMarketCap nehmen, in peakd.com hochladen und Bild-Text in otherTokensTemplate.txt einfügen
-// 03. manuell ${TOKEN}images.txt befüllen
-// 04. Dieses Script hier ausführen, um die Textbausteine für die jeweiligen Token zu erstellen
-// 05. Die TokenTextbausteine in Peakd.com einfügen und Tabellen und Tokenprice ändern.
-//
-//            Written by Achim Mertens
-// ********************************************************
+
 
 
 const fs = require('fs');
@@ -72,7 +64,7 @@ async function main() {
         let oneWeekAgoString = oneWeekAgo.toISOString().slice(0, 10);
         let dateFrame = `${oneWeekAgoString} to ${currentDateString}`;
 
-
+        const { buyersTableResult, sellersTableResult } = await getTables(tagToken, oneWeekAgoString, currentDateString);
         let replacedTemplate = template.replace('[DATE_FRAME]', dateFrame)
             .replace('[OTHERTOKENS]', otherTokens)
             .replace('[OT01]', otherTokenImage01)
@@ -85,6 +77,8 @@ async function main() {
             .replace('BILD_04', TokenImage04)
             .replace('BILD_05', TokenImage05)
             .replace('BILD_06', TokenImage06)
+            .replace('TABLE01',buyersTableResult)
+            .replace('TABLE02',sellersTableResult)
             .split('[TOKEN]').join('$' + token)
         fs.writeFile(filename, replacedTemplate, function (err) {
             if (err) {
@@ -93,7 +87,7 @@ async function main() {
                 console.log(`Die Datei ${filename} wurde erfolgreich erstellt!`);
             }
         });
-        const { buyersTableResult, sellersTableResult } = await getTables(tagToken, oneWeekAgoString, currentDateString);
+        
         console.log('buyersTableResult = \n', buyersTableResult);
         console.log('sellersTableResult = \n', sellersTableResult);
 

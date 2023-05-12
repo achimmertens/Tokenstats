@@ -6,6 +6,9 @@ here are the:
 
 # [TOKEN] Statistics for the last week:
 The timeframe is from [DATE_FRAME].
+
+(Some Data from 8. to 9. May is missing, sorry for that)
+
 ## Bought [TOKEN] By Time
 This figure shows who has bought how many [TOKEN] at which time:
 BILD_01
@@ -22,9 +25,9 @@ BILD_03
 
 ## Table Of Top 20 [TOKEN] Buyers
 This table shows the top ten buyers of [TOKEN] sorted by the $HIVE, they have spent:
-buyer.keyword: Descending|Sold $HIVE|Bought [TOKEN]|Avg. Price
+buyer(Descending)|Sold $HIVE|Bought [TOKEN]|Avg. Price
 |-|-|-|-|
-TABLE
+TABLE01
 
 ## Commulated Amount Of Sold [TOKEN] Per Person
 This figure shows the top 10 [TOKEN] Sellers, how much they sold and how much $HIVE they got for this, sorted by $HIVE:
@@ -32,9 +35,9 @@ BILD_04
 
 ## Table Of Top 20 [TOKEN] Sellers
 This table shows the top ten sellers of [TOKEN] Sorted by the $HIVE, they have got:
-seller.keyword: Descending|Earned $HIVE|Sold [TOKEN]|Avg. Price
+seller(Descending)|Earned $HIVE|Sold [TOKEN]|Avg. Price
 |-|-|-|-|
-TABLE
+TABLE02
 
 ## Price of the [TOKEN]
 This figure shows the price of [TOKEN] for the last period:

@@ -1,12 +1,8 @@
+![01_BoughtPobByTime.png](1)![06_TableOfPobBuyVsSellRequest.png](6)
+![03_CommulatedAmountOfBoughtPob.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoH4es7zEjDZCGvvjELaAwxa81w7FcSz6nb2CReM9fhJ5TpNRg8JgqGVXS4LRikPQb5.png)
 
-![01_BoughtPobByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoibaJk2qLgvoKMhEX5airZvJMqAtcJMdPUERVjkGi8RqRM9cNRV5vLgdUfBkTbzzUx.png)
+![04_CommulatedAmountOfSoldPob.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo8ZZNE1PVrCmgaSpfSQo85kGR5iKqpzCcFndem2mvyHHfDpE7LTmyggeGDpLHLEQiv.png)
 
-![06_TableOfPobBuyVsSellRequest.png](https://files.peakd.com/file/peakd-hive/achimmertens/Enz3ttRSGeavuerBMs5UsaYBBwryPx45BNJNuidHpY1DFWQSJ3vSqsG7MSbJtN8yZU4.png)
+![05_PriceOfPob.png](https://files.peakd.com/file/peakd-hive/achimmertens/Enz42RHfq7miSBWnowNrQHLgZRupYSqwZCDYFwF3XNW7hz8F3CetGKsCykbck5fNnan.png)
 
-![03_CommulatedAmountOfBoughtPob.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoEwkvddaH4DfiC9GokNjLa3gyATYmeRPbB8qmjxtFkxHqc6KNr4tSMYMoGA86zqvL3.png)
-
-![04_CommulatedAmountOfSoldPob.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoCpPpGm2w5Br5ENqtjqjL13N2X5NTvChRWcChfKsteFHjCbMw56BSodfpSzk8gPND9.png)
-
-![05_PriceOfPob.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4JpokddYHcEh4vLGYGqCNgTKgDyXQaW4qwMRzsi4boWwXC5Jv7gSQ4P9CQ54hMzYk.png)
-
-![02_TopTenPobBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoibZ5jkwGA6NSvFpkEnDjZNKZ6noV2BM42gAZXdiYMVAYiJMUpxXTxveWqTZ2mmW5e.png)
+![02_TopTenPobBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoibZ5q6U3gsVfVfSdHyMC6tNjNZmxWEznfVYkQHivK8ezkeYaJUnUQD9QZyYXrrgVm.png)
