@@ -11,8 +11,8 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
 
   const buyersTableResult = await
     (async () => {
-      //  const oneWeekAgoString='2023-05-03T05:38:08.988Z'
-      //const currentDateString= '2023-05-10T05:38:08.988Z'
+      const oneWeekAgoString = '2023-05-05T08:38:08.988Z'
+      const currentDateString = '2023-05-12T08:38:08.988Z'
       const fetch = (await import('node-fetch')).default;
       const response = await fetch(`http://raspi:9200/${token}/_search?size=10000`, {  //Todo: wenn mehr als 10000, dann darstellen
         method: 'POST',
@@ -38,7 +38,7 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
                   "1": "desc"
                 },
                 "missing": "__missing__",  //kann das weg?
-                "size": 20 //Todo: Wenn mehr als 1000, soll dies dargestellt werden
+                "size": 1000 //Todo: Wenn mehr als 1000, soll dies dargestellt werden
               },
               "aggs": {
                 "1": {
@@ -92,8 +92,9 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
           const totalQuantity = bucket['3'].value;
           const totalVolume = bucket['1'].value;
           const avgPrice = bucket['4'].value;
-        //  console.log(`@${buyer}| ${totalVolume}|${totalQuantity}|${avgPrice}`);
-          buyersTable = buyersTable + `@${buyer}| ${totalVolume}|${totalQuantity}|${avgPrice}\n`
+          const numberOfTrades = bucket.doc_count;
+          //  console.log(`@${buyer}| ${totalVolume}|${totalQuantity}|${avgPrice}`);
+          buyersTable = buyersTable + `@${buyer}| ${totalVolume}|${totalQuantity}|${avgPrice}|${numberOfTrades}\n`
         }
         else {
           totalVol = totalVol + bucket['1'].value;
@@ -104,16 +105,16 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
       });
       //console.log(`__others__|${totalVol}|${totalQuan}|${avgPr / (number - 20)}`);
       buyersTable = buyersTable + `__others__|${totalVol}|${totalQuan}|${avgPr / (number - 20)}\n`
-  //    console.log('Die buyersTable sieht so aus:');
- //     console.log(buyersTable);
+      //    console.log('Die buyersTable sieht so aus:');
+      //     console.log(buyersTable);
       return buyersTable;
     })();
 
   // Table of Top 20 Sellers
   const sellersTableResult = await
     (async () => {
-      const oneWeekAgoString = '2023-05-03T05:38:08.988Z'
-      const currentDateString = '2023-05-10T05:38:08.988Z'
+      const oneWeekAgoString = '2023-05-05T08:38:08.988Z'
+      const currentDateString = '2023-05-12T08:38:08.988Z'
       const fetch = (await import('node-fetch')).default;
       const response = await fetch(`http://raspi:9200/${token}/_search?size=10000`, {  //Todo: wenn mehr als 10000, dann darstellen
         method: 'POST',
@@ -122,15 +123,6 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
           'kbn-xsrf': 'true',
         },
         body: JSON.stringify({
-          query: {
-            range: {
-              timestamp: {
-                gte: oneWeekAgoString, // '2023-05-03T05:38:08.988Z',
-                lte: currentDateString, //'2023-05-10T05:38:08.988Z',
-                format: 'strict_date_optional_time||epoch_millis',
-              },
-            },
-          },
           "aggs": {
             "sellers": {
               "terms": {
@@ -139,7 +131,7 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
                   "1": "desc"
                 },
                 "missing": "__missing__",  //kann das weg?
-                "size": 20 //Todo: Wenn mehr als 1000, soll dies dargestellt werden
+                "size": 1000 //Todo: Wenn mehr als 1000, soll dies dargestellt werden
               },
               "aggs": {
                 "1": {
@@ -159,6 +151,29 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
                 }
               }
             }
+          },
+          "size": 0,
+          "stored_fields": [
+            "*"
+        ],
+      //  "script_fields": [],
+          "docvalue_fields": [
+            {
+                "field": "timestamp",
+                "format": "date_time"
+            }
+        ],
+        "_source": {
+          "excludes": []
+      },
+          query: {
+            range: {
+              timestamp: {
+                gte: oneWeekAgoString, 
+                lte: currentDateString,
+                format: 'strict_date_optional_time||epoch_millis',
+              },
+            },
           }
         }),
       });
@@ -186,8 +201,9 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
           const totalQuantity = bucket['3'].value;
           const totalVolume = bucket['1'].value;
           const avgPrice = bucket['4'].value;
-   //       console.log(`@${seller}| ${totalVolume}|${totalQuantity}|${avgPrice}`);
-          sellersTable = sellersTable + `@${seller}| ${totalVolume}|${totalQuantity}|${avgPrice}\n`
+          const numberOfTrades = bucket.doc_count;
+          //       console.log(`@${seller}| ${totalVolume}|${totalQuantity}|${avgPrice}`);
+          sellersTable = sellersTable + `@${seller}| ${totalVolume}|${totalQuantity}|${avgPrice}|${numberOfTrades}\n`
         }
         else {
           totalVol = totalVol + bucket['1'].value;
@@ -195,13 +211,14 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
           avgPr = avgPr + bucket['4'].value;
         }
         number = index;
+        console.log(`\n \nData (JSON): \n`, bucket);
       });
-     // console.log(`__others__|${totalVol}|${totalQuan}|${avgPr / (number - 20)}`); // | ${bucket.total_quantity.value} | ${bucket.avg_price.value} 
+      // console.log(`__others__|${totalVol}|${totalQuan}|${avgPr / (number - 20)}`); // | ${bucket.total_quantity.value} | ${bucket.avg_price.value} 
       sellersTable = sellersTable + `__others__|${totalVol}|${totalQuan}|${avgPr / (number - 20)}\n`
-    //  console.log('Die SellersTable sieht so aus: \n', sellersTable)
+      //  console.log('Die SellersTable sieht so aus: \n', sellersTable)
       return sellersTable;
     })();
-  //console.log(`buyersTableResult=\n`, buyersTableResult)
-  return {buyersTableResult, sellersTableResult}
+
+  return { buyersTableResult, sellersTableResult }
 
 }
