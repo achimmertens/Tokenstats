@@ -25,29 +25,30 @@ This figure shows the top 10 $ALIVE buyers, how much they got and how much $HIVE
 
 ## Table Of Top 20 $ALIVE Buyers
 This table shows the top ten buyers of $ALIVE sorted by the $HIVE, they have spent:
-buyer(Descending)|Sold $HIVE|Bought $ALIVE|Avg. Price|Number of Trades
-|-|-|-|-|-|
-@hivecurious| 60.31602|1556.81800|0.03879|55
-@oscarps| 47.32146|1260.61850|0.03875|28
-@master-lamps| 42.78938|1211.21288|0.03716|16
-@pwbanker| 26.05497|738.17488|0.04006|29
-@dimascastillo90| 14.15625|334.08330|0.04212|4
-@visual.alive| 10.64797|280.20970|0.03800|2
-@thecryptolab| 9.91071|269.69500|0.03807|23
-@ben.haase| 9.30770|241.80181|0.03847|7
-@aliveandthriving| 9.12148|222.51230|0.04047|9
-@tuisada| 7.40000|200.00000|0.03700|1
-@benthomaswwd| 5.91464|147.86630|0.04000|2
-@jimmy.adames| 5.64323|134.37910|0.04199|3
-@lolz.pool| 4.96491|131.00000|0.03790|1
-@edgerik| 3.99320|100.00000|0.03942|4
-@vocup| 3.90005|100.00000|0.03900|2
-@simplegame| 3.00000|75.00000|0.04000|1
-@nickydee| 2.55479|75.13650|0.03400|1
-@technologix| 2.30960|60.76740|0.03763|7
-@sammyhive| 2.00000|47.64190|0.04198|3
-@cursephantom| 1.58390|37.72990|0.04198|2
-__others__|5.884581215446815|144.0394004844129|0.04353020424644152|30
+buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought $ALIVE|Avg. Price|Number of Trades
+|-|-|-|-|-|-|
+@hivecurious| 60.31602|21.64|1556.81800|0.03879|55
+@oscarps| 47.32146|16.97|1260.61850|0.03875|28
+@master-lamps| 42.78938|15.35|1211.21288|0.03716|16
+@pwbanker| 26.05497|9.35|738.17488|0.04006|29
+@dimascastillo90| 14.15625|5.08|334.08330|0.04212|4
+@visual.alive| 10.64797|3.82|280.20970|0.03800|2
+@thecryptolab| 9.91071|3.56|269.69500|0.03807|23
+@ben.haase| 9.30770|3.34|241.80181|0.03847|7
+@aliveandthriving| 9.12148|3.27|222.51230|0.04047|9
+@tuisada| 7.40000|2.65|200.00000|0.03700|1
+@benthomaswwd| 5.91464|2.12|147.86630|0.04000|2
+@jimmy.adames| 5.64323|2.02|134.37910|0.04199|3
+@lolz.pool| 4.96491|1.78|131.00000|0.03790|1
+@edgerik| 3.99320|1.43|100.00000|0.03942|4
+@vocup| 3.90005|1.40|100.00000|0.03900|2
+@simplegame| 3.00000|1.08|75.00000|0.04000|1
+@nickydee| 2.55479|0.92|75.13650|0.03400|1
+@technologix| 2.30960|0.83|60.76740|0.03763|7
+@sammyhive| 2.00000|0.72|47.64190|0.04198|3
+@cursephantom| 1.58390|0.57|37.72990|0.04198|2
+__others__|5.88457|2.11|144.03940|0.04353|30
+__Sum:__|278.77483|100%|7368.68687|0.04102|35
 
 
 ## Commulated Amount Of Sold $ALIVE Per Person

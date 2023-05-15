@@ -25,8 +25,8 @@ BILD_03
 
 ## Table Of Top 20 [TOKEN] Buyers
 This table shows the top ten buyers of [TOKEN] sorted by the $HIVE, they have spent:
-buyer(Descending)|Sold $HIVE|Bought [TOKEN]|Avg. Price|Number of Trades
-|-|-|-|-|-|
+buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought [TOKEN]|Avg. Price|Number of Trades
+|-|-|-|-|-|-|
 TABLE01
 
 ## Commulated Amount Of Sold [TOKEN] Per Person

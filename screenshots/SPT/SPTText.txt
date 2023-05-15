@@ -25,26 +25,27 @@ This figure shows the top 10 $SPT buyers, how much they got and how much $HIVE t
 
 ## Table Of Top 20 $SPT Buyers
 This table shows the top ten buyers of $SPT sorted by the $HIVE, they have spent:
-buyer(Descending)|Sold $HIVE|Bought $SPT|Avg. Price|Number of Trades
-|-|-|-|-|-|
-@criptosectadepit| 72.69028|99590.44141|0.00073|3
-@vmetelz| 66.77075|111334.67895|0.00060|66
-@all.coin.hive| 45.22519|75400.44457|0.00060|14
-@imno| 30.89053|51505.67793|0.00060|26
-@mxnsmxn| 23.59258|38873.02865|0.00061|46
-@onlydoge| 20.00611|32795.29600|0.00061|10
-@dishonesty| 16.42528|24931.17789|0.00063|10
-@cryptovisitor| 6.87073|11263.89849|0.00060|4
-@dswap| 5.38653|7439.68857|0.00071|8
-@technologix| 4.88084|8138.00348|0.00060|24
-@credits64| 4.69323|6808.49466|0.00068|5
-@mcbot| 1.74070|2862.36090|0.00066|2
-@boycharliefamily| 1.19882|1665.27783|0.00072|1
-@sephiwolf| 0.47037|689.31903|0.00067|7
-@kcempire89| 0.36725|548.15205|0.00062|3
-@tsuyou| 0.13600|200.00000|0.00068|1
-@gmy| 0.00000|0.00294|0.00068|1
-__others__|0|0|0|0
+buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought $SPT|Avg. Price|Number of Trades
+|-|-|-|-|-|-|
+@criptosectadepit| 72.69028|24.12|99590.44141|0.00073|3
+@vmetelz| 66.77075|22.16|111334.67895|0.00060|66
+@all.coin.hive| 45.22519|15.01|75400.44457|0.00060|14
+@imno| 30.89053|10.25|51505.67793|0.00060|26
+@mxnsmxn| 23.59258|7.83|38873.02865|0.00061|46
+@onlydoge| 20.00611|6.64|32795.29600|0.00061|10
+@dishonesty| 16.42528|5.45|24931.17789|0.00063|10
+@cryptovisitor| 6.87073|2.28|11263.89849|0.00060|4
+@dswap| 5.38653|1.79|7439.68857|0.00071|8
+@technologix| 4.88084|1.62|8138.00348|0.00060|24
+@credits64| 4.69323|1.56|6808.49466|0.00068|5
+@mcbot| 1.74070|0.58|2862.36090|0.00066|2
+@boycharliefamily| 1.19882|0.40|1665.27783|0.00072|1
+@sephiwolf| 0.47037|0.16|689.31903|0.00067|7
+@kcempire89| 0.36725|0.12|548.15205|0.00062|3
+@tsuyou| 0.13600|0.05|200.00000|0.00068|1
+@gmy| 0.00000|0.00|0.00294|0.00068|1
+__others__|0|0.00|0|0.00000|0
+__Sum:__|301.34519|100%|474045.94335|0.00069|16
 
 
 ## Commulated Amount Of Sold $SPT Per Person

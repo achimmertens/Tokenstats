@@ -25,23 +25,24 @@ This figure shows the top 10 $BEER buyers, how much they got and how much $HIVE 
 
 ## Table Of Top 20 $BEER Buyers
 This table shows the top ten buyers of $BEER sorted by the $HIVE, they have spent:
-buyer(Descending)|Sold $HIVE|Bought $BEER|Avg. Price|Number of Trades
-|-|-|-|-|-|
-@danewilliams| 37.93465|345.88189|0.10941|9
-@onlydoge| 23.64511|318.83371|0.07363|19
-@alucian| 20.13777|200.07400|0.09653|10
-@strykerone| 19.95726|198.13837|0.10070|9
-@kuhnchun| 2.41584|24.00000|0.10066|1
-@mizuosemla| 2.35390|23.38475|0.10066|2
-@jemmarti| 0.81101|8.02826|0.10102|2
-@master-lamps| 0.51986|6.86243|0.07671|11
-@maryjane.main| 0.37009|4.98674|0.07422|5
-@dotwin1981| 0.28862|2.71955|0.10445|4
-@torran| 0.17870|1.78700|0.10000|1
-@synergized| 0.06117|0.60000|0.10195|6
-@zeeshannaqvi72| 0.04543|0.61936|0.07335|4
-@detlev| 0.01010|0.10000|0.10102|1
-__others__|0|0|0|0
+buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought $BEER|Avg. Price|Number of Trades
+|-|-|-|-|-|-|
+@danewilliams| 37.93465|34.89|345.88189|0.10941|9
+@onlydoge| 23.64511|21.75|318.83371|0.07363|19
+@alucian| 20.13777|18.52|200.07400|0.09653|10
+@strykerone| 19.95726|18.35|198.13837|0.10070|9
+@kuhnchun| 2.41584|2.22|24.00000|0.10066|1
+@mizuosemla| 2.35390|2.16|23.38475|0.10066|2
+@jemmarti| 0.81101|0.75|8.02826|0.10102|2
+@master-lamps| 0.51986|0.48|6.86243|0.07671|11
+@maryjane.main| 0.37009|0.34|4.98674|0.07422|5
+@dotwin1981| 0.28862|0.27|2.71955|0.10445|4
+@torran| 0.17870|0.16|1.78700|0.10000|1
+@synergized| 0.06117|0.06|0.60000|0.10195|6
+@zeeshannaqvi72| 0.04543|0.04|0.61936|0.07335|4
+@detlev| 0.01010|0.01|0.10000|0.10102|1
+__others__|0|0.00|0|0.00000|0
+__Sum:__|108.72951|100%|1136.01606|0.10110|13
 
 
 ## Commulated Amount Of Sold $BEER Per Person
