@@ -91,7 +91,7 @@ The average price of the token in the picture is wrong, actually it was:
 
 Request|Received Hive|Sold $SPT|rec. HIVE Percentage|Avg. Price
 |-|-|-|-|-|
-sell|153.3853|255607.5748|87.48|0.0006
+sell|153.3853|255607.5748|87.48%|0.0006
 buy|21.9605|29879.7961|12.52%|0.0007
 |sum: |175.3458|285487.3709|100%|0.00065|
 

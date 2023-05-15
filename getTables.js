@@ -275,6 +275,8 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
       console.log("Inhalt des letzten Datensatzes: ", data.hits.hits[amount - 1])
       const buckets = data.aggregations[5].buckets;
       //console.log ("buckets = ", buckets);
+      let request0=buckets[0].key
+      let request1=buckets[1].key
       let sellReceivedHive = buckets[0]['1'].value.toFixed(4)
       let sellSoldToken = buckets[0]['3'].value.toFixed(4)
       let sellAvgPrice = buckets[0]['4'].value.toFixed(4)
@@ -287,7 +289,7 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
       let sellReceivedHivePercentages = (parseFloat(sellReceivedHive)/parseFloat(receivedHiveSum)*100).toFixed(2)
       let totalAvgPrice = ((parseFloat(sellAvgPrice)+parseFloat(buyAvgPrice))/2).toFixed(5);
       //ToDo: sell und Buy gegen echte Daten eintauschen
-      let buyVsSellerTable = `sell|${sellReceivedHive}|${sellSoldToken}|${sellReceivedHivePercentages}|${sellAvgPrice}\nbuy|${buyReceivedHive}|${buySoldToken}|${buyReceivedHivePercentages}%|${buyAvgPrice}\n|sum: |${receivedHiveSum}|${soldBeerSum}|100%|${totalAvgPrice}|\n`
+      let buyVsSellerTable = `${request0}|${sellReceivedHive}|${sellSoldToken}|${sellReceivedHivePercentages}%|${sellAvgPrice}\n${request1}|${buyReceivedHive}|${buySoldToken}|${buyReceivedHivePercentages}%|${buyAvgPrice}\n|sum: |${receivedHiveSum}|${soldBeerSum}|100%|${totalAvgPrice}|\n`
       console.log("buyVsSellerTable = ", buyVsSellerTable);
       logStream.write(`buyVsSellerTable für ${token} = \n${buyVsSellerTable}\n`)
       return buyVsSellerTable;      

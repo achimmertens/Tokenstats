@@ -91,8 +91,8 @@ The average price of the token in the picture is wrong, actually it was:
 
 Request|Received Hive|Sold $BEER|rec. HIVE Percentage|Avg. Price
 |-|-|-|-|-|
-sell|48.6554|483.5582|92.12|0.0996
-buy|4.1636|54.9342|7.88%|0.0756
+buy|48.6554|483.5582|92.12%|0.0996
+sell|4.1636|54.9342|7.88%|0.0756
 |sum: |52.819|538.4924|100%|0.08760|
 
 

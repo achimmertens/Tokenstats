@@ -97,8 +97,8 @@ The average price of the token in the picture is wrong, actually it was:
 
 Request|Received Hive|Sold $LEO|rec. HIVE Percentage|Avg. Price
 |-|-|-|-|-|
-sell|8120.1137|86354.7451|75.16|0.0940
-buy|2684.1533|29376.3970|24.84%|0.0918
+buy|8120.1137|86354.7451|75.16%|0.0940
+sell|2684.1533|29376.3970|24.84%|0.0918
 |sum: |10804.267|115731.1421|100%|0.09290|
 
 
