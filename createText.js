@@ -39,8 +39,8 @@ async function main() {
     oneWeekAgo.setDate(oneWeekAgo.getDate() - timeFrame);
     let oneWeekAgoString = oneWeekAgo.toISOString().slice(0, 10);
     // Bei Bedarf überschreiben:
-    oneWeekAgoString = '2023-05-05T08:38:08.988Z'
-    currentDateString = '2023-05-12T08:38:08.988Z'
+    //oneWeekAgoString = '2023-05-05T08:38:08.988Z'
+    //currentDateString = '2023-05-12T08:38:08.988Z'
     let dateFrame = `${oneWeekAgoString} to ${currentDateString}`;
 
     let tokens = ["ALIVE", "BEER", "LEO", "POB", "SPT"];

@@ -53,7 +53,7 @@ BILD_06
 
 The average price of the token in the picture is wrong, actually it was:
 
-Request|Received Hive|Sold [TOKEN]|rec. HIVE Percentage|Avg. Price
+Request|Received Hive|Received HIVE %|Sold [TOKEN]|Avg. Price
 |-|-|-|-|-|
 [BUYVSSELLERTABLE]
 
