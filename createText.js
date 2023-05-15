@@ -68,7 +68,7 @@ async function main() {
         let filename = `./screenshots/${token}/${token}Text.txt`;
         let tagToken = token.toLowerCase();
 
-        const { buyersTableResult, sellersTableResult } = await getTables(tagToken, oneWeekAgoString, currentDateString);
+        const { buyersTableResult, sellersTableResult, buyVsSellResult } = await getTables(tagToken, oneWeekAgoString, currentDateString);
         let replacedTemplate = template
             .replace('[DATE_FRAME]', dateFrame)
             .replace('[OTHERTOKENS]', otherTokens)
@@ -84,6 +84,7 @@ async function main() {
             .replace('BILD_06', TokenImage06)
             .replace('TABLE01', buyersTableResult)
             .replace('TABLE02', sellersTableResult)
+            .replace('[BUYVSSELLERTABLE]',buyVsSellResult)
             .split('[TOKEN]').join('$' + token)
         fs.writeFile(filename, replacedTemplate, function (err) {
             if (err) {
@@ -94,7 +95,9 @@ async function main() {
         });
         console.log('buyersTableResult = \n', buyersTableResult);
         console.log('sellersTableResult = \n', sellersTableResult);
+        console.log('buyVsSellResult = ', buyVsSellResult)
     }
+    
 }
 
 main();

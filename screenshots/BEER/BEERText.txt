@@ -85,9 +85,18 @@ This table shows how much $HIVE was given by buy-requests, that where equal or h
 If the buy-requests where higher than the sell-requests, then money comes into the system and the value of the token increases.
 
 Under the total line one can see the sum of $HIVE and sum of $BEER that changed the ownership and the average price of $BEER for the last period.
-
-The average price of the token in the picture is wrong, actually it was: xxx $HIVE/$BEER
 ![06_TableOfBeerBuyVsSellRequest.png](https://files.peakd.com/file/peakd-hive/achimmertens/Enz3ttRSGGRTbH3MSEEcAvtLupboJRekFYbeD8Nx58fxtQ8u2VBJEnRhEjqg5Xwz18L.png)
+
+The average price of the token in the picture is wrong, actually it was:
+
+Request|Received Hive|Sold $BEER|Avg. Price
+|-|-|-|-|
+sell|48.6554|483.5582|0.0996
+buy|4.1636|54.9342|0.0756
+||||0.08760|
+
+
+
 
 # Comparison With Other Tokens
 ## $HIVE/Token

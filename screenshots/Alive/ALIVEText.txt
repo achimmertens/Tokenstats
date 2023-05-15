@@ -28,11 +28,11 @@ This table shows the top ten buyers of $ALIVE sorted by the $HIVE, they have spe
 buyer(Descending)|Sold $HIVE|Bought $ALIVE|Avg. Price|Number of Trades
 |-|-|-|-|-|
 @hivecurious| 66.02461515752657|1689.03329912154|0.03882390074431896|48
-@pwbanker| 53.51825434155762|1294.870505452156|0.04335496167186648|32
+@pwbanker| 53.562749261036515|1295.9337054491043|0.0433093567915035|33
 @oscarps| 51.30519650923088|1350.9841072261333|0.038820934453696915|33
 @onlydoge| 49.9999974668026|1190.4478206634521|0.04200100153684616|4
 @mcbot| 42.43464402333484|1061.0965042663738|0.0396594932446113|26
-@master-lamps| 34.11368344537914|983.1037789285183|0.03632346106072267|6
+@master-lamps| 34.145526895299554|983.9506789147854|0.03650582528540066|7
 @dimascastillo90| 21.120323844254017|503.5256063938141|0.04191979542374611|5
 @ben.haase| 17.9487125556916|460.50060687959194|0.03886671488483747|6
 @visual.alive| 10.647968769073486|280.20970153808594|0.03799999877810478|2
@@ -58,7 +58,7 @@ This figure shows the top 10 $ALIVE Sellers, how much they sold and how much $HI
 This table shows the top ten sellers of $ALIVE Sorted by the $HIVE, they have got:
 seller(Descending)|Earned $HIVE|Sold $ALIVE|Avg. Price|Number of Trades
 |-|-|-|-|-|
-@oscarps| 61.035972714948|1487.0540135130286|0.041918375736309424|36
+@oscarps| 61.080467634426896|1488.1172135099769|0.041916527760189934|37
 @wdougwatson| 57.264458572200965|1600.2279821895063|0.03628030505317908|13
 @mcbot| 56.21702437021304|1363.595815518871|0.04303012144836513|22
 @pwbanker| 52.888980995863676|1293.0347102284431|0.040333691984415054|6
@@ -78,7 +78,7 @@ seller(Descending)|Earned $HIVE|Sold $ALIVE|Avg. Price|Number of Trades
 @bambukah| 1.812723383307457|49.17970108985901|0.03727502468973398|4
 @steem-holder| 1.5855524837970734|40.43019962310791|0.0390200100839138|5
 @zoe24| 1.446548342704773|34.45820069313049|0.041979800909757614|2
-__others__|18.520280051929376|473.299297711048|0.04002725096188144|79
+__others__|18.552123501849792|474.1461976973151|0.04002398299357665|80
 
 
 ## Price of the $ALIVE
@@ -91,9 +91,18 @@ This table shows how much $HIVE was given by buy-requests, that where equal or h
 If the buy-requests where higher than the sell-requests, then money comes into the system and the value of the token increases.
 
 Under the total line one can see the sum of $HIVE and sum of $ALIVE that changed the ownership and the average price of $ALIVE for the last period.
-
-The average price of the token in the picture is wrong, actually it was: xxx $HIVE/$ALIVE
 ![06_TableOfAliveBuyVsSellRequest.png](https://files.peakd.com/file/peakd-hive/achimmertens/Enz3ttRSGeavuerBMsHp6UkzWwr2V9A847HUr2cAMV1vZfuSMz2pQ2ouFUVvuJ8VT8u.png)
+
+The average price of the token in the picture is wrong, actually it was:
+
+Request|Received Hive|Sold $ALIVE|Avg. Price
+|-|-|-|-|
+sell|273.2854|7082.9364|0.0386
+buy|119.9853|2853.3802|0.0427
+||||0.04065|
+
+
+
 
 # Comparison With Other Tokens
 ## $HIVE/Token

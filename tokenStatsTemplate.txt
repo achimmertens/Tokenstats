@@ -49,9 +49,15 @@ This table shows how much $HIVE was given by buy-requests, that where equal or h
 If the buy-requests where higher than the sell-requests, then money comes into the system and the value of the token increases.
 
 Under the total line one can see the sum of $HIVE and sum of [TOKEN] that changed the ownership and the average price of [TOKEN] for the last period.
-
-The average price of the token in the picture is wrong, actually it was: xxx $HIVE/[TOKEN]
 BILD_06
+
+The average price of the token in the picture is wrong, actually it was:
+
+Request|Received Hive|Sold [TOKEN]|Avg. Price
+|-|-|-|-|
+[BUYVSSELLERTABLE]
+
+
 
 [OTHERTOKENS]
 
