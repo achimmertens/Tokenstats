@@ -95,11 +95,11 @@ Under the total line one can see the sum of $HIVE and sum of $ALIVE that changed
 
 The average price of the token in the picture is wrong, actually it was:
 
-Request|Received Hive|Sold $ALIVE|Avg. Price
-|-|-|-|-|
-sell|273.2854|7082.9364|0.0386
-buy|119.9853|2853.3802|0.0427
-||||0.04065|
+Request|Received Hive|Sold $ALIVE|rec. HIVE Percentage|Avg. Price
+|-|-|-|-|-|
+sell|273.2854|7082.9364|69.49|0.0386
+buy|119.9853|2853.3802|30.51%|0.0427
+|sum: |393.2707|9936.3166|100%|0.04065|
 
 
 

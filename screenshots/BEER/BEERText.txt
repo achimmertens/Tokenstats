@@ -89,11 +89,11 @@ Under the total line one can see the sum of $HIVE and sum of $BEER that changed 
 
 The average price of the token in the picture is wrong, actually it was:
 
-Request|Received Hive|Sold $BEER|Avg. Price
-|-|-|-|-|
-sell|48.6554|483.5582|0.0996
-buy|4.1636|54.9342|0.0756
-||||0.08760|
+Request|Received Hive|Sold $BEER|rec. HIVE Percentage|Avg. Price
+|-|-|-|-|-|
+sell|48.6554|483.5582|92.12|0.0996
+buy|4.1636|54.9342|7.88%|0.0756
+|sum: |52.819|538.4924|100%|0.08760|
 
 
 

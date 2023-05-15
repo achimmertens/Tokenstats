@@ -95,11 +95,11 @@ Under the total line one can see the sum of $HIVE and sum of $POB that changed t
 
 The average price of the token in the picture is wrong, actually it was:
 
-Request|Received Hive|Sold $POB|Avg. Price
-|-|-|-|-|
-sell|976.0925|22992.9454|0.0424
-buy|324.8034|7549.7081|0.0430
-||||0.04270|
+Request|Received Hive|Sold $POB|rec. HIVE Percentage|Avg. Price
+|-|-|-|-|-|
+sell|976.0925|22992.9454|75.03|0.0424
+buy|324.8034|7549.7081|24.97%|0.0430
+|sum: |1300.8959|30542.6535|100%|0.04270|
 
 
 
