@@ -42,7 +42,7 @@ buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought $BEER|Avg. Price|Number of Trad
 @zeeshannaqvi72| 0.04543|0.04|0.61936|0.07335|4
 @detlev| 0.01010|0.01|0.10000|0.10102|1
 __others__|0|0.00|0|0.00000|0
-__Sum:__|108.72951|100%|1136.01606|0.10110|13
+__Sum:__|108.72951|100%|1136.01606|0.10110|84
 
 
 ## Commulated Amount Of Sold $BEER Per Person

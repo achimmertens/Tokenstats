@@ -45,7 +45,7 @@ buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought $SPT|Avg. Price|Number of Trade
 @tsuyou| 0.13600|0.05|200.00000|0.00068|1
 @gmy| 0.00000|0.00|0.00294|0.00068|1
 __others__|0|0.00|0|0.00000|0
-__Sum:__|301.34519|100%|474045.94335|0.00069|16
+__Sum:__|301.34519|100%|474045.94335|0.00069|231
 
 
 ## Commulated Amount Of Sold $SPT Per Person

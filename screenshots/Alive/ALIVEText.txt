@@ -48,7 +48,7 @@ buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought $ALIVE|Avg. Price|Number of Tra
 @sammyhive| 2.00000|0.72|47.64190|0.04198|3
 @cursephantom| 1.58390|0.57|37.72990|0.04198|2
 __others__|5.88457|2.11|144.03940|0.04353|30
-__Sum:__|278.77483|100%|7368.68687|0.04102|35
+__Sum:__|278.77483|100%|7368.68687|0.04102|230
 
 
 ## Commulated Amount Of Sold $ALIVE Per Person

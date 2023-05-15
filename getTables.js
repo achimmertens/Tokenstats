@@ -81,6 +81,7 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
       let otherVolPerc=0;
       let totalAvgPr=0;
       let avgPrTop20=0;
+      let numberOfTradesTop20=0;
       buckets.forEach((bucket,index) => {
         volumeSum=(parseFloat(volumeSum)+parseFloat(bucket['1'].value)).toFixed(5);
         quantitySum=(parseFloat(quantitySum)+parseFloat(bucket['3'].value)).toFixed(5);
@@ -94,6 +95,7 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
           const avgPrice = bucket['4'].value.toFixed(5);
           avgPrTop20=avgPrTop20+parseFloat(avgPrice);
           const numberOfTrades = bucket.doc_count;
+          numberOfTradesTop20=numberOfTradesTop20+parseInt(numberOfTrades);
           buyersTable = buyersTable + `@${buyer}| ${totalVolume}|${percVolume}|${totalQuantity}|${avgPrice}|${numberOfTrades}\n`
         }
         else {
@@ -108,7 +110,7 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
       otherVolPerc=(otherVol*100/parseFloat(volumeSum)).toFixed(2);
       totalAvgPr= ((avgPrTop20+avgPr)/number).toFixed(5);
       buyersTable = buyersTable + `__others__|${otherVol}|${otherVolPerc}|${otherQuan}|${OtherAvgPr}|${otherTrades}\n`
-      buyersTable = buyersTable + `__Sum:__|${volumeSum}|100%|${quantitySum}|${totalAvgPr}|${number}\n`
+      buyersTable = buyersTable + `__Sum:__|${volumeSum}|100%|${quantitySum}|${totalAvgPr}|${otherTrades+numberOfTradesTop20}\n` //ToDo Othertrades
      
       return buyersTable;
     })();

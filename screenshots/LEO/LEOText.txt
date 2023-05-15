@@ -48,7 +48,7 @@ buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought $LEO|Avg. Price|Number of Trade
 @mcoinz79| 238.87798|1.28|1999.99999|0.11944|3
 @jongolson| 237.85082|1.27|1740.24000|0.14443|33
 __others__|2898.68126|15.51|25802.27911|0.11672|516
-__Sum:__|18689.09951|100%|167695.89489|0.11591|109
+__Sum:__|18689.09951|100%|167695.89489|0.11591|1498
 
 
 ## Commulated Amount Of Sold $LEO Per Person

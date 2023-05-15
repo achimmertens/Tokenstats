@@ -48,7 +48,7 @@ buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought $POB|Avg. Price|Number of Trade
 @cwow2| 1.54350|0.18|35.56482|0.04340|1
 @anarchy999| 1.08935|0.13|25.23505|0.04311|7
 __others__|2.97256|0.34|69.21677|0.04735|31
-__Sum:__|863.08101|100%|20371.61898|0.04400|29
+__Sum:__|863.08101|100%|20371.61898|0.04400|831
 
 
 ## Commulated Amount Of Sold $POB Per Person
