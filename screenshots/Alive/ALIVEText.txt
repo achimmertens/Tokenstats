@@ -5,7 +5,7 @@ Hello friends of $ALIVE, Friends of $HIVE and all others,
 here are the:
 
 # $ALIVE Statistics for the last week:
-The timeframe is from 2023-05-08 to 2023-05-15.
+The timeframe is from 2023-05-09T07:30:08.988Z to 2023-05-16T07:30:08.988Z.
 
 (Some Data from 8. to 9. May is missing, sorry for that)
 
@@ -25,30 +25,30 @@ This figure shows the top 10 $ALIVE buyers, how much they got and how much $HIVE
 
 ## Table Of Top 20 $ALIVE Buyers
 This table shows the top ten buyers of $ALIVE sorted by the $HIVE, they have spent:
-buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought $ALIVE|Avg. Price|Number of Trades
+Buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought $ALIVE|Avg. Price|Number of Trades
 |-|-|-|-|-|-|
-@hivecurious| 60.31602|21.64|1556.81800|0.03879|55
-@oscarps| 47.32146|16.97|1260.61850|0.03875|28
-@master-lamps| 42.78938|15.35|1211.21288|0.03716|16
-@pwbanker| 26.05497|9.35|738.17488|0.04006|29
-@dimascastillo90| 14.15625|5.08|334.08330|0.04212|4
-@visual.alive| 10.64797|3.82|280.20970|0.03800|2
-@thecryptolab| 9.91071|3.56|269.69500|0.03807|23
-@ben.haase| 9.30770|3.34|241.80181|0.03847|7
-@aliveandthriving| 9.12148|3.27|222.51230|0.04047|9
-@tuisada| 7.40000|2.65|200.00000|0.03700|1
-@benthomaswwd| 5.91464|2.12|147.86630|0.04000|2
-@jimmy.adames| 5.64323|2.02|134.37910|0.04199|3
-@lolz.pool| 4.96491|1.78|131.00000|0.03790|1
-@edgerik| 3.99320|1.43|100.00000|0.03942|4
-@vocup| 3.90005|1.40|100.00000|0.03900|2
-@simplegame| 3.00000|1.08|75.00000|0.04000|1
-@nickydee| 2.55479|0.92|75.13650|0.03400|1
-@technologix| 2.30960|0.83|60.76740|0.03763|7
-@sammyhive| 2.00000|0.72|47.64190|0.04198|3
-@cursephantom| 1.58390|0.57|37.72990|0.04198|2
-__others__|5.88457|2.11|144.03940|0.04353|30
-__Sum:__|278.77483|100%|7368.68687|0.04102|230
+@hivecurious| 59.76244|19.83|1542.97840|0.03867|50
+@oscarps| 47.32146|15.70|1260.61850|0.03875|28
+@master-lamps| 43.57639|14.46|1234.70478|0.03676|18
+@pwbanker| 26.11635|8.66|739.70948|0.04006|30
+@dimascastillo90| 14.15625|4.70|334.08330|0.04212|4
+@thecryptolab| 13.94382|4.63|390.08080|0.03701|30
+@visual.alive| 10.64797|3.53|280.20970|0.03800|2
+@discohedge| 10.04519|3.33|251.13090|0.04000|6
+@ben.haase| 9.30770|3.09|241.80181|0.03847|7
+@aliveandthriving| 9.12148|3.03|222.51230|0.04047|9
+@tuisada| 7.40000|2.45|200.00000|0.03700|1
+@benthomaswwd| 5.91464|1.96|147.86630|0.04000|2
+@cwow2| 5.69063|1.89|142.26590|0.04000|3
+@jimmy.adames| 5.64323|1.87|134.37910|0.04199|3
+@lolz.pool| 4.96491|1.65|131.00000|0.03790|1
+@edgerik| 3.99320|1.32|100.00000|0.03942|4
+@vocup| 3.90005|1.29|100.00000|0.03900|2
+@simplegame| 3.00000|1.00|75.00000|0.04000|1
+@nickydee| 2.55479|0.85|75.13650|0.03400|1
+@technologix| 2.30960|0.77|60.76740|0.03763|7
+__others__|12.07655|4.01|294.78100|0.04316|37
+__Sum:__|301.44665|100%|7959.02617|0.04084|246
 
 
 ## Commulated Amount Of Sold $ALIVE Per Person
@@ -57,29 +57,30 @@ This figure shows the top 10 $ALIVE Sellers, how much they sold and how much $HI
 
 ## Table Of Top 20 $ALIVE Sellers
 This table shows the top ten sellers of $ALIVE Sorted by the $HIVE, they have got:
-seller(Descending)|Earned $HIVE|Sold $ALIVE|Avg. Price|Number of Trades
+Seller(Descending)|Earned $HIVE|Sold $ALIVE|Avg. Price|Number of Trades
 |-|-|-|-|-|
-@wdougwatson| 57.26446|1600.22798|0.03628|13
-@hive.pizza| 43.29435|1197.64758|0.03717|17
-@oscarps| 35.00263|844.41480|0.04174|44
-@leemah1| 28.20072|728.86690|0.03886|7
-@master-lamps| 21.56736|579.39450|0.03876|9
-@jlufer| 15.00411|398.94090|0.03821|10
-@thecryptolab| 14.75634|366.66730|0.04104|16
-@onlydoge| 10.65804|250.78340|0.04250|2
-@threesteps| 6.48199|165.82330|0.03905|2
-@pwbanker| 6.14772|166.15450|0.03700|1
-@plantpoweronhive| 4.92463|130.10180|0.03780|2
-@wazock| 3.04586|78.30300|0.03887|3
-@sirenahippie| 2.10015|61.76900|0.03400|1
-@willendorfia| 1.97086|50.53490|0.03900|1
-@gank| 1.96395|58.62480|0.03350|2
-@bambukah| 1.62029|44.14220|0.03735|4
-@dswap| 1.58228|43.14900|0.03833|4
-@brofund| 1.49710|38.58440|0.03880|2
-@zoe24| 1.44655|34.45820|0.04198|2
-@dibblers.dabs| 1.44579|43.15790|0.03350|1
-__others__|18.799654051096013|486.9404978010425|0.03956872092782514|87
+@wdougwatson| 57.26446|19.00|1600.22798|0.03628|13
+@hive.pizza| 43.29435|14.36|1197.64758|0.03717|17
+@oscarps| 40.71080|13.51|987.11930|0.04160|48
+@leemah1| 28.20072|9.36|728.86690|0.03886|7
+@master-lamps| 25.10002|8.33|667.71161|0.03907|12
+@thecryptolab| 22.87808|7.59|569.71170|0.04076|22
+@jlufer| 16.82847|5.58|453.39760|0.03743|12
+@onlydoge| 10.65804|3.54|250.78340|0.04250|2
+@threesteps| 6.48199|2.15|165.82330|0.03905|2
+@pwbanker| 6.14772|2.04|166.15450|0.03700|1
+@plantpoweronhive| 4.92463|1.63|130.10180|0.03780|2
+@wazock| 3.04586|1.01|78.30300|0.03887|3
+@zoe24| 2.73961|0.91|66.78470|0.04132|3
+@sirenahippie| 2.10015|0.70|61.76900|0.03400|1
+@willendorfia| 1.97086|0.65|50.53490|0.03900|1
+@gank| 1.96395|0.65|58.62480|0.03350|2
+@kalib| 1.94821|0.65|58.15190|0.03350|1
+@bambukah| 1.62029|0.54|44.14220|0.03735|4
+@dswap| 1.58228|0.52|43.14900|0.03833|4
+@brofund| 1.49710|0.50|38.58440|0.03880|2
+__others__|20.48908|6.80|541.43660|0.03893|87
+__Sum:__|301.44667|100%|7959.02617|0.03871|246
 
 
 ## Price of the $ALIVE
@@ -98,9 +99,9 @@ The average price of the token in the picture is wrong, actually it was:
 
 Request|Received Hive|Received HIVE %|Sold $ALIVE|Avg. Price
 |-|-|-|-|-|
-sell|218.09024|78.23%|5910.85127|0.03795
-buy|60.68459|21.77%|1457.83560|0.04156
-|sum: |278.77483|100%|7368.68687|0.03975|
+sell|222.10643|73.68%|6034.79807|0.03759
+buy|79.34022|26.32%|1924.22811|0.04132
+|sum: |301.44665|100%|7959.02618|0.03946|
 
 
 

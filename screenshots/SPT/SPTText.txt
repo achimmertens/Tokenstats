@@ -5,7 +5,7 @@ Hello friends of $SPT, Friends of $HIVE and all others,
 here are the:
 
 # $SPT Statistics for the last week:
-The timeframe is from 2023-05-08 to 2023-05-15.
+The timeframe is from 2023-05-09T07:30:08.988Z to 2023-05-16T07:30:08.988Z.
 
 (Some Data from 8. to 9. May is missing, sorry for that)
 
@@ -25,27 +25,29 @@ This figure shows the top 10 $SPT buyers, how much they got and how much $HIVE t
 
 ## Table Of Top 20 $SPT Buyers
 This table shows the top ten buyers of $SPT sorted by the $HIVE, they have spent:
-buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought $SPT|Avg. Price|Number of Trades
+Buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought $SPT|Avg. Price|Number of Trades
 |-|-|-|-|-|-|
-@criptosectadepit| 72.69028|24.12|99590.44141|0.00073|3
-@vmetelz| 66.77075|22.16|111334.67895|0.00060|66
-@all.coin.hive| 45.22519|15.01|75400.44457|0.00060|14
-@imno| 30.89053|10.25|51505.67793|0.00060|26
-@mxnsmxn| 23.59258|7.83|38873.02865|0.00061|46
-@onlydoge| 20.00611|6.64|32795.29600|0.00061|10
-@dishonesty| 16.42528|5.45|24931.17789|0.00063|10
-@cryptovisitor| 6.87073|2.28|11263.89849|0.00060|4
-@dswap| 5.38653|1.79|7439.68857|0.00071|8
-@technologix| 4.88084|1.62|8138.00348|0.00060|24
-@credits64| 4.69323|1.56|6808.49466|0.00068|5
-@mcbot| 1.74070|0.58|2862.36090|0.00066|2
-@boycharliefamily| 1.19882|0.40|1665.27783|0.00072|1
-@sephiwolf| 0.47037|0.16|689.31903|0.00067|7
-@kcempire89| 0.36725|0.12|548.15205|0.00062|3
-@tsuyou| 0.13600|0.05|200.00000|0.00068|1
-@gmy| 0.00000|0.00|0.00294|0.00068|1
+@criptosectadepit| 72.69028|22.02|99590.44141|0.00073|3
+@vmetelz| 66.77075|20.23|111334.67895|0.00060|66
+@all.coin.hive| 45.22519|13.70|75400.44457|0.00060|14
+@mxnsmxn| 38.58288|11.69|63556.38444|0.00061|65
+@imno| 30.89053|9.36|51505.67793|0.00060|26
+@onlydoge| 20.00611|6.06|32795.29600|0.00061|10
+@dishonesty| 16.42528|4.98|24931.17789|0.00063|10
+@yumi-drizzle| 12.05038|3.65|14768.14776|0.00081|14
+@cryptovisitor| 6.87073|2.08|11263.89849|0.00060|4
+@technologix| 6.09482|1.85|10138.00345|0.00060|29
+@dswap| 5.38653|1.63|7439.68857|0.00071|8
+@credits64| 4.69323|1.42|6808.49466|0.00068|5
+@mcbot| 1.74070|0.53|2862.36090|0.00066|2
+@boycharliefamily| 1.19882|0.36|1665.27783|0.00072|1
+@sephiwolf| 0.47037|0.14|689.31903|0.00067|7
+@jaouad2d| 0.46516|0.14|765.36169|0.00061|2
+@kcempire89| 0.36725|0.11|548.15205|0.00062|3
+@tsuyou| 0.13600|0.04|200.00000|0.00068|1
+@gmy| 0.00000|0.00|0.00625|0.00064|2
 __others__|0|0.00|0|0.00000|0
-__Sum:__|301.34519|100%|474045.94335|0.00069|231
+__Sum:__|330.06501|100%|516262.81187|0.00069|272
 
 
 ## Commulated Amount Of Sold $SPT Per Person
@@ -54,29 +56,30 @@ This figure shows the top 10 $SPT Sellers, how much they sold and how much $HIVE
 
 ## Table Of Top 20 $SPT Sellers
 This table shows the top ten sellers of $SPT Sorted by the $HIVE, they have got:
-seller(Descending)|Earned $HIVE|Sold $SPT|Avg. Price|Number of Trades
+Seller(Descending)|Earned $HIVE|Sold $SPT|Avg. Price|Number of Trades
 |-|-|-|-|-|
-@mcbot| 103.96985|172554.57457|0.00060|12
-@all.coin.hive| 55.03327|75400.44141|0.00073|2
-@onlydoge| 36.97142|52537.70736|0.00069|14
-@lenonmc21| 8.34974|13922.03809|0.00060|1
-@kwskicky| 6.63560|10929.83936|0.00061|2
-@queen-silvia| 6.62274|10968.11255|0.00061|3
-@crazyphantombr| 6.50944|10812.39893|0.00061|2
-@gank| 6.48554|9867.66980|0.00067|4
-@michupa| 4.63824|7627.05615|0.00061|1
-@jmsansan| 4.54801|7583.42090|0.00060|1
-@spt-shturm| 4.51775|7532.69055|0.00060|2
-@danideuder| 4.08907|6817.95752|0.00060|1
-@zallin.spt| 3.22640|5352.73901|0.00060|18
-@mango-juice| 3.10593|5143.46777|0.00060|2
-@ballsanga| 2.99865|5000.00000|0.00060|1
-@mawit07| 2.97278|4919.76184|0.00060|3
-@mightyrocklee| 2.83194|4714.58575|0.00060|7
-@libertygame27| 2.70471|4509.55579|0.00060|2
-@kaibagt| 2.40077|4003.09058|0.00060|1
-@dswap| 2.27450|3792.44077|0.00060|4
-__others__|30.458823915270386|50056.39462938695|0.0006144822877603967|148
+@mcbot| 103.96985|31.50|172554.57457|0.00060|12
+@all.coin.hive| 55.03327|16.67|75400.44141|0.00073|2
+@onlydoge| 38.81592|11.76|55099.89950|0.00069|15
+@gank| 17.72985|5.37|24473.17572|0.00076|10
+@lenonmc21| 8.34974|2.53|13922.03809|0.00060|1
+@luizeba| 7.51534|2.28|12424.67960|0.00060|3
+@kwskicky| 6.63560|2.01|10929.83936|0.00061|2
+@queen-silvia| 6.62274|2.01|10968.11255|0.00061|3
+@crazyphantombr| 6.50944|1.97|10812.39893|0.00061|2
+@michupa| 4.63824|1.41|7627.05615|0.00061|1
+@jmsansan| 4.54801|1.38|7583.42090|0.00060|1
+@spt-shturm| 4.51775|1.37|7532.69055|0.00060|2
+@danideuder| 4.08907|1.24|6817.95752|0.00060|1
+@elderdark| 3.94917|1.20|6474.36768|0.00061|1
+@zallin.spt| 3.85406|1.17|6390.06104|0.00060|21
+@libertygame27| 3.83740|1.16|6382.45356|0.00060|5
+@mango-juice| 3.10593|0.94|5143.46777|0.00060|2
+@ballsanga| 2.99865|0.91|5000.00000|0.00060|1
+@mawit07| 2.89691|0.88|4784.37775|0.00061|3
+@dswap| 2.88149|0.87|4792.44077|0.00060|5
+__others__|37.56658|11.38|61149.35844|0.00062|179
+__Sum:__|330.06501|100%|516262.81186|0.00062|272
 
 
 ## Price of the $SPT
@@ -95,9 +98,9 @@ The average price of the token in the picture is wrong, actually it was:
 
 Request|Received Hive|Received HIVE %|Sold $SPT|Avg. Price
 |-|-|-|-|-|
-sell|200.21561|66.44%|332546.39492|0.00060
-buy|101.12958|33.56%|141499.54841|0.00068
-|sum: |301.34519|100%|474045.94333|0.00064|
+sell|216.64269|65.64%|359594.37794|0.00060
+buy|113.42232|34.36%|156668.43391|0.00071
+|sum: |330.06501|100%|516262.81184999994|0.00065|
 
 
 

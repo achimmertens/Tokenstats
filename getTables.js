@@ -197,27 +197,44 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
       let otherVol = 0;
       let otherQuan = 0;
       let avgPr = 0;
+      let OtherAvgPr=0;
       let number = 0;
       let otherTrades = 0;
+      let volumeSum=0;
+      let quantitySum=0;
+      let otherVolPerc=0;
+      let totalAvgPr=0;
+      let avgPrTop20=0;
+      let numberOfTradesTop20=0;
+      buckets.forEach((bucket,index) => {
+        volumeSum=(parseFloat(volumeSum)+parseFloat(bucket['1'].value)).toFixed(5);
+        quantitySum=(parseFloat(quantitySum)+parseFloat(bucket['3'].value)).toFixed(5);
+      });
       buckets.forEach((bucket, index) => {
         if (index < 20) {
           const seller = bucket.key;
           const totalQuantity = bucket['3'].value.toFixed(5);
           const totalVolume = bucket['1'].value.toFixed(5);
           const avgPrice = bucket['4'].value.toFixed(5);
+          const percVolume=(totalVolume*100/parseFloat(volumeSum)).toFixed(2);
           const numberOfTrades = bucket.doc_count;
-          sellersTable = sellersTable + `@${seller}| ${totalVolume}|${totalQuantity}|${avgPrice}|${numberOfTrades}\n`
+          numberOfTradesTop20=numberOfTradesTop20+parseInt(numberOfTrades);
+          avgPrTop20=avgPrTop20+parseFloat(avgPrice);
+          sellersTable = sellersTable + `@${seller}| ${totalVolume}|${percVolume}|${totalQuantity}|${avgPrice}|${numberOfTrades}\n`
         }
         else {
-          otherVol = otherVol + bucket['1'].value;
-          otherQuan = otherQuan + bucket['3'].value;
+          otherVol = (parseFloat(otherVol) + parseFloat(bucket['1'].value)).toFixed(5);
+          otherQuan = (parseFloat(otherQuan) + parseFloat(bucket['3'].value)).toFixed(5);
           avgPr = avgPr + bucket['4'].value;
           otherTrades = otherTrades + bucket.doc_count
         }
         number = index;
-        console.log(`\n \nData (JSON): \n`, bucket);
       });
-      sellersTable = sellersTable + `__others__|${otherVol}|${otherQuan}|${avgPr / (number - 20)}|${otherTrades}\n`
+      OtherAvgPr=(avgPr / (number - 20)).toFixed(5)
+      otherVolPerc=(otherVol*100/parseFloat(volumeSum)).toFixed(2);
+      totalAvgPr= ((avgPrTop20+avgPr)/number).toFixed(5);
+      sellersTable = sellersTable + `__others__|${otherVol}|${otherVolPerc}|${otherQuan}|${OtherAvgPr}|${otherTrades}\n`
+      sellersTable = sellersTable + `__Sum:__|${volumeSum}|100%|${quantitySum}|${totalAvgPr}|${otherTrades+numberOfTradesTop20}\n`
       return sellersTable;
     })();
 
