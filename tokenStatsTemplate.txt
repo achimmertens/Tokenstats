@@ -4,8 +4,11 @@ Hello friends of [TOKEN], Friends of $HIVE and all others,
 
 here are the:
 
-# TOKEN Statistics for the last week:
+# [TOKEN] Statistics for the last week:
 The timeframe is from [DATE_FRAME].
+
+(Some Data from 8. to 9. May is missing, sorry for that)
+
 ## Bought [TOKEN] By Time
 This figure shows who has bought how many [TOKEN] at which time:
 BILD_01
@@ -22,9 +25,9 @@ BILD_03
 
 ## Table Of Top 20 [TOKEN] Buyers
 This table shows the top ten buyers of [TOKEN] sorted by the $HIVE, they have spent:
-buyer.keyword: Descending|Sold $HIVE|Bought [TOKEN]|Avg. Price
-|-|-|-|-|
-TABLE
+Buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought [TOKEN]|Avg. Price|Number of Trades
+|-|-|-|-|-|-|
+TABLE01
 
 ## Commulated Amount Of Sold [TOKEN] Per Person
 This figure shows the top 10 [TOKEN] Sellers, how much they sold and how much $HIVE they got for this, sorted by $HIVE:
@@ -32,9 +35,9 @@ BILD_04
 
 ## Table Of Top 20 [TOKEN] Sellers
 This table shows the top ten sellers of [TOKEN] Sorted by the $HIVE, they have got:
-seller.keyword: Descending|Earned $HIVE|Sold [TOKEN]|Avg. Price
-|-|-|-|-|
-TABLE
+Seller(Descending)|Earned $HIVE|Sold [TOKEN]|Avg. Price|Number of Trades
+|-|-|-|-|-|
+TABLE02
 
 ## Price of the [TOKEN]
 This figure shows the price of [TOKEN] for the last period:
@@ -46,29 +49,17 @@ This table shows how much $HIVE was given by buy-requests, that where equal or h
 If the buy-requests where higher than the sell-requests, then money comes into the system and the value of the token increases.
 
 Under the total line one can see the sum of $HIVE and sum of [TOKEN] that changed the ownership and the average price of [TOKEN] for the last period.
-
-The average price of the token in the picture is wrong, actually it was: xxx $HIVE/[TOKEN]
 BILD_06
 
-# Comparison With Other Tokens
-## $HIVE/Token
-This figure shows the value of $HIVE compared to some token for the last period. Be aware of the nonlinear (root square) y-axes.
+The average price of the token in the picture is wrong, actually it was:
 
-TBILD_01
+Request|Received Hive|Received HIVE %|Sold [TOKEN]|Avg. Price
+|-|-|-|-|-|
+[BUYVSSELLERTABLE]
 
 
-## US-Dollar/Token
-This figure shows the value of $USD compared to some token for the last period. Be aware of the nonlinear (root square) y-axes.
 
-TBILD_02
-
-Bild
-*[origin](https://coinmarketcap.com/currencies/hive-blockchain/)*
-
-## Table Of Token Prices in $HIVE and $USD
-This table shows the average value of the prices of the token for the last period. One can see Hive and the US-Dollar compared to the token.
-
-TBILD_03
+[OTHERTOKENS]
 
 
 ----
@@ -96,4 +87,4 @@ Sumarize:
 These are the statistics for the [TOKEN] token for last week.
 
 tags:
-leofinance token hive hivestats statistics stats  
+[TAG] leofinance token hive hivestats statistics stats  

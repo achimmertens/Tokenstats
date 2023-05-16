@@ -1,0 +1,20 @@
+# Comparison With Other Tokens
+## $HIVE/Token
+This figure shows the value of $HIVE compared to some token for the last period. Be aware of the nonlinear (root square) y-axes.
+
+[OT01]
+
+
+## US-Dollar/Token
+This figure shows the value of $USD compared to some token for the last period. Be aware of the nonlinear (root square) y-axes.
+
+[OT02]
+
+Rank 155
+
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tHbKgeEo2zMgQ5HjNeRsMWXMLPdoPtMnbSkFbxsU95sM2Y7RrztxDMNzZ7PzguMiWy9.png)
+
+## Table Of Token Prices in $HIVE and $USD
+This table shows the average value of the prices of the token for the last period. One can see Hive and the US-Dollar compared to the token.
+
+[OT03]

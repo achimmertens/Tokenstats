@@ -1,0 +1,12 @@
+
+![01_BoughtLeoByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EocDNh96CZFfPzLEg3aR48riAUckVAYnKTeDUqskT1PfM44Vei9ZPoVtRbp8HNZo27P.png)
+
+![06_TableOfLeoBuyVsSellRequest.png](https://files.peakd.com/file/peakd-hive/achimmertens/Enz3ttRSGeavuerBMsHNxujaVXwRLZSz6zf74aWMFtprisNi1isjdaHc8aCxKASaD2d.png)
+
+![03_CommulatedAmountOfBoughtLeo.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eos78kcCJ9TpaF75hDp3yXHN1MQ4RTvgRHDuFXVgYW3jdzvVwrtqv5Q233LMFtzmkQe.png)
+
+![04_CommulatedAmountOfSoldLeo.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoAgyeyAPxf81TRkYjiQ73x1Dz6L6atc3SjFWPckM1nfLXXnaRKoWYEkff26FgB5dxL.png)
+
+![05_PriceOfLeo.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo2BRcX9yYzrMbNKi9N2hFjyhnv6mSb38e9LNMSJcUJVYcdMug1r44qUT1zJbA1ei6M.png)
+
+![02_TopTenLeoBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoibZ5q6UMMyPJ16osNNooXstjGMYKonLyHcycbZFUfmmpqdB5NYMhmrQLaMkpVYzBy.png)
