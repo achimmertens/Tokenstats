@@ -5,86 +5,85 @@ Hello friends of $SPT, Friends of $HIVE and all others,
 here are the:
 
 # $SPT Statistics for the last week:
-The timeframe is from 2023-05-09T07:30:08.988Z to 2023-05-16T07:30:08.988Z.
-
-(Some Data from 8. to 9. May is missing, sorry for that)
+The timeframe is from 2023-05-19 to 2023-06-02.
 
 ## Bought $SPT By Time
 This figure shows who has bought how many $SPT at which time:
-![01_BoughtSptByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoEwkwvSwwy4b2PTcpoMhrWhTv1hrZTvX51Y4KnpwRUmTmqVdbPrSn3c2Da38tXrobJ.png)
+![01_BoughtSptByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EopyemP9dDYcxKdqPFdrKCJRtWFbRrY2urpTfTsURRnNseZLa6yETs8ZgPVYFpc7nM7.png)
 
 ## Top $SPT Buyers and $HIVE Sellers
 The inside of the circle shows the buyers of $SPT, ordered by $HIVE they have spent. The outside shows the recipients of that $HIVE (sellers of $SPT):
-![02_TopTenSptBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoibZ5q6ULwmoNXfWhzyVLzGCQBcyZhBMNY1nwdBubs1dhU32MR2mEqMKMQHtvF3P6T.png)
+![02_TopTenSptBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EokixGiZSrQAR8kTYgaezrDnDCKFpYAyH3cxdttahmVUKULDxdwSztaax9RwaF6BR1a.png)
 
 
 ## Commulated Amount Of Bought $SPT Per Person
 This figure shows the top 10 $SPT buyers, how much they got and how much $HIVE they spend for this. It is sorted by $HIVE, that was spent:
-![03_CommulatedAmountOfBoughtSpt.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoCpL1DThEvhRkExSmF1mhQbBmYHGAXZGQApHjfxHuDP9JEtqEboLCbg5FScXrsGhR9.png)
+![03_CommulatedAmountOfBoughtSpt.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo6SDzqP5ahkkHXqCdV23MJExgkct2qBLy1Tx8KKK1VJ3CYwrNwfPY3hjZi6ngXG1XL.png)
 
 
 ## Table Of Top 20 $SPT Buyers
 This table shows the top ten buyers of $SPT sorted by the $HIVE, they have spent:
-Buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought $SPT|Avg. Price|Number of Trades
+Buyer(Descending)|Sold $HIVE|% Sold $HIVE|Bought $SPT|Avg. Price|Number of Trades
 |-|-|-|-|-|-|
-@criptosectadepit| 72.69028|22.02|99590.44141|0.00073|3
-@vmetelz| 66.77075|20.23|111334.67895|0.00060|66
-@all.coin.hive| 45.22519|13.70|75400.44457|0.00060|14
-@mxnsmxn| 38.58288|11.69|63556.38444|0.00061|65
-@imno| 30.89053|9.36|51505.67793|0.00060|26
-@onlydoge| 20.00611|6.06|32795.29600|0.00061|10
-@dishonesty| 16.42528|4.98|24931.17789|0.00063|10
-@yumi-drizzle| 12.05038|3.65|14768.14776|0.00081|14
-@cryptovisitor| 6.87073|2.08|11263.89849|0.00060|4
-@technologix| 6.09482|1.85|10138.00345|0.00060|29
-@dswap| 5.38653|1.63|7439.68857|0.00071|8
-@credits64| 4.69323|1.42|6808.49466|0.00068|5
-@mcbot| 1.74070|0.53|2862.36090|0.00066|2
-@boycharliefamily| 1.19882|0.36|1665.27783|0.00072|1
-@sephiwolf| 0.47037|0.14|689.31903|0.00067|7
-@jaouad2d| 0.46516|0.14|765.36169|0.00061|2
-@kcempire89| 0.36725|0.11|548.15205|0.00062|3
-@tsuyou| 0.13600|0.04|200.00000|0.00068|1
-@gmy| 0.00000|0.00|0.00625|0.00064|2
-__others__|0|0.00|0|0.00000|0
-__Sum:__|330.06501|100%|516262.81187|0.00069|272
+@mxnsmxn| 362.60525|59.54 %|506297.36844|0.00072|323
+@all.coin.hive| 69.13639|11.35 %|97340.15862|0.00072|60
+@criptosectadepit| 30.83774|5.06 %|43597.28921|0.00072|7
+@mcbot| 26.06083|4.28 %|36560.70727|0.00074|7
+@onlydoge| 23.92417|3.93 %|33367.47770|0.00075|17
+@imno| 16.78820|2.76 %|21999.99896|0.00076|3
+@byebye| 14.14510|2.32 %|20000.00024|0.00069|8
+@sbi-tokens| 13.12558|2.16 %|19887.24511|0.00066|2
+@yumi-drizzle| 11.16934|1.83 %|15472.83041|0.00074|5
+@auto-generation| 10.98887|1.80 %|9999.99979|0.00103|6
+@nicole-st| 9.17725|1.51 %|12746.17551|0.00072|7
+@stimp1024| 6.43500|1.06 %|9000.00020|0.00071|16
+@dishonesty| 2.99802|0.49 %|4000.00009|0.00076|9
+@credits64| 2.69443|0.44 %|3361.68734|0.00075|6
+@underlock| 2.14095|0.35 %|2999.99993|0.00071|2
+@cryptovisitor| 1.74614|0.29 %|2231.00052|0.00076|8
+@raythulhu| 1.08958|0.18 %|1226.46555|0.00089|2
+@technologix| 1.08009|0.18 %|1500.00000|0.00072|5
+@eberechi| 1.00000|0.16 %|1223.96341|0.00081|3
+@thelunacysystem| 0.64608|0.11 %|846.54571|0.00076|7
+__others__|1.18578|0.19 %|1363.42254|0.00116|6
+__Sum:__|608.97479|100 %|845022.33655|0.00081|509
 
 
 ## Commulated Amount Of Sold $SPT Per Person
 This figure shows the top 10 $SPT Sellers, how much they sold and how much $HIVE they got for this, sorted by $HIVE:
-![04_CommulatedAmountOfSoldSpt.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoH4esGi9jXpi2gApDJEZWG9cKLu9JHxcJe1sggNVxCHt1m34A5kDqXMFuNFuzq37Bm.png)
+![04_CommulatedAmountOfSoldSpt.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoAgzd3GLuZDaZQ6JDKpU4EH2Zmi3WM5tyZwtEDyrDoRQBV6QUsp2Zzu6WjK2yc1wrG.png)
 
 ## Table Of Top 20 $SPT Sellers
 This table shows the top ten sellers of $SPT Sorted by the $HIVE, they have got:
-Seller(Descending)|Earned $HIVE|Sold $SPT|Avg. Price|Number of Trades
-|-|-|-|-|-|
-@mcbot| 103.96985|31.50|172554.57457|0.00060|12
-@all.coin.hive| 55.03327|16.67|75400.44141|0.00073|2
-@onlydoge| 38.81592|11.76|55099.89950|0.00069|15
-@gank| 17.72985|5.37|24473.17572|0.00076|10
-@lenonmc21| 8.34974|2.53|13922.03809|0.00060|1
-@luizeba| 7.51534|2.28|12424.67960|0.00060|3
-@kwskicky| 6.63560|2.01|10929.83936|0.00061|2
-@queen-silvia| 6.62274|2.01|10968.11255|0.00061|3
-@crazyphantombr| 6.50944|1.97|10812.39893|0.00061|2
-@michupa| 4.63824|1.41|7627.05615|0.00061|1
-@jmsansan| 4.54801|1.38|7583.42090|0.00060|1
-@spt-shturm| 4.51775|1.37|7532.69055|0.00060|2
-@danideuder| 4.08907|1.24|6817.95752|0.00060|1
-@elderdark| 3.94917|1.20|6474.36768|0.00061|1
-@zallin.spt| 3.85406|1.17|6390.06104|0.00060|21
-@libertygame27| 3.83740|1.16|6382.45356|0.00060|5
-@mango-juice| 3.10593|0.94|5143.46777|0.00060|2
-@ballsanga| 2.99865|0.91|5000.00000|0.00060|1
-@mawit07| 2.89691|0.88|4784.37775|0.00061|3
-@dswap| 2.88149|0.87|4792.44077|0.00060|5
-__others__|37.56658|11.38|61149.35844|0.00062|179
-__Sum:__|330.06501|100%|516262.81186|0.00062|272
+Seller(Descending)|Earned $HIVE|% Earned $HIVE|Sold $SPT|Avg. Price|Number of Trades
+|-|-|-|-|-|-|
+@barski| 181.40832|29.79 %|254785.53697|0.00072|35
+@gank| 49.18945|8.08 %|69081.01403|0.00070|14
+@sbi-tokens| 41.47412|6.81 %|58523.89844|0.00071|4
+@alexko-steemit| 39.92615|6.56 %|51350.68506|0.00080|4
+@all.coin.hive| 22.44210|3.69 %|31666.12500|0.00071|1
+@heutorybr| 17.77355|2.92 %|25982.13226|0.00070|3
+@mcbot| 15.82485|2.60 %|20759.75821|0.00074|7
+@ukyron3| 13.99402|2.30 %|19525.32617|0.00072|2
+@dswap| 8.66126|1.42 %|12208.66065|0.00072|12
+@zallin.spt| 8.42893|1.38 %|11618.47407|0.00072|40
+@crazyphantombr| 8.17769|1.34 %|11155.78202|0.00072|8
+@javivisan| 8.12465|1.33 %|11216.20908|0.00072|6
+@velourex| 7.69450|1.26 %|10079.14893|0.00076|2
+@tedus| 7.20000|1.18 %|10000.00000|0.00072|1
+@queenstarr| 7.15291|1.17 %|9909.39709|0.00072|2
+@yonilkar| 6.94158|1.14 %|9929.73047|0.00070|1
+@mango-juice| 6.81918|1.12 %|9628.16469|0.00071|7
+@burlarj| 6.78152|1.11 %|9184.44336|0.00074|1
+@mawit07| 6.66707|1.09 %|9244.66119|0.00072|9
+@casimirio| 6.60359|1.08 %|9419.30664|0.00070|1
+__others__|137.68936|22.61 %|189753.88217|0.00073|349
+__Sum:__|608.97480|100 %|845022.33650|0.00073|509
 
 
 ## Price of the $SPT
 This figure shows the price of $SPT for the last period:
-![05_PriceOfSpt.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo6SDzz7gCxWwtw5ZYgR6LSppwXEZchZqhwkoXfvA63draNuPb3epc3AkzviGKYj8FJ.png)
+![05_PriceOfSpt.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jpokddqbb6K3yjHySCsCcRBbQ5RJsWuqHJxKgziiqCGmxrpoX458z2rkon8Z8VGh.png)
 
 ## $SPT Summarize Metrics
 
@@ -92,15 +91,12 @@ This table shows how much $HIVE was given by buy-requests, that where equal or h
 If the buy-requests where higher than the sell-requests, then money comes into the system and the value of the token increases.
 
 Under the total line one can see the sum of $HIVE and sum of $SPT that changed the ownership and the average price of $SPT for the last period.
-![06_TableOfSptBuyVsSellRequest.png](https://files.peakd.com/file/peakd-hive/achimmertens/Enz3ttRSGxG2oLEmCjHjqQdUcMHq6JXspYzVW6WRJmve45Vofzie8an67U2f8T4Dxev.png)
-
-The average price of the token in the picture is wrong, actually it was:
 
 Request|Received Hive|Received HIVE %|Sold $SPT|Avg. Price
 |-|-|-|-|-|
-sell|216.64269|65.64%|359594.37794|0.00060
-buy|113.42232|34.36%|156668.43391|0.00071
-|sum: |330.06501|100%|516262.81184999994|0.00065|
+sell|517.97692|85.06%|722969.18607|0.00072
+buy|90.99788|14.94%|122053.15046|0.00081
+|sum: |608.9748|100%|845022.3365300001|0.00077|
 
 
 
@@ -109,22 +105,23 @@ buy|113.42232|34.36%|156668.43391|0.00071
 ## $HIVE/Token
 This figure shows the value of $HIVE compared to some token for the last period. Be aware of the nonlinear (root square) y-axes.
 
-![01_HivePerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jn5CLPAHJZkdgdPNznbuZY83HdonXLfABXCu8FkBoSrGHqCFyRGRvSXgX8eeze1S.png)
+![01_HivePerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jo4trvkX1TbpLgMT5v3fiS9FtrAZb7mu4KkPbQcWWetgymC6JKvFXrpqkVUEVK5t.png)
 
 
 ## US-Dollar/Token
 This figure shows the value of $USD compared to some token for the last period. Be aware of the nonlinear (root square) y-axes.
 
-![02_USDPerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jn5CLPq36SGXuKZn6h9y2ppBF2nJpq8ePb24bhLcz9REc2xbaBiduB9KEsJKNVdP.png)
+![02_USDPerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jo4trvkXybuNeBJLypYfRDpheQAbRCmR2RpycoTQe2e8ZNVRzyoAnVbdVokyULRr.png)
 
-Rank 155
+The HIVE rank in Coinmarktecap is: 165
 
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tHbKgeEo2zMgQ5HjNeRsMWXMLPdoPtMnbSkFbxsU95sM2Y7RrztxDMNzZ7PzguMiWy9.png)
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tSyz38EhsL2Ku7H2KtqN4rSy8w2gRMQh29vgipdwMetJENtbeBgk6KF6jhjJNfKtviH.png)
+*[Origin](https://coinmarketcap.com/currencies/hive-blockchain/)*
 
 ## Table Of Token Prices in $HIVE and $USD
 This table shows the average value of the prices of the token for the last period. One can see Hive and the US-Dollar compared to the token.
 
-![03_TableOfTokenPrices.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo2BM1YVEXYS9GjfiJ48eDA469EcSK7xtb5urbsapbbzQ2jR85Mydo6AvTsST9UNKgF.png)
+![03_TableOfTokenPrices.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo2BM1YVEXE3RDMmrrqHuwAv29dwKZB1kvpEyMM4aXynCS4HzVdkVZXBtfLR1z5A38B.png)
 
 
 ----

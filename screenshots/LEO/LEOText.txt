@@ -5,87 +5,85 @@ Hello friends of $LEO, Friends of $HIVE and all others,
 here are the:
 
 # $LEO Statistics for the last week:
-The timeframe is from 2023-05-09T07:30:08.988Z to 2023-05-16T07:30:08.988Z.
-
-(Some Data from 8. to 9. May is missing, sorry for that)
+The timeframe is from 2023-05-19 to 2023-06-02.
 
 ## Bought $LEO By Time
 This figure shows who has bought how many $LEO at which time:
-![01_BoughtLeoByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EocDNh96CZFfPzLEg3aR48riAUckVAYnKTeDUqskT1PfM44Vei9ZPoVtRbp8HNZo27P.png)
+![01_BoughtLeoByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoH5A8QoMCudaGT9EdkQk9YWtoEEpwkKTp9XD2SYzTAv6uVyDEYSMWtVoTRcYxPY9Ar.png)
 
 ## Top $LEO Buyers and $HIVE Sellers
 The inside of the circle shows the buyers of $LEO, ordered by $HIVE they have spent. The outside shows the recipients of that $HIVE (sellers of $LEO):
-![02_TopTenLeoBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoibZ5q6UMMyPJ16osNNooXstjGMYKonLyHcycbZFUfmmpqdB5NYMhmrQLaMkpVYzBy.png)
+![02_TopTenLeoBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoibTBm5VgcA1EFT7xMZjr8tZr3SWKRv76cihjGuGt62usQ7EoPp1Q6idSjUFnunbhc.png)
 
 
 ## Commulated Amount Of Bought $LEO Per Person
 This figure shows the top 10 $LEO buyers, how much they got and how much $HIVE they spend for this. It is sorted by $HIVE, that was spent:
-![03_CommulatedAmountOfBoughtLeo.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eos78kcCJ9TpaF75hDp3yXHN1MQ4RTvgRHDuFXVgYW3jdzvVwrtqv5Q233LMFtzmkQe.png)
+![03_CommulatedAmountOfBoughtLeo.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoCpL15AVSz2sngpFSaoWJuqG1xfaSVewUETPzxnXD9GU4caLXQZpX4M8wSy7ecMnDy.png)
 
 
 ## Table Of Top 20 $LEO Buyers
 This table shows the top ten buyers of $LEO sorted by the $HIVE, they have spent:
-Buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought $LEO|Avg. Price|Number of Trades
+Buyer(Descending)|Sold $HIVE|% Sold $HIVE|Bought $LEO|Avg. Price|Number of Trades
 |-|-|-|-|-|-|
-@beststart| 3344.12592|14.76|24006.70786|0.13583|51
-@konvik| 1999.92955|8.82|18261.90208|0.10611|63
-@nexo.token| 1433.72135|6.33|11391.48503|0.12496|44
-@niallon11| 1226.02689|5.41|12716.72392|0.09711|68
-@deepresearch| 1089.97059|4.81|10999.38190|0.09895|53
-@go-kyo| 1064.48825|4.70|7993.76010|0.13500|14
-@mistakili| 972.90628|4.29|7941.44689|0.12243|18
-@leomaker| 955.08382|4.21|9123.84405|0.11844|283
-@globalcurrencies| 872.01564|3.85|9000.00009|0.09673|49
-@michupa| 766.27377|3.38|5733.39690|0.13712|27
-@scoutroc| 751.91398|3.32|4700.00005|0.15996|19
-@danieljusto| 666.32169|2.94|7016.02307|0.09497|35
-@alexvan| 509.88615|2.25|4330.06103|0.11303|32
-@dswap| 508.17739|2.24|4103.49099|0.12290|41
-@mcbot| 480.14518|2.12|4109.09700|0.11583|141
-@danewilliams| 467.23125|2.06|5063.82002|0.09296|6
-@god0| 436.56320|1.93|4610.11898|0.09389|39
-@leo.bank| 356.56694|1.57|2985.53901|0.10063|4
-@elianaicgomes| 328.84145|1.45|2625.78597|0.13247|23
-@enginemaker| 280.78974|1.24|2171.84301|0.12956|17
-__others__|4153.21927|18.33|35169.33309|0.12675|763
-__Sum:__|22664.19830|100%|194053.76104|0.12513|1790
+@netaterra| 9463.70435|33.44 %|56530.72504|0.16328|8
+@leo.bank| 4077.76653|14.41 %|29495.63197|0.13776|141
+@deepresearch| 2279.55865|8.06 %|14941.88180|0.16132|100
+@globetrottergcc| 1132.32622|4.00 %|7774.03604|0.14324|235
+@mango-juice| 958.72539|3.39 %|6676.71904|0.14760|168
+@god0| 911.78576|3.22 %|6296.55308|0.13947|92
+@leomaker| 715.38470|2.53 %|5032.41799|0.13559|268
+@konvik| 661.62502|2.34 %|4679.97099|0.14124|36
+@beststart| 625.28167|2.21 %|3810.13004|0.15659|28
+@tsunsica| 607.00000|2.15 %|3851.77702|0.15672|49
+@freecompliments| 576.60774|2.04 %|4146.13596|0.13909|26
+@jimmy.adames| 532.99443|1.88 %|3750.99996|0.14288|19
+@globalcurrencies| 466.99998|1.65 %|3299.99704|0.14446|7
+@enginemaker| 429.32253|1.52 %|3058.80697|0.14515|26
+@jongolson| 427.35915|1.51 %|2961.81400|0.14280|121
+@ifarmgirl| 425.58761|1.50 %|3046.56400|0.13852|104
+@andrewmusic| 384.15788|1.36 %|2736.58300|0.13907|106
+@leotaker| 366.39524|1.29 %|2619.43901|0.14009|333
+@mcbot| 309.97456|1.10 %|2256.88900|0.13741|112
+@onlydoge| 282.77383|1.00 %|2020.69002|0.14073|20
+__others__|2662.06748|9.41 %|18188.80804|0.14631|617
+__Sum:__|28297.39872|100 %|187176.57001|0.14601|2616
 
 
 ## Commulated Amount Of Sold $LEO Per Person
 This figure shows the top 10 $LEO Sellers, how much they sold and how much $HIVE they got for this, sorted by $HIVE:
-![04_CommulatedAmountOfSoldLeo.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoAgyeyAPxf81TRkYjiQ73x1Dz6L6atc3SjFWPckM1nfLXXnaRKoWYEkff26FgB5dxL.png)
+![04_CommulatedAmountOfSoldLeo.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoEwjCJeXkwfLv1kXetVXU3UHq7gNGyidUuNfceDAap6c5yuVqjm4FBZnBof6sQXT9S.png)
 
 ## Table Of Top 20 $LEO Sellers
 This table shows the top ten sellers of $LEO Sorted by the $HIVE, they have got:
-Seller(Descending)|Earned $HIVE|Sold $LEO|Avg. Price|Number of Trades
-|-|-|-|-|-|
-@konvik| 7519.21317|33.18|57539.15299|0.12475|169
-@leomaker| 6614.62543|29.19|64040.49500|0.11905|427
-@nexo.token| 823.74954|3.63|6391.48495|0.12742|22
-@danieljusto| 725.53768|3.20|5936.50101|0.12242|115
-@brettpullen| 536.72244|2.37|4239.60000|0.12669|24
-@mistakili| 488.11599|2.15|3800.00000|0.12836|12
-@dwayne16| 484.19795|2.14|5249.17300|0.09220|17
-@caladan| 480.26628|2.12|4724.96201|0.10402|24
-@god0| 442.32456|1.95|4522.44701|0.11211|92
-@d-company| 436.16404|1.92|3634.38898|0.12001|13
-@joele| 286.36780|1.26|2753.08901|0.11364|11
-@sepracore| 252.23341|1.11|2340.39204|0.11120|16
-@enginemaker| 230.97437|1.02|1556.32800|0.15597|26
-@master-lamps| 227.50385|1.00|1913.61001|0.13259|29
-@onlydoge| 209.63314|0.92|1455.98097|0.15063|24
-@bozz| 208.46443|0.92|1599.99998|0.13029|16
-@leovoter| 196.27339|0.87|1090.42004|0.18000|1
-@x30| 184.46652|0.81|1762.66001|0.11076|6
-@leotaker| 167.13144|0.74|1599.71201|0.10682|94
-@paydice| 134.39696|0.59|1018.59300|0.13842|32
-__others__|2015.83584|8.89|16884.77101|0.11471|620
-__Sum:__|22664.19823|100%|194053.76103|0.11561|1790
+Seller(Descending)|Earned $HIVE|% Earned $HIVE|Sold $LEO|Avg. Price|Number of Trades
+|-|-|-|-|-|-|
+@leovoter| 9649.65848|34.10 %|57438.44809|0.16800|10
+@konvik| 4509.70729|15.94 %|31387.21587|0.14653|177
+@god0| 1524.08145|5.39 %|10103.50701|0.14718|324
+@sbi-tokens| 1398.65920|4.94 %|9513.95390|0.14547|19
+@leosama| 891.08705|3.15 %|6340.00010|0.14046|8
+@azircon| 770.21055|2.72 %|5306.73493|0.14520|18
+@empoderat| 680.07935|2.40 %|5101.40608|0.13442|4
+@sepracore| 678.12794|2.40 %|4948.61898|0.13348|86
+@d-company| 595.40021|2.10 %|3999.99992|0.14885|9
+@yeouido.park| 592.58115|2.09 %|4338.56307|0.12838|52
+@enginemaker| 583.51527|2.06 %|3830.24997|0.15913|21
+@leomaker| 475.18305|1.68 %|3239.24400|0.14386|481
+@x30| 448.10442|1.58 %|3293.32003|0.13416|20
+@greywarden100| 430.89389|1.52 %|3067.74600|0.14610|18
+@leotaker| 375.16381|1.33 %|2586.47999|0.14594|178
+@caladan| 364.63356|1.29 %|2209.85300|0.16400|15
+@paydice| 301.44373|1.07 %|2055.95399|0.14582|21
+@onlydoge| 299.97310|1.06 %|2083.58302|0.14620|27
+@joele| 273.77617|0.97 %|1865.38101|0.14526|19
+@jelly13| 210.53224|0.74 %|1443.10598|0.14673|11
+__others__|3244.58681|11.47 %|23023.20503|0.14099|1098
+__Sum:__|28297.39872|100 %|187176.56997|0.14130|2616
 
 
 ## Price of the $LEO
 This figure shows the price of $LEO for the last period:
-![05_PriceOfLeo.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo2BRcX9yYzrMbNKi9N2hFjyhnv6mSb38e9LNMSJcUJVYcdMug1r44qUT1zJbA1ei6M.png)
+![05_PriceOfLeo.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jpokddtz58BowqND5YtvV8QzrfDnVUEKAw7xDfuvFTRCBXSv4B8Y7WUrayJRmFfW.png)
 
 ## $LEO Summarize Metrics
 
@@ -93,15 +91,12 @@ This table shows how much $HIVE was given by buy-requests, that where equal or h
 If the buy-requests where higher than the sell-requests, then money comes into the system and the value of the token increases.
 
 Under the total line one can see the sum of $HIVE and sum of $LEO that changed the ownership and the average price of $LEO for the last period.
-![06_TableOfLeoBuyVsSellRequest.png](https://files.peakd.com/file/peakd-hive/achimmertens/Enz3ttRSGeavuerBMsHNxujaVXwRLZSz6zf74aWMFtprisNi1isjdaHc8aCxKASaD2d.png)
-
-The average price of the token in the picture is wrong, actually it was:
 
 Request|Received Hive|Received HIVE %|Sold $LEO|Avg. Price
 |-|-|-|-|-|
-buy|13789.67351|60.84%|121164.20699|0.12113
-sell|8874.52475|39.16%|72889.55405|0.11722
-|sum: |22664.19826|100%|194053.76104|0.11918|
+buy|21173.51156|74.82%|136830.50998|0.14590
+sell|7123.88715|25.18%|50346.06005|0.13991
+|sum: |28297.398709999998|100%|187176.57003|0.14291|
 
 
 
@@ -110,22 +105,23 @@ sell|8874.52475|39.16%|72889.55405|0.11722
 ## $HIVE/Token
 This figure shows the value of $HIVE compared to some token for the last period. Be aware of the nonlinear (root square) y-axes.
 
-![01_HivePerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jn5CLPAHJZkdgdPNznbuZY83HdonXLfABXCu8FkBoSrGHqCFyRGRvSXgX8eeze1S.png)
+![01_HivePerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jo4trvkX1TbpLgMT5v3fiS9FtrAZb7mu4KkPbQcWWetgymC6JKvFXrpqkVUEVK5t.png)
 
 
 ## US-Dollar/Token
 This figure shows the value of $USD compared to some token for the last period. Be aware of the nonlinear (root square) y-axes.
 
-![02_USDPerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jn5CLPq36SGXuKZn6h9y2ppBF2nJpq8ePb24bhLcz9REc2xbaBiduB9KEsJKNVdP.png)
+![02_USDPerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jo4trvkXybuNeBJLypYfRDpheQAbRCmR2RpycoTQe2e8ZNVRzyoAnVbdVokyULRr.png)
 
-Rank 155
+The HIVE rank in Coinmarktecap is: 165
 
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tHbKgeEo2zMgQ5HjNeRsMWXMLPdoPtMnbSkFbxsU95sM2Y7RrztxDMNzZ7PzguMiWy9.png)
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tSyz38EhsL2Ku7H2KtqN4rSy8w2gRMQh29vgipdwMetJENtbeBgk6KF6jhjJNfKtviH.png)
+*[Origin](https://coinmarketcap.com/currencies/hive-blockchain/)*
 
 ## Table Of Token Prices in $HIVE and $USD
 This table shows the average value of the prices of the token for the last period. One can see Hive and the US-Dollar compared to the token.
 
-![03_TableOfTokenPrices.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo2BM1YVEXYS9GjfiJ48eDA469EcSK7xtb5urbsapbbzQ2jR85Mydo6AvTsST9UNKgF.png)
+![03_TableOfTokenPrices.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo2BM1YVEXE3RDMmrrqHuwAv29dwKZB1kvpEyMM4aXynCS4HzVdkVZXBtfLR1z5A38B.png)
 
 
 ----

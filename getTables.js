@@ -9,7 +9,7 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
   const buyersTableResult = await
     (async () => {
       const fetch = (await import('node-fetch')).default;
-      const response = await fetch(`http://raspi:9200/${token}/_search?size=10000`, {  //Todo: wenn mehr als 10000, dann darstellen
+      const response = await fetch(`http://raspi:9200/${token}/_search?size=1000`, {  
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -32,8 +32,8 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
                 "order": {
                   "1": "desc"
                 },
-                "missing": "__missing__",  //kann das weg?
-                "size": 1000 //Todo: Wenn mehr als 1000, soll dies dargestellt werden
+                "missing": "__missing__",  
+                "size": 4000 
               },
               "aggs": {
                 "1": {
@@ -59,8 +59,12 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
 
       const data = await response.json();
       const amount = data.hits.hits.length
-
-      console.log("Menge der Datensätze: ", amount)
+      if (amount > 4000) {
+        setTimeout(() => {
+        console.log('\x1b[31m **************************\n   WARNUNG !!!!\nEs sind mehr Datensätze vorhanden, als abgerufen werden !!!\n************************** \x1b[0m');
+        console.log("Menge der Datensätze: ", amount)
+      }, 5000);
+      }
       console.log("Inhalt des letzten Datensatzes: ", data.hits.hits[amount - 1])
       const buckets = data.aggregations.buyers.buckets;
       console.log(`Found ${buckets.length} buyers. Here is the number of trades for each buyer:`);
@@ -91,7 +95,7 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
           const buyer = bucket.key;
           const totalQuantity = bucket['3'].value.toFixed(5);
           const totalVolume = bucket['1'].value.toFixed(5);
-          const percVolume=(totalVolume*100/parseFloat(volumeSum)).toFixed(2);
+          const percVolume=(totalVolume*100/parseFloat(volumeSum)).toFixed(2)+" %";
           const avgPrice = bucket['4'].value.toFixed(5);
           avgPrTop20=avgPrTop20+parseFloat(avgPrice);
           const numberOfTrades = bucket.doc_count;
@@ -109,8 +113,8 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
       OtherAvgPr=(avgPr / (number - 20)).toFixed(5)
       otherVolPerc=(otherVol*100/parseFloat(volumeSum)).toFixed(2);
       totalAvgPr= ((avgPrTop20+avgPr)/number).toFixed(5);
-      buyersTable = buyersTable + `__others__|${otherVol}|${otherVolPerc}|${otherQuan}|${OtherAvgPr}|${otherTrades}\n`
-      buyersTable = buyersTable + `__Sum:__|${volumeSum}|100%|${quantitySum}|${totalAvgPr}|${otherTrades+numberOfTradesTop20}\n` //ToDo Othertrades
+      buyersTable = buyersTable + `__others__|${otherVol}|${otherVolPerc} %|${otherQuan}|${OtherAvgPr}|${otherTrades}\n`
+      buyersTable = buyersTable + `__Sum:__|${volumeSum}|100 %|${quantitySum}|${totalAvgPr}|${otherTrades+numberOfTradesTop20}\n` //ToDo Othertrades
      
       return buyersTable;
     })();
@@ -119,7 +123,7 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
   const sellersTableResult = await
     (async () => {
       const fetch = (await import('node-fetch')).default;
-      const response = await fetch(`http://raspi:9200/${token}/_search?size=10000`, {  //Todo: wenn mehr als 10000, dann darstellen
+      const response = await fetch(`http://raspi:9200/${token}/_search?size=10000`, {  
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -133,8 +137,8 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
                 "order": {
                   "1": "desc"
                 },
-                "missing": "__missing__",  //kann das weg?
-                "size": 1000 //Todo: Wenn mehr als 1000, soll dies dargestellt werden
+                "missing": "__missing__",  
+                "size": 4000 
               },
               "aggs": {
                 "1": {
@@ -183,8 +187,12 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
 
       const data = await response.json();
       const amount = data.hits.hits.length
-
-      console.log("Menge der Datensätze: ", amount)
+      if (amount > 4000) {
+        setTimeout(() => {
+          console.log(`**************************\n   WARNUNG !!!!\nEs sind mehr Datensätze vorhanden, als abgerufen werden !!!\n**************************`);
+        console.log("Menge der Datensätze: ", amount)
+      }, 5000);
+      }
       console.log("Inhalt des letzten Datensatzes: ", data.hits.hits[amount - 1])
       const buckets = data.aggregations.sellers.buckets;
       console.log(`Found ${buckets.length} sellers. Here is the number of trades for each seller:`);
@@ -216,7 +224,7 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
           const totalQuantity = bucket['3'].value.toFixed(5);
           const totalVolume = bucket['1'].value.toFixed(5);
           const avgPrice = bucket['4'].value.toFixed(5);
-          const percVolume=(totalVolume*100/parseFloat(volumeSum)).toFixed(2);
+          const percVolume=(totalVolume*100/parseFloat(volumeSum)).toFixed(2)+" %";
           const numberOfTrades = bucket.doc_count;
           numberOfTradesTop20=numberOfTradesTop20+parseInt(numberOfTrades);
           avgPrTop20=avgPrTop20+parseFloat(avgPrice);
@@ -233,8 +241,8 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
       OtherAvgPr=(avgPr / (number - 20)).toFixed(5)
       otherVolPerc=(otherVol*100/parseFloat(volumeSum)).toFixed(2);
       totalAvgPr= ((avgPrTop20+avgPr)/number).toFixed(5);
-      sellersTable = sellersTable + `__others__|${otherVol}|${otherVolPerc}|${otherQuan}|${OtherAvgPr}|${otherTrades}\n`
-      sellersTable = sellersTable + `__Sum:__|${volumeSum}|100%|${quantitySum}|${totalAvgPr}|${otherTrades+numberOfTradesTop20}\n`
+      sellersTable = sellersTable + `__others__|${otherVol}|${otherVolPerc} %|${otherQuan}|${OtherAvgPr}|${otherTrades}\n`
+      sellersTable = sellersTable + `__Sum:__|${volumeSum}|100 %|${quantitySum}|${totalAvgPr}|${otherTrades+numberOfTradesTop20}\n`
       return sellersTable;
     })();
 
@@ -243,7 +251,7 @@ module.exports = async function getTables(token, oneWeekAgoString, currentDateSt
   const buyVsSellResult = await
     (async () => {
       const fetch = (await import('node-fetch')).default;
-      const response = await fetch(`http://raspi:9200/${token}/_search?size=10000`, {  //Todo: wenn mehr als 10000, dann darstellen
+      const response = await fetch(`http://raspi:9200/${token}/_search?size=10000`, {  
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

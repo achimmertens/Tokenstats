@@ -7,8 +7,6 @@ here are the:
 # [TOKEN] Statistics for the last week:
 The timeframe is from [DATE_FRAME].
 
-(Some Data from 8. to 9. May is missing, sorry for that)
-
 ## Bought [TOKEN] By Time
 This figure shows who has bought how many [TOKEN] at which time:
 BILD_01
@@ -25,7 +23,7 @@ BILD_03
 
 ## Table Of Top 20 [TOKEN] Buyers
 This table shows the top ten buyers of [TOKEN] sorted by the $HIVE, they have spent:
-Buyer(Descending)|Sold $HIVE|% sold $HIVE|Bought [TOKEN]|Avg. Price|Number of Trades
+Buyer(Descending)|Sold $HIVE|% Sold $HIVE|Bought [TOKEN]|Avg. Price|Number of Trades
 |-|-|-|-|-|-|
 TABLE01
 
@@ -35,8 +33,8 @@ BILD_04
 
 ## Table Of Top 20 [TOKEN] Sellers
 This table shows the top ten sellers of [TOKEN] Sorted by the $HIVE, they have got:
-Seller(Descending)|Earned $HIVE|Sold [TOKEN]|Avg. Price|Number of Trades
-|-|-|-|-|-|
+Seller(Descending)|Earned $HIVE|% Earned $HIVE|Sold [TOKEN]|Avg. Price|Number of Trades
+|-|-|-|-|-|-|
 TABLE02
 
 ## Price of the [TOKEN]
@@ -49,9 +47,6 @@ This table shows how much $HIVE was given by buy-requests, that where equal or h
 If the buy-requests where higher than the sell-requests, then money comes into the system and the value of the token increases.
 
 Under the total line one can see the sum of $HIVE and sum of [TOKEN] that changed the ownership and the average price of [TOKEN] for the last period.
-BILD_06
-
-The average price of the token in the picture is wrong, actually it was:
 
 Request|Received Hive|Received HIVE %|Sold [TOKEN]|Avg. Price
 |-|-|-|-|-|
