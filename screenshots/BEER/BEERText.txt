@@ -5,85 +5,72 @@ Hello friends of $BEER, Friends of $HIVE and all others,
 here are the:
 
 # $BEER Statistics for the last week:
-The timeframe is from 2023-05-19 to 2023-06-02.
+The timeframe is from 2023-06-02 to 2023-06-09.
 
 ## Bought $BEER By Time
 This figure shows who has bought how many $BEER at which time:
-![01_BoughtALiveByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoAgyeeqX741eauqC8guwihnu1kvJGTPn9Tq36H5ocMvm8QcsBfZupP4N28f1ZAW8zw.png)
+![01_bought_beer_by_time.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jpokdcnu6uwqk4CQopkoW363FiWE9H4gc6eyj166tXeqHEMv25NtBbhcNxj45gxZ.png)
 
 ## Top $BEER Buyers and $HIVE Sellers
 The inside of the circle shows the buyers of $BEER, ordered by $HIVE they have spent. The outside shows the recipients of that $HIVE (sellers of $BEER):
-![02_TopTenAliveBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EokiyHBuoi8KjULjFMKDoiB9FJpu19iHEt5JiAFGj17pbPYczqQDcMsX1KsgDrhYvQL.png)
+![02_TopTenBeerBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoibZ5jkwZQzergHwkPYNERE2kR5PQr29ypWUFJJgPJx5vVXqE2joi6eVVkK1L6MKdw.png)
 
 
 ## Commulated Amount Of Bought $BEER Per Person
 This figure shows the top 10 $BEER buyers, how much they got and how much $HIVE they spend for this. It is sorted by $HIVE, that was spent:
-![03_CommulatedAmountOfBoughtAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoAgzd3G23o1oxrmJbScsXZnW2Dgmz7HhprjuDFLdA1mX67Zs3XaPQJWNAuaoYrpCJw.png)
+![03_CommulatedAmountOfBoughtBeer.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo6SCG4UbWtpZZDbyVQsdevvzeHJ7DcYzKwv5DBBRCCGcbTK1QrzHJAYwchoyds71pn.png)
 
 
 ## Table Of Top 20 $BEER Buyers
 This table shows the top ten buyers of $BEER sorted by the $HIVE, they have spent:
 Buyer(Descending)|Sold $HIVE|% Sold $HIVE|Bought $BEER|Avg. Price|Number of Trades
 |-|-|-|-|-|-|
-@thatgermandude| 19.98643|20.76 %|100.00000|0.19988|5
-@onlydoge| 15.00000|15.58 %|136.35124|0.11001|4
-@cloudblade| 9.76055|10.14 %|137.49191|0.07099|1
-@edkarnie| 7.92446|8.23 %|102.95156|0.07329|40
-@master-lamps| 6.84369|7.11 %|79.24404|0.08198|42
-@detlev| 4.40908|4.58 %|28.31769|0.17374|4
-@violator101| 3.99080|4.14 %|20.00000|0.19962|3
-@sumotori| 3.70000|3.84 %|18.50328|0.19996|2
-@zeeshannaqvi72| 3.62217|3.76 %|49.38064|0.07335|1
-@maryjane.main| 3.33776|3.47 %|44.97426|0.07422|9
-@seckorama| 2.72250|2.83 %|24.75000|0.11000|3
-@leosoph| 2.15250|2.24 %|13.50000|0.31550|4
-@coolsurfer| 1.94741|2.02 %|3.50000|0.55363|3
-@daveks| 1.78345|1.85 %|12.86822|0.19187|7
-@ana-maria| 1.54945|1.61 %|10.00000|0.12124|8
-@jemmarti| 1.51764|1.58 %|2.24058|0.41174|2
-@fon| 1.45519|1.51 %|5.43000|0.26799|1
-@hurtlocker| 1.40280|1.46 %|7.03757|0.19933|1
-@sunsea| 1.26294|1.31 %|3.43200|0.36799|3
-@jacobtothe| 0.73500|0.76 %|10.00000|0.07350|6
-__others__|1.18504|1.23 %|8.57433|0.29575|17
-__Sum:__|96.28886|100 %|818.54732|0.21053|166
+@edkarnie| 16.65626|59.08 %|238.81325|0.06986|28
+@oscarps| 3.54050|12.56 %|50.77952|0.06972|7
+@detlev| 3.42754|12.16 %|30.80000|0.10930|17
+@sumotori| 2.40000|8.51 %|16.00854|0.14992|1
+@cryptoninja-xz| 1.55663|5.52 %|10.50000|0.14249|2
+@master-lamps| 0.42691|1.51 %|6.11778|0.06980|10
+@synergized| 0.18470|0.66 %|1.71000|0.11874|10
+__others__|0|0.00 %|0|0.00000|0
+__Sum:__|28.19254|100 %|354.72909|0.12164|75
 
 
 ## Commulated Amount Of Sold $BEER Per Person
 This figure shows the top 10 $BEER Sellers, how much they sold and how much $HIVE they got for this, sorted by $HIVE:
-![04_CommulatedAmountOfSoldAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoEwo1WE6yPPXKiZ4PhofQxwdQNtXL94cr9gP9HEMjTsspSVmk1NsESwLFAvQVwi8y4.png)
+![04_CommulatedAmountOfSoldBeer.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo8ZbTHxxgcfgZKnSstmJ9uHUUbz5Tpeuhu1X5zDAJmPHhPBKojen5cPkBMk7VC4uAw.png)
 
 ## Table Of Top 20 $BEER Sellers
 This table shows the top ten sellers of $BEER Sorted by the $HIVE, they have got:
 Seller(Descending)|Earned $HIVE|% Earned $HIVE|Sold $BEER|Avg. Price|Number of Trades
 |-|-|-|-|-|-|
-@aurorum| 21.62173|22.46 %|203.11185|0.11197|5
-@alucian| 21.48680|22.31 %|277.56992|0.08337|19
-@onlydoge| 20.27119|21.05 %|95.81223|0.38314|6
-@master-lamps| 15.48619|16.08 %|95.12677|0.18591|23
-@thatgermandude| 2.67581|2.78 %|8.74700|0.31799|2
-@sumotori| 2.52197|2.62 %|18.00000|0.10980|2
-@mary-me| 1.77557|1.84 %|25.67001|0.06950|2
-@edkarnie| 1.31543|1.37 %|3.33021|0.39500|1
-@brofund| 1.28249|1.33 %|17.46989|0.07345|3
-@sunsea| 0.89746|0.93 %|1.20000|0.74788|1
-@elricmoonslayer| 0.78769|0.82 %|8.80102|0.08950|2
-@ph1102| 0.69245|0.72 %|1.51687|0.45650|1
-@gsauce1989| 0.62025|0.64 %|8.35753|0.07422|1
-@fredfettmeister| 0.41400|0.43 %|6.00000|0.06900|4
-@cryptofiloz| 0.35750|0.37 %|0.78313|0.45650|1
-@steem.services| 0.34348|0.36 %|4.75400|0.07250|2
-@oliverschmid| 0.31899|0.33 %|3.41170|0.09350|2
-@thatcryptodave| 0.31673|0.33 %|3.60415|0.08678|3
-@thelogicaldude| 0.28663|0.30 %|4.27800|0.06700|1
-@beeber| 0.26320|0.27 %|2.39275|0.11000|1
-__others__|2.55329|2.65 %|28.61030|0.11887|84
-__Sum:__|96.28885|100 %|818.54733|0.14281|166
+@gastontrussi| 13.34945|47.35 %|191.45865|0.06972|3
+@libertycrypto27| 4.35466|15.45 %|62.45660|0.06972|2
+@onlydoge| 3.95481|14.03 %|26.82460|0.12081|9
+@powerpaul| 1.46808|5.21 %|13.00153|0.11441|2
+@sumotori| 1.11821|3.97 %|16.00000|0.06986|5
+@harveyword| 0.55270|1.96 %|5.36603|0.10300|1
+@road2nowhere| 0.45956|1.63 %|3.83510|0.11983|1
+@ironshield| 0.39704|1.41 %|3.31337|0.11983|1
+@cryptoninja-xz| 0.38506|1.37 %|5.50000|0.07001|1
+@maryjane.tech4| 0.34757|1.23 %|4.98483|0.06972|1
+@diodao| 0.26186|0.93 %|3.03213|0.08636|2
+@eddiespino| 0.17028|0.60 %|2.44228|0.06972|1
+@jdike| 0.16369|0.58 %|1.21250|0.13500|1
+@steem.services| 0.15850|0.56 %|2.26400|0.07001|1
+@automaton| 0.15491|0.55 %|1.50400|0.10300|1
+@miketr| 0.14470|0.51 %|1.40490|0.10300|1
+@elevator09| 0.13723|0.49 %|1.96600|0.06980|1
+@thatcryptodave| 0.11810|0.42 %|1.69385|0.06973|2
+@kevm| 0.08716|0.31 %|1.25000|0.06972|1
+@shmoogleosukami| 0.05478|0.19 %|0.78600|0.06970|1
+__others__|0.35419|1.26 %|4.43271|0.08691|37
+__Sum:__|28.19254|100 %|354.72908|0.08765|75
 
 
 ## Price of the $BEER
 This figure shows the price of $BEER for the last period:
-![05_PriceOfAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jpokddtz58BowqCoNZLuVYHy7uRBQF2m7qekf3gYArE73eEBCbcGtBtrsoGbLgDA.png)
+![05_PriceOfBeer.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4JpokddqDTGrKSGDsifrHobPzrUbZTVNMaKLSF4p65rSvDW2cHq1eGvhg5jh1bDfW.png)
 
 ## $BEER Summarize Metrics
 
@@ -94,9 +81,9 @@ Under the total line one can see the sum of $HIVE and sum of $BEER that changed 
 
 Request|Received Hive|Received HIVE %|Sold $BEER|Avg. Price
 |-|-|-|-|-|
-sell|61.02251|63.37%|647.65939|0.10511
-buy|35.26634|36.63%|170.88793|0.23829
-|sum: |96.28885|100%|818.54732|0.17170|
+buy|20.22594|71.74%|258.71462|0.11220
+sell|7.96661|28.26%|96.01447|0.07961
+|sum: |28.19255|100%|354.72909000000004|0.09590|
 
 
 
@@ -115,7 +102,7 @@ This figure shows the value of $USD compared to some token for the last period. 
 
 The HIVE rank in Coinmarktecap is: 165
 
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tSyz38EhsL2Ku7H2KtqN4rSy8w2gRMQh29vgipdwMetJENtbeBgk6KF6jhjJNfKtviH.png)
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4JkCmxbwLERBbLN6rH3wKUooMtEFKNtf5bgiPj7R195ghUoFtN3sYY6fWJ1uhwCkm.png)
 *[Origin](https://coinmarketcap.com/currencies/hive-blockchain/)*
 
 ## Table Of Token Prices in $HIVE and $USD

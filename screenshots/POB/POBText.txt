@@ -5,85 +5,85 @@ Hello friends of $POB, Friends of $HIVE and all others,
 here are the:
 
 # $POB Statistics for the last week:
-The timeframe is from 2023-05-19 to 2023-06-02.
+The timeframe is from 2023-06-02 to 2023-06-09.
 
 ## Bought $POB By Time
 This figure shows who has bought how many $POB at which time:
-![01_BoughtPobByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EocDNh96Y1nCorVXoEJYwcWLPVj6t6BgykyfZy9bzES1n4d4LXHkVqTMuHvsKH6MseD.png)
+![01_BoughtPobByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoKCZKeHkJxCGocTnzonp5fvZuZU2EseJJnHCHaNQBczNdYm5wYekQyHTFpNYcAtxDP.png)
 
 ## Top $POB Buyers and $HIVE Sellers
 The inside of the circle shows the buyers of $POB, ordered by $HIVE they have spent. The outside shows the recipients of that $HIVE (sellers of $POB):
-![02_TopTenPobBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EogUAtix3fAcwPExtz6RqB3bpjK9CwhAp7aCKSQjP5ScdwgVrCAdaXETXL1aqH74Xjd.png)
+![02_TopTenPobBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EokixH4aqA2CbDUDudKpG1f5GgJopHWDHNNfMD9p1v3WUdSHTMfduU2HKnLSZaxZkex.png)
 
 
 ## Commulated Amount Of Bought $POB Per Person
 This figure shows the top 10 $POB buyers, how much they got and how much $HIVE they spend for this. It is sorted by $HIVE, that was spent:
-![03_CommulatedAmountOfBoughtPob.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoEwo2zQSZkqXhHj6syG78YpHTmWPU1kLPKVUXdp9u9f58Mvbkb6SRcCn6Skj9n6aUC.png)
+![03_CommulatedAmountOfBoughtPob.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoEwjCSqt7ZyVkJiz8DCuY5NKSYHuaJ7TPrk4bdG14uvPWUDFWKQtipuR6stMZ85fB8.png)
 
 
 ## Table Of Top 20 $POB Buyers
 This table shows the top ten buyers of $POB sorted by the $HIVE, they have spent:
 Buyer(Descending)|Sold $HIVE|% Sold $HIVE|Bought $POB|Avg. Price|Number of Trades
 |-|-|-|-|-|-|
-@coininstant| 812.54139|34.40 %|20289.71957|0.03912|197
-@all.coin.hive| 333.99524|14.14 %|8525.96950|0.03805|133
-@greywarden100| 239.77521|10.15 %|6113.64688|0.03963|53
-@anadolu| 148.41306|6.28 %|3632.50568|0.04029|60
-@balina| 138.65757|5.87 %|3703.14930|0.03755|164
-@pob.macro| 127.70827|5.41 %|3235.62983|0.03938|17
-@god0| 98.04181|4.15 %|2644.70325|0.03722|255
-@realbtcjesus| 97.48042|4.13 %|2610.53718|0.03736|77
-@mcbot| 93.40496|3.95 %|2320.27135|0.03910|25
-@thecryptolab| 36.70219|1.55 %|984.04405|0.03728|78
-@master-lamps| 24.02792|1.02 %|649.84937|0.03789|15
-@soonlambo| 22.43377|0.95 %|566.70534|0.03977|9
-@helios.trader| 22.23668|0.94 %|571.63712|0.03890|5
-@pob.voter| 21.03344|0.89 %|540.02800|0.03872|10
-@shiba.inu| 20.36131|0.86 %|518.96651|0.03936|16
-@iskawrites| 17.67144|0.75 %|463.99998|0.03807|3
-@deepresearch| 15.99251|0.68 %|400.00001|0.03996|4
-@pob.curator| 12.09788|0.51 %|309.19879|0.03817|20
-@onlydoge| 10.78905|0.46 %|281.96067|0.04012|2
-@centtoken| 9.25000|0.39 %|250.00000|0.03700|13
-__others__|59.74202|2.53 %|1547.39982|0.03982|138
-__Sum:__|2362.35614|100 %|60159.92220|0.03937|1294
+@balina| 147.27634|30.39 %|3990.11015|0.03676|212
+@coininstant| 107.86489|22.26 %|2848.62431|0.03734|65
+@god0| 75.63917|15.61 %|2034.47242|0.03682|193
+@mcbot| 35.91830|7.41 %|956.46782|0.03767|28
+@all.coin.hive| 35.73467|7.37 %|988.74789|0.03674|17
+@thecryptolab| 21.80478|4.50 %|591.91271|0.03651|60
+@anadolu| 20.73279|4.28 %|563.10280|0.03698|27
+@terra.luna| 10.82151|2.23 %|282.96313|0.03828|3
+@dalz| 10.00000|2.06 %|256.46445|0.03897|5
+@hive-102040| 4.48720|0.93 %|119.65856|0.03750|16
+@pob.voter| 3.30409|0.68 %|84.74792|0.03834|3
+@pobwarrior| 3.29999|0.68 %|84.61543|0.03900|2
+@pob.curator| 2.93663|0.61 %|80.69872|0.03652|6
+@yintercept| 1.30711|0.27 %|36.25015|0.03606|1
+@ugochill| 1.12853|0.23 %|29.00000|0.03892|7
+@julianhorack| 1.01223|0.21 %|27.00000|0.03749|1
+@drax.blogarchive| 0.74100|0.15 %|19.44891|0.03818|7
+@anarchy999| 0.30845|0.06 %|8.18213|0.03804|3
+@irivers| 0.14440|0.03 %|4.00000|0.03610|1
+@truth2| 0.10000|0.02 %|2.57069|0.03890|1
+__others__|0.09913|0.02 %|2.68635|0.05551|4
+__Sum:__|484.66121|100 %|13011.72454|0.03919|662
 
 
 ## Commulated Amount Of Sold $POB Per Person
 This figure shows the top 10 $POB Sellers, how much they sold and how much $HIVE they got for this, sorted by $HIVE:
-![04_CommulatedAmountOfSoldPob.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoEwn3MjFfR6dqrYCpgq3k6GroHiHih54yNMHxRLgRsQDHKHW2vsxvnhKVAruF6hiHo.png)
+![04_CommulatedAmountOfSoldPob.png](https://files.peakd.com/file/peakd-hive/achimmertens/EocDNhb2Jgi2vose7pJjypAqNRiPfz1F8nmEYn4CVNrAZz5MpAAJ1YVJeumvWzrx72S.png)
 
 ## Table Of Top 20 $POB Sellers
 This table shows the top ten sellers of $POB Sorted by the $HIVE, they have got:
 Seller(Descending)|Earned $HIVE|% Earned $HIVE|Sold $POB|Avg. Price|Number of Trades
 |-|-|-|-|-|-|
-@mcbot| 497.34805|21.05 %|12199.47063|0.03926|59
-@all.coin.hive| 316.66957|13.40 %|8104.76392|0.03956|15
-@god0| 227.69180|9.64 %|5529.86541|0.03931|58
-@anadolu| 138.77657|5.87 %|3548.01548|0.03871|7
-@coffeebuds| 109.15865|4.62 %|2662.41200|0.04101|15
-@vempromundo.pob| 91.73781|3.88 %|2439.92756|0.03765|4
-@balina| 58.35424|2.47 %|1466.35059|0.03978|26
-@thecryptolab| 51.66489|2.19 %|1304.57276|0.03974|17
-@michupa| 39.60825|1.68 %|1048.92970|0.03751|10
-@dswap| 39.36812|1.67 %|1047.18615|0.03759|46
-@tobetada| 32.24382|1.36 %|895.47329|0.03602|3
-@master-lamps| 28.03669|1.19 %|715.62070|0.03884|15
-@friendlymoose| 27.93448|1.18 %|751.72493|0.03654|7
-@luizeba| 26.33371|1.11 %|676.04852|0.03728|12
-@underlock| 22.16918|0.94 %|599.99999|0.03696|6
-@violator101| 20.62028|0.87 %|550.30535|0.03719|9
-@kevinnag58| 20.16053|0.85 %|520.27185|0.03875|1
-@davedickeyyall| 17.44324|0.74 %|464.99999|0.03752|10
-@george-dee| 16.88347|0.71 %|456.31007|0.03700|2
-@getc| 16.78662|0.71 %|440.73608|0.03805|2
-__others__|563.36615|23.85 %|14736.93730|0.03832|970
-__Sum:__|2362.35612|100 %|60159.92227|0.03832|1294
+@all.coin.hive| 57.35651|11.83 %|1508.86817|0.03850|2
+@anadolu| 37.29198|7.69 %|981.75772|0.03790|8
+@balina| 22.20743|4.58 %|587.08037|0.03835|17
+@dnagameroficial| 21.72963|4.48 %|576.66415|0.03768|10
+@dswap| 19.98778|4.12 %|554.70260|0.03625|19
+@mcbot| 19.34930|3.99 %|528.88386|0.03650|5
+@barretinn| 16.96976|3.50 %|471.34282|0.03601|5
+@getc| 16.78992|3.46 %|445.65538|0.03767|5
+@thecryptolab| 12.94127|2.67 %|338.91594|0.03863|10
+@god0| 11.90343|2.46 %|308.13376|0.03859|9
+@violator101| 10.37582|2.14 %|275.00135|0.03773|5
+@casagrande| 9.06560|1.87 %|244.21226|0.03720|4
+@kenechukwu97| 8.80255|1.82 %|242.21165|0.03645|5
+@bala41288| 8.15436|1.68 %|225.25455|0.03620|2
+@rubido| 8.11308|1.67 %|215.02537|0.03773|2
+@michupa| 7.87419|1.62 %|212.04198|0.03709|4
+@princessbusayo| 7.30131|1.51 %|200.00000|0.03651|2
+@beemd| 6.99559|1.44 %|190.42197|0.03643|6
+@elderdark| 6.57593|1.36 %|176.34218|0.03729|4
+@srleorio| 5.79893|1.20 %|148.72908|0.03899|2
+__others__|169.07686|34.89 %|4580.47943|0.03707|536
+__Sum:__|484.66123|100 %|13011.72459|0.03710|662
 
 
 ## Price of the $POB
 This figure shows the price of $POB for the last period:
-![05_PriceOfPob.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jpokddtz6D3LQ5zRrYvrGUjaTgc5e6GdqSLmQXpLjTv5kyC7SFtMJpZEwtufzgnn.png)
+![05_PriceOfPob.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo2BSgYesYAyTWLLiQtVGZbefyZPynHpUcDZAU6HAuK3i1rmnmEeahRZnhXAAZRzRHD.png)
 
 ## $POB Summarize Metrics
 
@@ -94,9 +94,9 @@ Under the total line one can see the sum of $HIVE and sum of $POB that changed t
 
 Request|Received Hive|Received HIVE %|Sold $POB|Avg. Price
 |-|-|-|-|-|
-sell|1495.87302|63.32%|38194.67095|0.03792
-buy|866.48311|36.68%|21965.25125|0.03948
-|sum: |2362.35613|100%|60159.9222|0.03870|
+sell|295.71899|61.02%|8021.28420|0.03681
+buy|188.94224|38.98%|4990.44036|0.03782
+|sum: |484.66123000000005|100%|13011.724559999999|0.03732|
 
 
 
@@ -115,7 +115,7 @@ This figure shows the value of $USD compared to some token for the last period. 
 
 The HIVE rank in Coinmarktecap is: 165
 
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tSyz38EhsL2Ku7H2KtqN4rSy8w2gRMQh29vgipdwMetJENtbeBgk6KF6jhjJNfKtviH.png)
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4JkCmxbwLERBbLN6rH3wKUooMtEFKNtf5bgiPj7R195ghUoFtN3sYY6fWJ1uhwCkm.png)
 *[Origin](https://coinmarketcap.com/currencies/hive-blockchain/)*
 
 ## Table Of Token Prices in $HIVE and $USD
