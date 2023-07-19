@@ -76,6 +76,10 @@ For more details see here: [How I Have Set Up Elasticsearch And Kibana On My Ras
 
 Here are the stats from the other tokens I observe: https://peakd.com/@achimmertens/posts?filter=stats
 
+--------
+
+The next three Weeks there will be no Reports due to my holliday, but I want to sum it up, when I come back.
+
 Regards, Achim Mertens
 
 Sumarize:

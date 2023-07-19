@@ -5,85 +5,85 @@ Hello friends of $ALIVE, Friends of $HIVE and all others,
 here are the:
 
 # $ALIVE Statistics for the last week:
-The timeframe is from 2023-06-02 to 2023-06-09.
+The timeframe is from 2023-06-16 to 2023-06-23.
 
 ## Bought $ALIVE By Time
 This figure shows who has bought how many $ALIVE at which time:
-![01_BoughtALiveByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoAgyeyAiaw88UP2YnpJFNf7AHjrrLUhQp6BeX8Sdy792US61aieawk4ZJPvjMQGNuv.png)
+![01_BoughtALiveByTime.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoAgzeboHyTn87yfqNgj97A48iJSmRFUDhDRzqDQu4RqhQWkQePwoSbLf6ttfAmPCbf.png)
 
 ## Top $ALIVE Buyers and $HIVE Sellers
 The inside of the circle shows the buyers of $ALIVE, ordered by $HIVE they have spent. The outside shows the recipients of that $HIVE (sellers of $ALIVE):
-![02_TopTenAliveBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoibZ5uS8RDjnBin2fxyovS73U8rKXocCPZfFS8HjQywytLRXaLhYuxKdpY46fd3asr.png)
+![02_TopTenAliveBuyers.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eoiba62mRBdtomDQLsmnpVSLbR8DWtVdpMKT9yzZY6Pg5FzE41taa7DD7X25K9tYEbb.png)
 
 
 ## Commulated Amount Of Bought $ALIVE Per Person
 This figure shows the top 10 $ALIVE buyers, how much they got and how much $HIVE they spend for this. It is sorted by $HIVE, that was spent:
-![03_CommulatedAmountOfBoughtAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo8ZZNy64z6bxuPzTRyAMyepMNBFpdaS3eZZTtSYBMtgjowhXJQLEFTWs5Wa2F7k5qk.png)
+![03_CommulatedAmountOfBoughtAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo8ZaTjgMeHJs2X84DJ1g6qrv625g8fdBEKJzCbi6dQNWbpUCebpBkyoTZfT1bSjDcv.png)
 
 
 ## Table Of Top 20 $ALIVE Buyers
 This table shows the top ten buyers of $ALIVE sorted by the $HIVE, they have spent:
 Buyer(Descending)|Sold $HIVE|% Sold $HIVE|Bought $ALIVE|Avg. Price|Number of Trades
 |-|-|-|-|-|-|
-@pwbanker| 610.70204|51.90 %|17215.49377|0.03813|60
-@onlydoge| 102.67657|8.73 %|2905.15700|0.03562|7
-@ironshield| 87.19059|7.41 %|2183.15002|0.03951|19
-@robertonis| 69.93462|5.94 %|1706.93519|0.04097|6
-@thecryptolab| 64.46387|5.48 %|1787.08639|0.03574|66
-@mcbot| 47.13279|4.01 %|1291.53000|0.03611|47
-@marketroll| 47.11785|4.00 %|1149.99998|0.04097|6
-@flaxz| 38.88272|3.30 %|997.58679|0.03852|22
-@master-lamps| 24.69612|2.10 %|706.52730|0.03497|18
-@imagenius.dac| 23.03877|1.96 %|599.99999|0.03840|3
-@aliveandthriving| 11.13114|0.95 %|295.70390|0.03692|9
-@edgerik| 4.97928|0.42 %|128.00000|0.03914|7
-@bajadera| 4.89204|0.42 %|139.77240|0.03500|4
-@hive-103505| 4.77488|0.41 %|113.08240|0.04141|4
-@chaosmagic23| 4.17689|0.35 %|100.05310|0.04175|2
-@oscarps| 4.00399|0.34 %|114.07350|0.03510|4
-@benefice-net| 3.74990|0.32 %|100.00000|0.03750|1
-@dailyspam| 3.55500|0.30 %|100.00000|0.03555|1
-@davidxxl| 3.50015|0.30 %|100.00000|0.03500|2
-@kam5iz| 3.28906|0.28 %|84.23220|0.03944|2
-__others__|12.83074|1.09 %|348.55180|0.04021|56
-__Sum:__|1176.71901|100 %|32166.93573|0.03893|346
+@pwbanker| 537.38636|53.15 %|10652.66145|0.05653|185
+@onlydoge| 118.37795|11.71 %|2286.52577|0.05126|9
+@benthomaswwd| 66.81458|6.61 %|1489.92121|0.05187|5
+@mcbot| 51.46218|5.09 %|974.08210|0.04851|67
+@roger.remix| 50.56229|5.00 %|1267.90679|0.03988|7
+@thecryptolab| 49.12586|4.86 %|1333.99690|0.03652|17
+@imagenius.dac| 38.11803|3.77 %|970.00000|0.03896|9
+@gadrian| 23.84189|2.36 %|531.00001|0.04490|4
+@aliveandthriving| 13.13593|1.30 %|333.96951|0.04242|3
+@flaxz| 10.12385|1.00 %|272.50800|0.03713|3
+@lotto-de| 8.56692|0.85 %|164.48850|0.04640|7
+@edgerik| 6.56670|0.65 %|100.00000|0.06722|8
+@master-lamps| 4.85098|0.48 %|107.67990|0.04505|2
+@hive-103505| 3.90200|0.39 %|75.30660|0.05486|4
+@cursephantom| 3.68959|0.36 %|72.28050|0.04987|5
+@davidxxl| 3.60511|0.36 %|100.00000|0.03605|1
+@investinthefutur| 3.33273|0.33 %|74.22560|0.04490|2
+@penyaircyber| 2.95407|0.29 %|59.00000|0.05007|3
+@gestion.alive| 2.51416|0.25 %|63.15010|0.03982|3
+@tuisada| 2.39150|0.24 %|47.68220|0.05015|1
+__others__|9.76561|0.97 %|210.62010|0.05836|39
+__Sum:__|1011.08829|100 %|21187.00524|0.05079|384
 
 
 ## Commulated Amount Of Sold $ALIVE Per Person
 This figure shows the top 10 $ALIVE Sellers, how much they sold and how much $HIVE they got for this, sorted by $HIVE:
-![04_CommulatedAmountOfSoldAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo8ZZNy64yfSEcjCJeVdLJbmN6AQb224gRHTPHia6kWbww7FLWbHM5qowJqnL4NFnAy.png)
+![04_CommulatedAmountOfSoldAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/EocDFcSNDj1JDhhbFvmRtrvjHbe4rQLLAtjjn4iL57Vj3kqi47dEL4F2tPuGQwnPupp.png)
 
 ## Table Of Top 20 $ALIVE Sellers
 This table shows the top ten sellers of $ALIVE Sorted by the $HIVE, they have got:
 Seller(Descending)|Earned $HIVE|% Earned $HIVE|Sold $ALIVE|Avg. Price|Number of Trades
 |-|-|-|-|-|-|
-@masoom| 589.08241|50.06 %|16790.00002|0.03562|30
-@pwbanker| 180.05469|15.30 %|4917.39735|0.03649|43
-@onlydoge| 158.02102|13.43 %|3984.36114|0.03939|12
-@thecryptolab| 101.14675|8.60 %|2595.77732|0.03923|39
-@mcbot| 51.10526|4.34 %|1290.26329|0.04004|43
-@master-lamps| 33.31416|2.83 %|839.87930|0.03850|14
-@jlufer| 16.51746|1.40 %|473.20010|0.03496|20
-@oscarps| 11.74191|1.00 %|291.90391|0.03996|4
-@gank| 3.16888|0.27 %|87.61510|0.03626|3
-@hive-103505| 2.51042|0.21 %|71.61720|0.03504|5
-@urri2020| 2.27374|0.19 %|63.15780|0.03600|1
-@yonnathang| 2.18513|0.19 %|64.26560|0.03400|2
-@florakese| 1.98379|0.17 %|56.11380|0.03699|3
-@bambukah| 1.87454|0.16 %|52.15720|0.03664|4
-@lxsxl| 1.86043|0.16 %|50.53040|0.03681|2
-@steem-holder| 1.27989|0.11 %|32.51620|0.03930|7
-@brofund| 1.21961|0.10 %|33.01990|0.03688|4
-@apoloo1| 1.18304|0.10 %|27.53180|0.04297|1
-@dibblers.dabs| 1.09884|0.09 %|30.10510|0.03650|1
-@zoe24| 0.99986|0.08 %|26.31200|0.03800|2
-__others__|14.09715|1.20 %|389.21120|0.03682|106
-__Sum:__|1176.71898|100 %|32166.93573|0.03699|346
+@pwbanker| 173.34573|17.14 %|3791.87101|0.04711|25
+@master-lamps| 149.44179|14.78 %|3148.99100|0.04907|9
+@onlydoge| 114.23021|11.30 %|2373.57804|0.05877|10
+@ironshield| 102.57705|10.15 %|1901.80589|0.05596|14
+@thecryptolab| 64.35311|6.36 %|1603.05520|0.04245|33
+@arhus-847| 58.47185|5.78 %|739.00000|0.07392|24
+@ben.haase| 54.04356|5.35 %|1083.81680|0.04476|7
+@mcbot| 49.79548|4.92 %|951.53690|0.06014|56
+@voltz-blag| 34.76771|3.44 %|872.00879|0.03987|3
+@urri2020| 28.15201|2.78 %|685.37051|0.04262|7
+@alokkumar121| 21.93146|2.17 %|547.86200|0.04003|2
+@jlufer| 21.74493|2.15 %|496.38310|0.04759|15
+@reeta0119| 20.96961|2.07 %|418.77501|0.05010|8
+@dmhafiz| 18.65158|1.84 %|407.65730|0.04568|11
+@castri-ja| 17.88224|1.77 %|495.91530|0.03606|4
+@synergized| 9.41148|0.93 %|180.26520|0.05855|4
+@worldfinances| 7.88887|0.78 %|157.30549|0.05015|4
+@fantagira7| 6.96000|0.69 %|116.00000|0.06000|3
+@vocup| 5.69985|0.56 %|100.00000|0.05700|2
+@iamraincrystal| 4.49809|0.44 %|100.00000|0.04498|1
+__others__|46.27163|4.58 %|1015.80770|0.04850|142
+__Sum:__|1011.08824|100 %|21187.00524|0.04889|384
 
 
 ## Price of the $ALIVE
 This figure shows the price of $ALIVE for the last period:
-![05_PriceOfAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo6SDzz7gWCkTkcRTVt4QYvzvqXBXGjee8jaKxYK8eLgTHC49BUr1oX2UfapCPRVcGt.png)
+![05_PriceOfAlive.png](https://files.peakd.com/file/peakd-hive/achimmertens/Enz3ttRSBV4TvEGvshSw2o9xi1QTrnDhygjEksBEL55MNYL9h7ob1dXAyf6F7r7kawR.png)
 
 ## $ALIVE Summarize Metrics
 
@@ -94,9 +94,9 @@ Under the total line one can see the sum of $HIVE and sum of $ALIVE that changed
 
 Request|Received Hive|Received HIVE %|Sold $ALIVE|Avg. Price
 |-|-|-|-|-|
-sell|783.44139|66.58%|22217.58595|0.03581
-buy|393.27760|33.42%|9949.34979|0.03955
-|sum: |1176.7189899999998|100%|32166.93574|0.03768|
+buy|622.97848|61.61%|12988.22176|0.05478
+sell|388.10980|38.39%|8198.78349|0.04897
+|sum: |1011.0882799999999|100%|21187.005250000002|0.05188|
 
 
 
@@ -105,23 +105,24 @@ buy|393.27760|33.42%|9949.34979|0.03955
 ## $HIVE/Token
 This figure shows the value of $HIVE compared to some token for the last period. Be aware of the nonlinear (root square) y-axes.
 
-![01_HivePerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jo4trvkX1TbpLgMT5v3fiS9FtrAZb7mu4KkPbQcWWetgymC6JKvFXrpqkVUEVK5t.png)
+![01_HivePerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo6SBGWD3hpKKAEb6s9RhtsrgDvPThL7Ui9VZRY8X7BRzkmfBTxb1nvHXdQKzPof6Cs.png)
 
 
 ## US-Dollar/Token
 This figure shows the value of $USD compared to some token for the last period. Be aware of the nonlinear (root square) y-axes.
 
-![02_USDPerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jo4trvkXybuNeBJLypYfRDpheQAbRCmR2RpycoTQe2e8ZNVRzyoAnVbdVokyULRr.png)
+![02_USDPerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo6SBGRpSx94HNdtrkGwabsrd8fogoAnsQE4XyQwSuPK8iCundZbjKLFHhr75E8YCrg.png)
 
-The HIVE rank in Coinmarktecap is: 165
+The HIVE rank in Coinmarktecap is: 150
 
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4JkCmxbwLERBbLN6rH3wKUooMtEFKNtf5bgiPj7R195ghUoFtN3sYY6fWJ1uhwCkm.png)
+
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo2BJ5euayL8szYUPCT5XFFzMLBTQ4TLZnwtaRjmUwGFpCCro9nzf6Qa8A6fHofExGT.png)
 *[Origin](https://coinmarketcap.com/currencies/hive-blockchain/)*
 
 ## Table Of Token Prices in $HIVE and $USD
 This table shows the average value of the prices of the token for the last period. One can see Hive and the US-Dollar compared to the token.
 
-![03_TableOfTokenPrices.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo2BM1YVEXE3RDMmrrqHuwAv29dwKZB1kvpEyMM4aXynCS4HzVdkVZXBtfLR1z5A38B.png)
+![03_TableOfTokenPrices.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo2BM1YVEXZQHb7wJEoG3i7V4Zeo8Jp82BWuXLBdY1Ae7JNFcjTpSXTvcWxwWmFcwaD.png)
 
 
 ----
@@ -142,6 +143,10 @@ If you want to see other statistics (even from totaly other data), please contac
 For more details see here: [How I Have Set Up Elasticsearch And Kibana On My Raspberry Pi To Monitor Token Activities](https://peakd.com/hive-122315/@achimmertens/how-i-have-set-up-elasticsearch-and-kibana-on-my-raspberry-pi-to-monitor-token-activities) and here: [Do You Want To See Statistics Of Your Favorite HIVE Token?](https://peakd.com/hive-167922/@achimmertens/do-you-want-to-see-statistics-of-your-favorite-hive-token) or on [github](https://github.com/achimmertens/HiveTokenELK/tree/master).
 
 Here are the stats from the other tokens I observe: https://peakd.com/@achimmertens/posts?filter=stats
+
+--------
+
+The next three Weeks there will be no Reports due to my holliday, but I want to sum it up, when I come back.
 
 Regards, Achim Mertens
 

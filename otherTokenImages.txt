@@ -1,5 +1,6 @@
-![01_HivePerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jo4trvkX1TbpLgMT5v3fiS9FtrAZb7mu4KkPbQcWWetgymC6JKvFXrpqkVUEVK5t.png)
 
-![03_TableOfTokenPrices.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo2BM1YVEXE3RDMmrrqHuwAv29dwKZB1kvpEyMM4aXynCS4HzVdkVZXBtfLR1z5A38B.png)
+![01_HivePerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo6SBGWD3hpKKAEb6s9RhtsrgDvPThL7Ui9VZRY8X7BRzkmfBTxb1nvHXdQKzPof6Cs.png)
 
-![02_USDPerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4Jo4trvkXybuNeBJLypYfRDpheQAbRCmR2RpycoTQe2e8ZNVRzyoAnVbdVokyULRr.png)
+![03_TableOfTokenPrices.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo2BM1YVEXZQHb7wJEoG3i7V4Zeo8Jp82BWuXLBdY1Ae7JNFcjTpSXTvcWxwWmFcwaD.png)
+
+![02_USDPerToken.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo6SBGRpSx94HNdtrkGwabsrd8fogoAnsQE4XyQwSuPK8iCundZbjKLFHhr75E8YCrg.png)
