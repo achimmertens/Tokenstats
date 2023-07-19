@@ -1,5 +1,5 @@
-{
-  "dependencies": {
+{  
+    "dependencies": {
     "file-saver": "^2.0.5",
     "node-fetch": "^3.3.1",
     "selenium-webdriver": "^4.8.2"
