@@ -1,6 +1,3 @@
-// const fetch = require('node-fetch');
-// import fetch from 'node-fetch';
-const fetch = (await import('node-fetch')).default;
 const { authHeader } = require('./config'); // Pfade entsprechend anpassen
 
 async function getAuthorizationToken() {
@@ -18,7 +15,7 @@ async function getAuthorizationToken() {
     }
 
     const data = await response.json();
-
+    console.log("data = ", data);
     // Extrahiere den Autorisierungs-Token aus der Antwort
     const authToken = data.authorizationToken;
 
