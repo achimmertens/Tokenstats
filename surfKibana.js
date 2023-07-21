@@ -7,6 +7,10 @@
 const { Builder, By, key, until } = require('selenium-webdriver');
 const fs = require('fs');
 const rimraf = require('rimraf');
+let currentDate = new Date();
+let currentDateString = currentDate.toISOString().slice(0, 10)
+const screenshotsFolder = './screenshots_'+currentDateString+'/'
+console.log("currenDateString =", currentDateString);
 const token = ['Alive', 'BEER', 'BEERBot', 'LEO', 'POB', 'SPT', 'Token'];  //Namen der Ordner
 const queries =
     [
@@ -55,18 +59,6 @@ const queries =
     ]
 let driver;
 
-
-Promise.all([
-    runallFunctions()
-]).then(() => {
-    console.log("Alle Funktionen wurden ausgeführt");
-    driver.quit();
-}).catch((err) => {
-    console.log("Ein Fehler ist aufgetreten: ", err);
-    driver.quit();
-});
-
-
 async function runallFunctions() {
     await deleteDirs();
     try {
@@ -81,8 +73,8 @@ async function runallFunctions() {
             await new Promise(resolve => setTimeout(resolve, 1500));  // be sure, that everything is loaded
             await driver.manage().window().setRect({ width: 1024, height: 768 });
             const image = await driver.takeScreenshot();
-            await fs.promises.writeFile('./screenshots/' + filename + '.png', image, 'base64');
-            console.log("The image ./screenshot/" + filename + " has been saved.");
+            await fs.promises.writeFile(screenshotsFolder + filename + '.png', image, 'base64');
+            console.log("The image " +screenshotsFolder + filename + ".png has been saved.");
         }
         await driver.quit();
     } catch (err) {
@@ -91,8 +83,8 @@ async function runallFunctions() {
 }
 
 async function deleteDirs() {
-    if (!fs.existsSync('./screenshots')) {
-        fs.mkdirSync('./screenshots');
+    if (!fs.existsSync(screenshotsFolder)) {
+        fs.mkdirSync(screenshotsFolder);
     }
     for (const dirPath of token) {
         try {
@@ -111,7 +103,7 @@ async function deleteDirs() {
 
 async function deleteDirRecursive(dirPath) {
     return new Promise((resolve, reject) => {
-        rimraf('./screenshots/' + dirPath, (err) => {
+        rimraf(screenshotsFolder + dirPath, (err) => {
             if (err) {
                 reject(err);
                 console.log("Es gab einen Fehler beim Löschen des Ordners.")
@@ -123,10 +115,10 @@ async function deleteDirRecursive(dirPath) {
 }
 
 function createDirs(token) {
-    fs.access('./screenshots/' + token, (err) => {
+    fs.access(screenshotsFolder + token, (err) => {
         if (err) {
             if (err.code === 'ENOENT') {
-                fs.mkdir('./screenshots/' + token, (err) => {
+                fs.mkdir(screenshotsFolder + token, (err) => {
                     if (err) throw err;
                     console.log(`${token} Ordner erstellt!`);
                 });
@@ -138,3 +130,18 @@ function createDirs(token) {
         }
     });
 }
+
+// main
+async function main() {
+    Promise.all([
+        runallFunctions()
+    ]).then(() => {
+        console.log("Alle Funktionen wurden ausgeführt");
+        driver.quit();
+    }).catch((err) => {
+        console.log("Ein Fehler ist aufgetreten: ", err);
+        driver.quit();
+    });
+    }
+
+main();   
