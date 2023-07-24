@@ -1,13 +1,11 @@
 const { authHeader } = require('./config'); 
 const fs = require('fs');
 const crypto = require('crypto');
-
 const bucketId="d86af4770152d3218e8d0b1b";
 const url = 'https://api.backblazeb2.com/b2api/v2/b2_authorize_account';
-var filefolder = "screenshots\/Alive"
-var filename = "01_BoughtALiveByTime.png"
-var fileToUpload = filefolder+"\/"+filename;
+
 console.log('---------- Results of getAUthorizationToken ----------');
+
 async function getAuthorizationToken() {
   try {
     const response = await fetch(url, {
@@ -79,13 +77,12 @@ async function calculateSHA1(fileToUpload) {
 }
 
 // Upload File to BackBlaze
-async function uploadFile(uploadAuthToken, uploadUrl, SHA1) {
+async function uploadFile(fileToUpload, uploadAuthToken, uploadUrl, SHA1) {
   const mime_Type="b2/x-auto";
   const author = 'AchimMertens'
   // curl -H "Authorization: %UPLOAD_AUTHORIZATION_TOKEN%" -H "X-Bz-File-Name: %FILE_TO_UPLOAD%" -H "Content-Type: %MIME_TYPE%" -H "X-Bz-Content-Sha1: %SHA1_OF_FILE%" -H "X-Bz-Info-Author: unknown" --data-binary "@%FILE_TO_UPLOAD%" %UPLOAD_URL%
-  const file = filefolder + '/' + encodeURIComponent(filename);
+  //const fileToUpload = fileFolder + '/' + encodeURIComponent(fileName);
   console.log('---------- Results of uploadFile ----------')
-  console.log ('filename = ', file);
   console.log('fileToUpload = ',fileToUpload)
   const fileContent = fs.readFileSync(fileToUpload);
   try {
@@ -93,7 +90,7 @@ async function uploadFile(uploadAuthToken, uploadUrl, SHA1) {
       method: 'POST',
       headers: {
         'Authorization': uploadAuthToken,
-        'X-Bz-File-Name': file,
+        'X-Bz-File-Name': fileToUpload,
         'Content-Type': mime_Type,
         'X-Bz-Content-Sha1': SHA1,
         'X-Bz-Info-Author': author,
@@ -121,7 +118,13 @@ async function uploadFile(uploadAuthToken, uploadUrl, SHA1) {
 
 
 // main
-async function main() {
+async function  uploadFileToBackBlaze (fileFolder, fileName)  {
+  //var filefolder = "screenshots\/Alive"
+  //var filename = "01_BoughtALiveByTime.png"
+  console.log ("---------- Aufruf der Methode uploadFileToBackBlaze ---------")
+  const fileToUpload = fileFolder + '/' + encodeURIComponent(fileName);
+  console.log('fileName = ',fileName)
+  console.log('fileToUpload = ',fileToUpload)
   const SHA = await calculateSHA1(fileToUpload);
   if (SHA) {
     console.log ("SHA = ", SHA)
@@ -139,15 +142,13 @@ async function main() {
       const {uploadUrl, uploadAuthToken} = uploadResult;
       console.log('UploadUrl = ', uploadUrl);
       console.log('uploadAuthToken = ',uploadAuthToken);
-      uploadFile(uploadAuthToken, uploadUrl, SHA)
+      uploadFile(fileToUpload, uploadAuthToken, uploadUrl, SHA)
     } else {
       console.log('Fehler beim Abrufen der Methote GetUploadURL');
     }
   } else {
     console.log('Fehler beim Abrufen des Authorization-Tokens');
-  }
-
-  
+  }  
 }
-
-main();
+module.exports = { uploadFileToBackBlaze };
+//main();
