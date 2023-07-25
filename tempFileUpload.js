@@ -31,6 +31,10 @@ async function file01 (uploadAuthToken){
   }
 }
 
+// Funktion, um eine Pause einzufügen
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 
 async function main() {
@@ -43,6 +47,9 @@ async function main() {
   var fileName = '01_BoughtALiveByTime.png';
 
   await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)
+    // Pause von 1 Sekunden
+    console.log('Warte 1 Sekunden...');
+    await sleep(1000);
 
   fileName = '02_TopTenBeerBuyers.png'; // Hier den gewünschten Dateinamen eintragen
   fileFolder = "screenshots_2023-07-21\/BEER";
