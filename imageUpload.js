@@ -1,12 +1,12 @@
-const { authHeader } = require('./config'); 
+const { authHeader } = require('./config');
 const fs = require('fs');
 const crypto = require('crypto');
-const bucketId="d86af4770152d3218e8d0b1b";
+const bucketId = "d86af4770152d3218e8d0b1b";
 const url = 'https://api.backblazeb2.com/b2api/v2/b2_authorize_account';
-var uploadAuthToken ='';
-var apiUrl='';
-var uploadUrl='';
-var uploadAuthToken='';
+var uploadAuthToken = '';
+var apiUrl = '';
+var uploadUrl = '';
+var uploadAuthToken = '';
 
 console.log('---------- Results of getAUthorizationToken ----------');
 
@@ -24,7 +24,7 @@ async function getAuthorizationToken() {
     console.log("data = ", data);
     const authToken = data.authorizationToken;
     const apiUrl = data.apiUrl
-    return {authToken, apiUrl};
+    return { authToken, apiUrl };
   } catch (error) {
     console.error(error.message);
     return null;
@@ -32,7 +32,7 @@ async function getAuthorizationToken() {
 }
 
 async function getUploadURL(authToken, apiUrl) {
-  const url = apiUrl+'/b2api/v2/b2_get_upload_url';
+  const url = apiUrl + '/b2api/v2/b2_get_upload_url';
   console.log('---------- Results of getUploadURL ----------')
   try {
     const response = await fetch(url, {
@@ -53,8 +53,8 @@ async function getUploadURL(authToken, apiUrl) {
     console.log("data = ", data);
     const uploadUrl = data.uploadUrl;
     const uploadAuthToken = data.authorizationToken
-    console.log ("Die beiden Werte lauten: ", uploadUrl, uploadAuthToken);
-    return {uploadUrl, uploadAuthToken};
+    console.log("Die beiden Werte lauten: ", uploadUrl, uploadAuthToken);
+    return { uploadUrl, uploadAuthToken };
   } catch (error) {
     console.error(error.message);
     return null;
@@ -83,13 +83,13 @@ async function calculateSHA1(fileToUpload) {
 
 // Upload File to BackBlaze
 async function uploadFile(fileToUpload, uploadAuthToken, uploadUrl, SHA1) {
-  const mime_Type="b2/x-auto";
+  const mime_Type = "b2/x-auto";
   const author = 'AchimMertens'
   // curl -H "Authorization: %UPLOAD_AUTHORIZATION_TOKEN%" -H "X-Bz-File-Name: %FILE_TO_UPLOAD%" -H "Content-Type: %MIME_TYPE%" -H "X-Bz-Content-Sha1: %SHA1_OF_FILE%" -H "X-Bz-Info-Author: unknown" --data-binary "@%FILE_TO_UPLOAD%" %UPLOAD_URL%
   //const fileToUpload = fileFolder + '/' + encodeURIComponent(fileName);
   console.log('---------- Results of uploadFile ----------')
-  console.log('fileToUpload = ',fileToUpload)
-  console.log('uploadAuthToken = ',uploadAuthToken)
+  console.log('fileToUpload = ', fileToUpload)
+  console.log('uploadAuthToken = ', uploadAuthToken)
   const fileContent = fs.readFileSync(fileToUpload);
   try {
     const response = await fetch(uploadUrl, {
@@ -119,55 +119,48 @@ async function uploadFile(fileToUpload, uploadAuthToken, uploadUrl, SHA1) {
   }
 }
 
-
+async function getTokenAndUrl(){
+  const result = await getAuthorizationToken();
+      if (result) {
+        const { authToken, apiUrl } = result;
+        console.log('Authorization-Token:', authToken);
+        console.log('API-URL:', apiUrl);
+        const uploadResult = await getUploadURL(authToken, apiUrl);
+        if (uploadResult) {
+          const {uploadUrl, uploadAuthToken} = uploadResult;
+          console.log('UploadUrl = ', uploadUrl);
+          console.log('uploadAuthToken innerhalb von getTokenAndUrl = ',uploadAuthToken);
+          return {uploadAuthToken, uploadUrl}
+        } else {
+          console.log('Fehler beim Abrufen der Methote GetUploadURL');
+        }
+      } else {
+        console.log('Fehler beim Abrufen des Authorization-Tokens');
+      }  
+}
 
 
 
 // main
-async function  uploadFileToBackBlaze (uploadAuthToken, fileFolder, fileName)  {
-  //var filefolder = "screenshots\/Alive"
-  //var filename = "01_BoughtALiveByTime.png"
-  console.log ("---------- Aufruf der Methode uploadFileToBackBlaze ---------")
-  const fileToUpload = fileFolder + '/' + encodeURIComponent(fileName);
-  console.log('fileName = ',fileName)
-  console.log('fileToUpload = ',fileToUpload)
-  const SHA = await calculateSHA1(fileToUpload);
-  if (SHA) {
-    console.log ("SHA = ", SHA)
-  } else {
-    console.log('Fehler beim Abrufen der Methote calculateSHA1');
-  }
-  console.log ("Der UploadAuthtoken lautet hier: ", uploadAuthToken)
-  if (uploadAuthToken ==''){
-    const result = await getAuthorizationToken();
-    if (result) {
-      let { authToken, apiUrl } = result;
-      console.log('Authorization-Token:', authToken);
-      console.log('API-URL:', apiUrl);
-      const uploadResult = await getUploadURL(authToken, apiUrl);
-      if (uploadResult) {
-        console.log ("uploadResult = ", uploadResult);
-        let {uploadUrl, uploadAuthToken} = uploadResult;
-        console.log('UploadUrl = ', uploadUrl);
-        console.log('uploadAuthToken (main) = ',uploadAuthToken);
-        uploadFile(fileToUpload, uploadAuthToken, uploadUrl, SHA)
-      } else {
-        console.log('Fehler beim Abrufen der Methote GetUploadURL');
-      }
-    } else {
-      console.log('Fehler beim Abrufen des Authorization-Tokens');
-    }  
-  }   else {
-    console.log ("Der UploadAuthToken war nicht leer.")
-    uploadFile(fileToUpload, uploadAuthToken, uploadUrl, SHA)
-      } 
-    console.log("Der zu returnierende uploadAuthToken lautet:", uploadAuthToken)
-  return uploadAuthToken;
-  }
+async function uploadFileToBackBlaze(fileFolder, fileName, authToken, uploadUrl) {
+    // Dateiinhalt lesen
+    const fs = require('fs');
+    const fileToUpload = `${fileFolder}/${fileName}`;
+    const fileContent = fs.readFileSync(fileToUpload);
+
+    // SHA-1 Hash des Dateiinhalts berechnen
+    const sha1Hash = crypto.createHash('sha1').update(fileContent).digest('hex');
+    console.log("Der sha1Hash Wert in uploadFileToBackBlaze lautet: ", sha1Hash);
+
+    uploadFile(fileToUpload, authToken, uploadUrl, sha1Hash)
+}
+
+
   
 
 
 
 
-module.exports = { uploadFileToBackBlaze };
-//main();
+module.exports = { uploadFileToBackBlaze, getTokenAndUrl };
+  //main();
+
