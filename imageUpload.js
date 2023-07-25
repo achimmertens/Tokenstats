@@ -3,14 +3,9 @@ const fs = require('fs');
 const crypto = require('crypto');
 const bucketId = "d86af4770152d3218e8d0b1b";
 const url = 'https://api.backblazeb2.com/b2api/v2/b2_authorize_account';
-var uploadAuthToken = '';
-var apiUrl = '';
-var uploadUrl = '';
-var uploadAuthToken = '';
-
-console.log('---------- Results of getAUthorizationToken ----------');
 
 async function getAuthorizationToken() {
+  console.log('---------- Results of getAUthorizationToken ----------');
   try {
     const response = await fetch(url, {
       headers: {
@@ -61,8 +56,6 @@ async function getUploadURL(authToken, apiUrl) {
   }
 }
 
-
-
 // Funktion, die den SHA-Wert berechnet
 async function calculateSHA1(fileToUpload) {
   return new Promise((resolve, reject) => {
@@ -100,7 +93,6 @@ async function uploadFile(fileToUpload, uploadAuthToken, uploadUrl, SHA1) {
         'Content-Type': mime_Type,
         'X-Bz-Content-Sha1': SHA1,
         'X-Bz-Info-Author': author,
-
       },
       body: fileContent
     });
@@ -111,8 +103,6 @@ async function uploadFile(fileToUpload, uploadAuthToken, uploadUrl, SHA1) {
     }
     const data = await response.json();
     console.log("data upload = ", data);
-    //const uploadUrl = data.uploadUrl;
-    //return uploadAuthToken;
   } catch (error) {
     console.error(error.message);
     return null;
@@ -128,7 +118,7 @@ async function getTokenAndUrl(){
         const uploadResult = await getUploadURL(authToken, apiUrl);
         if (uploadResult) {
           const {uploadUrl, uploadAuthToken} = uploadResult;
-          console.log('UploadUrl = ', uploadUrl);
+          console.log('UploadUrl innerhalb von getTokenAndUrl = ', uploadUrl);
           console.log('uploadAuthToken innerhalb von getTokenAndUrl = ',uploadAuthToken);
           return {uploadAuthToken, uploadUrl}
         } else {
@@ -140,25 +130,15 @@ async function getTokenAndUrl(){
 }
 
 
-
-// main
 async function uploadFileToBackBlaze(fileFolder, fileName, authToken, uploadUrl) {
     // Dateiinhalt lesen
-    const fs = require('fs');
     const fileToUpload = `${fileFolder}/${fileName}`;
     const fileContent = fs.readFileSync(fileToUpload);
-
     // SHA-1 Hash des Dateiinhalts berechnen
     const sha1Hash = crypto.createHash('sha1').update(fileContent).digest('hex');
     console.log("Der sha1Hash Wert in uploadFileToBackBlaze lautet: ", sha1Hash);
-
     uploadFile(fileToUpload, authToken, uploadUrl, sha1Hash)
 }
-
-
-  
-
-
 
 
 module.exports = { uploadFileToBackBlaze, getTokenAndUrl };
