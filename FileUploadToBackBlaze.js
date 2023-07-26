@@ -1,5 +1,4 @@
 const { uploadFileToBackBlaze, getTokenAndUrl } = require('./imageUpload');
-const folderDate = '2023-07-21';
 
 // Funktion, um eine Pause einzufügen
 function sleep(ms) {
@@ -9,9 +8,13 @@ function sleep(ms) {
 // ToDo: Wenn eine Datei fehlt, stürzt das Programm ab. Fehlertolerenaz einbauen.
 
 async function main() {
-  // Rufe die Funktion mit dem Dateinamen als Übergabeparameter auf
+  let currentDate = new Date();
+  let currentDateString = currentDate.toISOString().slice(0, 10)
+  //const folderDate = '2023-07-21';
+  const folderDate=currentDateString
+  console.log ("FolderDate = ", folderDate);
   const result = await getTokenAndUrl();
-  console.log("Der result in der main Methode sieht so aus: ", result);
+  console.log("Der result von getTokenAndUrl in der main Methode sieht so aus: ", result);
   // ------ ALIVE -----
   var fileFolder = 'screenshots_'+folderDate+'\/Alive';
   var fileName = '01_BoughtALiveByTime.png';
@@ -41,7 +44,7 @@ async function main() {
   
   //----- BEER   ---
   var fileFolder = 'screenshots_'+folderDate+'\/BEER';
-  var fileName = '01_bought_beer_by_time.png';
+  var fileName = '01_BoughtBeerByTime.png';
   await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)
   console.log('Warte 2 Sekunden...');
   await sleep(2000);

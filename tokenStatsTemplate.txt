@@ -4,8 +4,8 @@ Hello friends of [TOKEN], Friends of $HIVE and all others,
 
 here are the:
 
-# [TOKEN] Statistics for the last 4 weeks:
-The timeframe is from [DATE_FRAME] (due to my holliday).
+# [TOKEN] Statistics for the last week:
+The timeframe is from [DATE_FRAME].
 
 ## Bought [TOKEN] By Time
 This figure shows who has bought how many [TOKEN] at which time:
@@ -80,7 +80,7 @@ Here are the stats from the other tokens I observe: https://peakd.com/@achimmert
 Regards, Achim Mertens
 
 Sumarize:
-These are the statistics for the [TOKEN] token for last 4 weeks.
+These are the statistics for the [TOKEN] token for the last week.
 
 tags:
 [TAG] leofinance token hive hivestats statistics stats  

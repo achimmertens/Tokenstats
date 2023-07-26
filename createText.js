@@ -33,7 +33,7 @@ async function main() {
 
     // Datum von vor einer Woche
 
-    let timeFrame = 28;
+    let timeFrame = 7;
     let oneWeekAgo = new Date();
     let currentDate = new Date();
     let currentDateString = currentDate.toISOString().slice(0, 10)+"T05:30:00.000Z";
@@ -67,7 +67,7 @@ async function main() {
         const matchB6 = BILD_06.exec(TokenImages);
         const TokenImage06 = matchB6 ? matchB6[0] : null;
 
-        let filename = `./screenshots/${token}/${token}Text.txt`;
+        let filename = `./screenshots_${currentDate.toISOString().slice(0, 10)}/${token}/${token}Text.txt`;
         let tagToken = token.toLowerCase();
 
         const { buyersTableResult, sellersTableResult, buyVsSellResult } = await getTables(tagToken, oneWeekAgoString, currentDateString);
