@@ -33,7 +33,7 @@ async function main() {
 
     // Datum von vor einer Woche
 
-    let timeFrame = 7;
+    let timeFrame = 28;
     let oneWeekAgo = new Date();
     let currentDate = new Date();
     let currentDateString = currentDate.toISOString().slice(0, 10)+"T05:30:00.000Z";
