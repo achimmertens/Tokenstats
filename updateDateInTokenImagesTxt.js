@@ -1,48 +1,39 @@
 const fs = require('fs');
-
-// Funktion, um das aktuelle Datum im Format 'YYYY-MM-DD' zu erhalten
-function getCurrentDate() {
-    const today = new Date();
-    const year = today.getFullYear();
-    const month = String(today.getMonth() + 1).padStart(2, '0');
-    const day = String(today.getDate() - 3).padStart(2, '0');
-    console.log("Das Datum in den Links wird gesetzt auf: ", `${year}-${month}-${day}`)
-    return `${year}-${month}-${day}`;
-}
-
-// Funktion, um den Inhalt der Textdatei zu lesen und die Links zu aktualisieren
-function updateLinksInTextFile(filePath, currentDate, token) {
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err) {
-            console.error('Fehler beim Lesen der Datei:', err);
-            return;
-        }
-
-        // Ersatzfunktion zum Ersetzen des Datums und des Tokens in den Links
-        function replaceLinksWithCurrentDateAndToken(match, text, link) {
-            console.log("currentDate = ", currentDate);
-            const updatedLink = link.replace(/screenshots_[\d-]+/, `screenshots_${currentDate}`);
-            return `[${text}](${updatedLink.replace(/\/ALIVE\//, `/${token}/`)})`;
-        }
-
-        // Links im Text aktualisieren
-        const updatedData = data.replace(/\[([^\]]+)\]\((https:\/\/f005\.backblazeb2\.com\/file\/Hive-Upload\/screenshots_[\d-]+\/ALIVE\/[^\)]+)\)/g, (match, text, link) => replaceLinksWithCurrentDateAndToken(match, text, link, token));
-        console.log('updatedData', updatedData);
-
-        // Aktualisierten Text in die Datei schreiben
-        fs.writeFile(filePath, updatedData, 'utf8', (err) => {
-            if (err) {
-                console.error('Fehler beim Schreiben der Datei:', err);
-            } else {
-                console.log('Links in ', filePath, ' erfolgreich aktualisiert!');
-            }
-        });
-    });
-}
-
-const currentDate = getCurrentDate();
 let tokens = ["ALIVE", "BEER", "LEO", "POB", "SPT"];
+let currentDate = new Date().toISOString().split('T')[0]; // Aktuelles Datum im Format "YYYY-MM-DD"
+console.log("Das Datum wird gesetzt auf: ", currentDate);
+
 for (let token of tokens) {
-    let textFilePath = `./${token}images.txt`;
-    updateLinksInTextFile(textFilePath, currentDate, token);
+  let textFilePath = `./${token}images.txt`;
+  updateLinksInTextFile(textFilePath, currentDate, token);
 }
+
+function updateLinksInTextFile(textFilePath, currentDate, token) {
+  // Lese den Inhalt der Datei
+  let fileContent = readFile(textFilePath);
+  // Ersetze das Datum in den Textstrings
+  let updatedContent = fileContent.replace(/(\d{4}-\d{2}-\d{2})/g, currentDate);
+  // Schreibe den aktualisierten Inhalt zurück in die Datei
+  writeFile(textFilePath, updatedContent);
+  console.log(`Datum in ${textFilePath} wurde aktualisiert für Token ${token}`);
+}
+
+function readFile(filePath) {
+    try {
+      const fileContent = fs.readFileSync(filePath, 'utf8');
+      console.log("Die Datei ",filePath," wurde gelesen.")
+      return fileContent;
+    } catch (error) {
+      console.error(`Fehler beim Lesen der Datei ${filePath}: ${error}`);
+      return null;
+    }
+  }  
+
+  function writeFile(filePath, content) {
+    try {
+      fs.writeFileSync(filePath, content, 'utf8');
+      console.log(`Datei ${filePath} erfolgreich geschrieben.`);
+    } catch (error) {
+      console.error(`Fehler beim Schreiben der Datei ${filePath}: ${error}`);
+    }
+  }
