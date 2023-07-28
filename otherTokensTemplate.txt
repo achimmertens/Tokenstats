@@ -13,7 +13,7 @@ This figure shows the value of $USD compared to some token for the last period. 
 The HIVE rank in Coinmarktecap is: 148
 
 
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/EoAh2PbmQvk6CCrSXr2Xbdapy6bMFpDkBPu93WKpdYKFrgjEz5tYcmABouc41GqUNBK.png)
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23t8CSPYKEhfPDv8kzWk9mDqu1FyachYuuKktvZUWnrSiGY1jcicfTuHePaghxUcDjV4i.png)
 *[Origin](https://coinmarketcap.com/currencies/hive-blockchain/)*
 
 ## Table Of Token Prices in $HIVE and $USD

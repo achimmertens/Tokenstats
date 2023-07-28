@@ -24,7 +24,7 @@ const queries =
         ["BEERBot/01_StakeBeerByHistory", 50, "http://raspi:5601/app/kibana#/visualize/edit/d494cb60-06f8-11ec-9586-edd1781b885c?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))"],
         ["BEERBot/02_Top20BeerRecievers", 50, "http://raspi:5601/app/kibana#/visualize/edit/57242fb0-06fb-11ec-9586-edd1781b885c?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))"],
 
-        ["Alive/01_BoughtALiveByTime", 50, "http://raspi:5601/app/kibana#/visualize/edit/bought_alive_by_time?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))"],
+        ["Alive/01_BoughtAliveByTime", 50, "http://raspi:5601/app/kibana#/visualize/edit/bought_alive_by_time?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))"],
         ["Alive/02_TopTenAliveBuyers", 50, "http://raspi:5601/app/kibana#/visualize/edit/top_ten_alive_buyers?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))"],
         ["Alive/03_CommulatedAmountOfBoughtAlive", 50, "http://raspi:5601/app/kibana#/visualize/edit/commulated_amount_of_bought_alive?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))"],
         ["Alive/04_CommulatedAmountOfSoldAlive", 50, "http://raspi:5601/app/kibana#/visualize/edit/commulated_amount_of_sold_alive?_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-7d%2Cto%3Anow))"],
