@@ -7,8 +7,8 @@ const getTables = require('./gettables.js');
 
 async function main() {
     let template = fs.readFileSync('tokenStatsTemplate.txt', 'utf-8');
-    let otherTokens = fs.readFileSync('otherTokensTemplate.txt', 'utf-8');
-    let otherTokenImages = fs.readFileSync('otherTokenImages.txt', 'utf-8');
+    let otherTokens = fs.readFileSync('TokensTemplate.txt', 'utf-8');
+    let otherTokenImages = fs.readFileSync('TokenImages.txt', 'utf-8');
 
     const OT1 = /\!\[01(.*?)\)/;
     console.log("OT1 = ", OT1);

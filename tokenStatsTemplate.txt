@@ -4,14 +4,14 @@ Hello friends of [TOKEN], Friends of $HIVE and all others,
 
 here are the:
 
-# [TOKEN] Statistics for the last week:
+# [TOKEN] Statistics For The Last Week:
 The timeframe is from [DATE_FRAME].
 
 ## Bought [TOKEN] By Time
 This figure shows who has bought how many [TOKEN] at which time:
 BILD_01
 
-## Top [TOKEN] Buyers and $HIVE Sellers
+## Top [TOKEN] Buyers And $HIVE Sellers
 The inside of the circle shows the buyers of [TOKEN], ordered by $HIVE they have spent. The outside shows the recipients of that $HIVE (sellers of [TOKEN]):
 BILD_02
 
@@ -37,7 +37,7 @@ Seller(Descending)|Earned $HIVE|% Earned $HIVE|Sold [TOKEN]|Avg. Price|Number of
 |-|-|-|-|-|-|
 TABLE02
 
-## Price of the [TOKEN]
+## Price Of The [TOKEN]
 This figure shows the price of [TOKEN] for the last period:
 BILD_05
 
@@ -75,6 +75,14 @@ If you want to see other statistics (even from totaly other data), please contac
 For more details see here: [How I Have Set Up Elasticsearch And Kibana On My Raspberry Pi To Monitor Token Activities](https://peakd.com/hive-122315/@achimmertens/how-i-have-set-up-elasticsearch-and-kibana-on-my-raspberry-pi-to-monitor-token-activities) and here: [Do You Want To See Statistics Of Your Favorite HIVE Token?](https://peakd.com/hive-167922/@achimmertens/do-you-want-to-see-statistics-of-your-favorite-hive-token) or on [github](https://github.com/achimmertens/HiveTokenELK/tree/master).
 
 Here are the stats from the other tokens I observe: https://peakd.com/@achimmertens/posts?filter=stats
+
+
+----
+# Remark
+All the Hive and HivePower, which is generated with this post, goes to my other account @anobel. I donate there the Hive to people that do good things and post about it. 
+You may follow @anobel and support my work there. See the latest [post](https://peakd.com/@anobel):
+[![](https://images.hive.blog/0x0/https://files.peakd.com/file/peakd-hive/anobel/23wqsApuUdj1Pdaxkc7SM2wc2NPK15oxAA8AHLfRT5ncXds2w1PGuNYAkkaU2bMN3MrTB.png)](https://peakd.com/@anobel)
+
 
 
 Regards, Achim Mertens

@@ -17,7 +17,7 @@ async function main() {
   console.log("Der result von getTokenAndUrl in der main Methode sieht so aus: ", result);
   // ------ ALIVE -----
   var fileFolder = 'screenshots_'+folderDate+'\/Alive';
-  var fileName = '01_BoughtALiveByTime.png';
+  var fileName = '01_BoughtAliveByTime.png';
   await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)
   console.log('Warte 2 Sekunden...');
   await sleep(2000);
