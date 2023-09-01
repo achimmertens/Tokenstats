@@ -1,22 +1,22 @@
 # Comparison With Other Tokens
 ## $HIVE/Token
-This figure shows the value of $HIVE compared to some token for the last period. Be aware of the nonlinear (root square) y-axes.
+This figure shows the value of $HIVE compared to some tokens. Be aware of the nonlinear (root square) y-axes.
 
 [OT01]
 
 
 ## US-Dollar/Token
-This figure shows the value of $USD compared to some token for the last period. Be aware of the nonlinear (root square) y-axes.
+Value of $USD compared to some token. Be aware of the nonlinear (root square) y-axes.
 
 [OT02]
 
-The HIVE rank in Coinmarktecap is: 158
+HIVE Coinmarketcap rank: 158
 
 
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo4JhGpWwkegHTFQrYCzBg92WsGU32W4ya3XfoAXtpvDZnBgT6Tw6t6JnKne8AsEAyy.png)
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tSym8QF3kCEXimvcTD9EKBswtBSYeZJ8o5g9XMvvJAijSi5iz4vfhHtwCjqUAG1qKhi.png)
 *[Origin](https://coinmarketcap.com/currencies/hive-blockchain/)*
 
 ## Table Of Token Prices in $HIVE and $USD
-This table shows the average value of the prices of the token for the last period. One can see Hive and the US-Dollar compared to the token.
+Average value of the prices of the token. Hive and US-Dollar compared to the token:
 
 [OT03]

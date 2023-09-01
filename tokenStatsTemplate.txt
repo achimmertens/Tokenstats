@@ -1,14 +1,23 @@
 Weekly Statistics For The [TOKEN] Token
 
-Hello friends of [TOKEN], Friends of $HIVE and all others,
+Hello,
 
-here are the:
+I had some trouble with @spaminator.
+For me it is very important to continue giving this service to you in the future, but I don't want to get downvoted everywhere I make a post or give a comment.
+So I talked with @spaminator alias Hivewatch in discord. I had this problem few month ago and there I thought it would be engough to donate the Hive-rewards to Hive-fund for my beerbot-report.
+And yes, it worked for some weeks, but now he is back.
+First I was very angry, because I think, that I don't fraud the system. All the money I earn with my reports is send to @anobel, who distributes it among some people in need or do good things.
+But then he wrote, that at least 50% of my text should be new and not static. After some thinking I came to the conclusion, that this is a good compromise. On the one hand I reduce some repeating, static text, so I reduce the need of recources.
+On the other hand I can go on with my reports.
+So for the future the reports are thinner and I hope, that this will end my downvotes.
+Maybe you can give me some further hints and thoughts about this topic in the comments.
 
-# [TOKEN] Statistics For The Last Week:
-The timeframe is from [DATE_FRAME].
+So, here are the:
 
-## Bought [TOKEN] By Time
-This figure shows who has bought how many [TOKEN] at which time:
+# [TOKEN] Statistics For The Last Week, [DATE_FRAME]:
+
+## Who has bought how many [TOKEN] at which time:
+
 BILD_01
 
 ## Top [TOKEN] Buyers And $HIVE Sellers
@@ -17,36 +26,33 @@ BILD_02
 
 
 ## Commulated Amount Of Bought [TOKEN] Per Person
-This figure shows the top 10 [TOKEN] buyers, how much they got and how much $HIVE they spend for this. It is sorted by $HIVE, that was spent:
+Top 10 [TOKEN] buyers, how much they got and how much $HIVE they spend for this. Sorted by $HIVE, that was spent:
 BILD_03
 
 
-## Table Of Top 20 [TOKEN] Buyers
-This table shows the top ten buyers of [TOKEN] sorted by the $HIVE, they have spent:
+## Top 20 [TOKEN] Buyers
+Sorted by the $HIVE, they have spent:
 Buyer(Descending)|Sold $HIVE|% Sold $HIVE|Bought [TOKEN]|Avg. Price|Number of Trades
 |-|-|-|-|-|-|
 TABLE01
 
 ## Commulated Amount Of Sold [TOKEN] Per Person
-This figure shows the top 10 [TOKEN] Sellers, how much they sold and how much $HIVE they got for this, sorted by $HIVE:
+Top 10 [TOKEN] Sellers, how much they sold and how much $HIVE they got for this, sorted by $HIVE:
 BILD_04
 
-## Table Of Top 20 [TOKEN] Sellers
-This table shows the top ten sellers of [TOKEN] Sorted by the $HIVE, they have got:
+## Top 20 [TOKEN] Sellers
+Sorted by the $HIVE, they have got:
 Seller(Descending)|Earned $HIVE|% Earned $HIVE|Sold [TOKEN]|Avg. Price|Number of Trades
 |-|-|-|-|-|-|
 TABLE02
 
 ## Price Of The [TOKEN]
-This figure shows the price of [TOKEN] for the last period:
 BILD_05
 
 ## [TOKEN] Summarize Metrics
 
-This table shows how much $HIVE was given by buy-requests, that where equal or higher than the sell order vs. sell-requests, that were equal or lower than the buy order.
-If the buy-requests where higher than the sell-requests, then money comes into the system and the value of the token increases.
 
-Under the total line one can see the sum of $HIVE and sum of [TOKEN] that changed the ownership and the average price of [TOKEN] for the last period.
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tbRUo9x9mdFCL6QMXkmwzxfsB5McJsUhqLqeyvGVjHS6hax8CYsGMmifJJcTMjKajSX.png)
 
 Request|Received Hive|Received HIVE %|Sold [TOKEN]|Avg. Price
 |-|-|-|-|-|
@@ -56,39 +62,19 @@ Request|Received Hive|Received HIVE %|Sold [TOKEN]|Avg. Price
 
 [OTHERTOKENS]
 
+---
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo8L55APpqd71ySK5Rd9jev9QLx1tH4PjmRjkjqwy2cwxFMERCSrR86qJQ4vjgBb5RL.png)
 
-----
-# Disclaimer
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23w2sCnvDzL4K2e18TYxwWLdrgJ5MRcTF6na2KebUEwGYMwbZeNED8LuLHWvFUW7jjSTW.png)
 
-All stats are without warranty.
-They are taken from:
-
-    curl -XPOST -H "Content-type: application/json" -d '{ "jsonrpc": "2.0", "method": "find", "params": { "contract": "market", "table": "tradesHistory", "query": { "symbol": "TOKEN"}, "limit":1000, "offset": 0 }, "id": 1 }' 'https://api.hive-engine.com/rpc/contracts'
-
-I have put them into logfiles and uploaded them to Kibana, from which I took the screenshots.
-If you find errors, please tell me!
-
-If you want me to continue the stats, give me some good upvotes ;-)
-
-If you want to see other statistics (even from totaly other data), please contact me. I can create them weekly or monthly if I get some rewards for it.
-
-For more details see here: [How I Have Set Up Elasticsearch And Kibana On My Raspberry Pi To Monitor Token Activities](https://peakd.com/hive-122315/@achimmertens/how-i-have-set-up-elasticsearch-and-kibana-on-my-raspberry-pi-to-monitor-token-activities) and here: [Do You Want To See Statistics Of Your Favorite HIVE Token?](https://peakd.com/hive-167922/@achimmertens/do-you-want-to-see-statistics-of-your-favorite-hive-token) or on [github](https://github.com/achimmertens/HiveTokenELK/tree/master).
-
-Here are the stats from the other tokens I observe: https://peakd.com/@achimmertens/posts?filter=stats
+Links:
+https://peakd.com/@achimmertens/posts?filter=stats
+https://peakd.com/@anobel
+https://github.com/achimmertens
 
 
-----
-# Remark
-All the Hive and HivePower, which is generated with this post, goes to my other account @anobel. I donate there the Hive to people that do good things and post about it. 
-You may follow @anobel and support my work there. See the latest [post](https://peakd.com/@anobel):
-[![](https://images.hive.blog/0x0/https://files.peakd.com/file/peakd-hive/anobel/23wqsApuUdj1Pdaxkc7SM2wc2NPK15oxAA8AHLfRT5ncXds2w1PGuNYAkkaU2bMN3MrTB.png)](https://peakd.com/@anobel)
+Achim Mertens
 
-
-
-Regards, Achim Mertens
-
-Sumarize:
 These are the statistics for the [TOKEN] token for the last week.
 
-tags:
 [TAG] leofinance token hive hivestats statistics stats  
