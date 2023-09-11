@@ -21,15 +21,47 @@ const beneficiaries = [{ account: 'anobel', weight: 10000 }];
 const body = fs.readFileSync(bodyFilePath, 'utf-8');
 
 //hive.broadcast.comment(
-hive.broadcast.comment(  
-  privateKey,
-  parentAuthor,
-  parentPermlink,
-  author,
-  permlink,
-  title,
-  body,
-  { tags: ['test'], app: 'test/0.1', beneficiaries  },
+// hive.broadcast.comment(  
+//   privateKey,
+//   parentAuthor,
+//   parentPermlink,
+//   author,
+//   permlink,
+//   title,
+//   body,
+//   { tags: ['test'], app: 'test/0.1', beneficiaries, scheduledTime	:['2023-09-11T15:11:00.000Z'] },
+//   function(err, result) {
+//     if (err) {
+//       console.error(err);
+//     } else {
+//       console.log('Post erfolgreich erstellt:', result);
+//     }
+//   }
+// );
+
+hive.broadcast.sendOperations(
+  [ 
+    ['comment', {
+      parent_author: parentAuthor,
+      parent_permlink: parentPermlink,
+      author: author,
+      permlink: permlink,
+      title: title,
+      body: body,
+      json_metadata: JSON.stringify({ tags: ['test'], app: 'test/0.1' }),
+      scheduledTime:	"2023-09-11T15:10:00.000Z"
+    }],
+    ['comment_options', {
+      author: author,
+      permlink: permlink,
+      allow_votes: true,
+      allow_curation_rewards: true,
+      max_accepted_payout: '1000000.000 HBD',
+      percent_hbd: 10000,
+      extensions: [[0, { beneficiaries }]],
+    }]
+  ],
+  { posting: privateKey },
   function(err, result) {
     if (err) {
       console.error(err);

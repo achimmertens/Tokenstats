@@ -10,10 +10,10 @@ Value of $USD compared to some token. Be aware of the nonlinear (root square) y-
 
 [OT02]
 
-HIVE Coinmarketcap rank: 158
+HIVE Coinmarketcap rank: 160
 
 
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tSym8QF3kCEXimvcTD9EKBswtBSYeZJ8o5g9XMvvJAijSi5iz4vfhHtwCjqUAG1qKhi.png)
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tHb6kVXXtGEutCruHfMkfENuM9k1wRgnp8FNf76z6jtobSxxWAYp7VGb3aX321VSvHw.png)
 *[Origin](https://coinmarketcap.com/currencies/hive-blockchain/)*
 
 ## Table Of Token Prices in $HIVE and $USD
