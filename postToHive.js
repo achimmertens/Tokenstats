@@ -11,7 +11,7 @@ const parentAuthor = ''; // Leer lassen, da es sich um einen eigenständigen Pos
 const parentPermlink = 'hive-153112'; // Permlink des Elternbeitrags oder der Community, kann frei gewählt werden
 const author = 'achimmertens';
 const permlink = new Date().toISOString().replace(/[^a-zA-Z0-9]+/g, '').toLowerCase();
-const title = 'Please ignore - Eine Test von achimmertens';
+const title = 'Please ignore - Ein Test von achimmertens 11.09.2023';
 //const bodyFilePath = 'screenshots_2023-09-01/\BEER/\BEERText.txt';
 const bodyFilePath = './test.md';
 // Beneficiaries-Objekt erstellen
@@ -39,28 +39,31 @@ const body = fs.readFileSync(bodyFilePath, 'utf-8');
 //   }
 // );
 
-hive.broadcast.sendOperations(
-  [ 
-    ['comment', {
-      parent_author: parentAuthor,
-      parent_permlink: parentPermlink,
-      author: author,
-      permlink: permlink,
-      title: title,
-      body: body,
-      json_metadata: JSON.stringify({ tags: ['test'], app: 'test/0.1' }),
-      scheduledTime:	"2023-09-11T15:10:00.000Z"
-    }],
-    ['comment_options', {
-      author: author,
-      permlink: permlink,
-      allow_votes: true,
-      allow_curation_rewards: true,
-      max_accepted_payout: '1000000.000 HBD',
-      percent_hbd: 10000,
-      extensions: [[0, { beneficiaries }]],
-    }]
-  ],
+hive.broadcast.send(
+  {
+    operations: [
+      ['comment', {
+        parent_author: parentAuthor,
+        parent_permlink: parentPermlink,
+        author: author,
+        permlink: permlink,
+        title: title,
+        body: body,
+        json_metadata: JSON.stringify({ tags: ['test'], app: 'test/0.1' }),
+        scheduledTime:	['2023-09-11T15:10:00.000Z'],
+      }],
+      ['comment_options', {
+        author: author,
+        permlink: permlink,
+        allow_votes: true,
+        allow_curation_rewards: true,
+        max_accepted_payout: '1000000.000 HBD', // Setzen Sie das Asset-Symbol auf HBD oder ein anderes gültiges Asset-Symbol
+        percent_hbd: 10000,
+        percent_hive_dollars: 0,
+        extensions: [[0, { beneficiaries }]],
+      }]
+    ]
+  },
   { posting: privateKey },
   function(err, result) {
     if (err) {
