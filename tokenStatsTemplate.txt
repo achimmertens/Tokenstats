@@ -1,16 +1,23 @@
 Weekly Statistics For The [TOKEN] Token
 
-Hello,
+Hello dear Hivers,
 
-I had some trouble with @spaminator.
-For me it is very important to continue giving this service to you in the future, but I don't want to get downvoted everywhere I make a post or give a comment.
-So I talked with @spaminator alias Hivewatch in discord. I had this problem few month ago and there I thought it would be engough to donate the Hive-rewards to Hive-fund for my beerbot-report.
-And yes, it worked for some weeks, but now he is back.
-First I was very angry, because I think, that I don't fraud the system. All the money I earn with my reports is send to @anobel, who distributes it among some people in need or do good things.
-But then he wrote, that at least 50% of my text should be new and not static. After some thinking I came to the conclusion, that this is a good compromise. On the one hand I reduce some repeating, static text, so I reduce the need of recources.
-On the other hand I can go on with my reports.
-So for the future the reports are thinner and I hope, that this will end my downvotes.
-Maybe you can give me some further hints and thoughts about this topic in the comments.
+I found a solution for the struggle with @spaminator.
+You may remember, that he accused me of spamming and plagiarism with my reports.
+I described it in detail [here](https://peakd.com/hive/@achimmertens/the-end-of-my-money-printing-machine).
+Conclusion:
+- I will continue creating token reports.
+- For the ALIVE-Token I will take the rewards from the upvotes and give them to @anobel who donates them to needy people.
+- For all [other tokens](https://peakd.com/@achimmertens?filter=stats) I will donate them to Hive-Fund.
+
+The last point is a compromise, and I am still not really happy with that. Yes, I have automated my work to 80%, but it is still some work. And why shouldn't I get some rewards for my self-scripted programs?
+At least some people want to see my reports.
+
+What do you think? Is creating (automated) reports plagiarism?
+Or do you think my reports are spam and should be stopped? (I am not talking about tagging. This is another topic that I want to discuss with you later.)
+
+Please leave a comment to give me a feeling of what you think about it.
+
 
 So, here are the:
 
