@@ -4,7 +4,9 @@ const config = require('./steemConfig.js');
 
 const privateKey = config.privateKey;
 const parentAuthor = ''; // Leer lassen, da es sich um einen eigenständigen Post handelt
-const parentPermlink = 'hive-121566'; // Permlink des Elternbeitrags, kann frei gewählt werden
+
+const parentPermlink = 'ein-test-von-achimmertens05'; // Permlink des Elternbeitrags, kann frei gewählt werden
+
 const author = 'achimmertens';
 const permlink = new Date().toISOString().replace(/[^a-zA-Z0-9]+/g, '').toLowerCase();
 const title = 'Ein Test von achimmertens';
