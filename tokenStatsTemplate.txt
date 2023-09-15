@@ -1,25 +1,6 @@
-Weekly Statistics For The [TOKEN] Token
-
 Hello dear Hivers,
 
-I found a solution for the struggle with @spaminator.
-You may remember, that he accused me of spamming and plagiarism with my reports.
-I described it in detail [here](https://peakd.com/hive/@achimmertens/the-end-of-my-money-printing-machine).
-Conclusion:
-- I will continue creating token reports.
-- For the ALIVE-Token I will take the rewards from the upvotes and give them to @anobel who donates them to needy people.
-- For all [other tokens](https://peakd.com/@achimmertens?filter=stats) I will donate them to Hive-Fund.
-
-The last point is a compromise, and I am still not really happy with that. Yes, I have automated my work to 80%, but it is still some work. And why shouldn't I get some rewards for my self-scripted programs?
-At least some people want to see my reports.
-
-What do you think? Is creating (automated) reports plagiarism?
-Or do you think my reports are spam and should be stopped? (I am not talking about tagging. This is another topic that I want to discuss with you later.)
-
-Please leave a comment to give me a feeling of what you think about it.
-
-
-So, here are the:
+here are the:
 
 # [TOKEN] Statistics For The Last Week, [DATE_FRAME]:
 
@@ -79,9 +60,18 @@ https://peakd.com/@achimmertens/posts?filter=stats
 https://peakd.com/@anobel
 https://github.com/achimmertens
 
+---
+# Some More Words
+Last week I have enhanced my Javascript Code to create these reports. Now I am able to send my reports automatecally. This doens't mean that there is no hand on. I still have to collect the data and check them afterwards, if they are valid. 
+I compare my automatecally created reports with the content, that I see in my Kibana database. This still is manually work that remains.
+
+As promised last week, let's come to my vote:
+I have tagged your names in my tables. Some people find it good to be tagged, that they have reached the top twenty. Others are annoyed.
+I have both opinions and I want to see what is the majority.
+So, please give me an answer:
+"Yes, keep on tagging the names"
+or
+"No, please stop tagging names"
+
 
 Achim Mertens
-
-These are the statistics for the [TOKEN] token for the last week.
-
-[TAG] leofinance token hive hivestats statistics stats  

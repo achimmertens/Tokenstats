@@ -67,7 +67,7 @@ async function main() {
         const matchB6 = BILD_06.exec(TokenImages);
         const TokenImage06 = matchB6 ? matchB6[0] : null;
 
-        let filename = `./screenshots_${currentDate.toISOString().slice(0, 10)}/${token}/${token}Text.txt`;
+        let filename = `./screenshots_${currentDate.toISOString().slice(0, 10)}/${token}/${token}Text.md`;
         let tagToken = token.toLowerCase();
 
         const { buyersTableResult, sellersTableResult, buyVsSellResult } = await getTables(tagToken, oneWeekAgoString, currentDateString);
