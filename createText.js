@@ -4,6 +4,9 @@
 
 const fs = require('fs');
 const getTables = require('./gettables.js');
+//const members=require('./dontTagMe.txt', 'utf-8');
+const members = fs.readFileSync('./dontTagMe.txt', 'utf-8');
+const donTagMeMembers = JSON.parse(members);
 
 async function main() {
     let template = fs.readFileSync('tokenStatsTemplate.txt', 'utf-8');
@@ -88,6 +91,18 @@ async function main() {
             .replace('TABLE02', sellersTableResult)
             .replace('[BUYVSSELLERTABLE]',buyVsSellResult)
             .split('[TOKEN]').join('$' + token)
+        // for (let member of donTagMeMembers){
+        //     let finalTemplate = replacedTemplate
+        //     .replace(member,"AUSGETAUSCHT")
+        //     return finalTemplate
+        // }
+
+        // Durchlaufe die Mitgliederliste und entferne das @-Symbol
+        donTagMeMembers.forEach(member => {
+            const regex = new RegExp(member, 'g');
+            replacedTemplate = replacedTemplate.replace(regex, member.substring(1));
+        });
+
         fs.writeFile(filename, replacedTemplate, function (err) {
             if (err) {
                 console.log(err);
