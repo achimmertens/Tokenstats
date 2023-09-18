@@ -9,7 +9,7 @@ const members = fs.readFileSync('./dontTagMe.txt', 'utf-8');
 const donTagMeMembers = JSON.parse(members);
 
 async function main() {
-    let template = fs.readFileSync('tokenStatsTemplate.txt', 'utf-8');
+    let template = fs.readFileSync('tokenStatsTemplate.md', 'utf-8');
     let otherTokens = fs.readFileSync('TokensTemplate.txt', 'utf-8');
     let otherTokenImages = fs.readFileSync('TokenImages.txt', 'utf-8');
 
