@@ -23,7 +23,7 @@ You need to have installed node
 7.   "node createText.js" hier ausführen (Achtung: Datum evtl. anpassen), um die Textbausteine für die jeweiligen Token zu erstellen
 8.   Die Text.mds der Token überprüfen
 9.   Den aktuellen Screenshotes-Ordner umbenennen (oder kopieren) nach "screenshots" 
-10.  Überprüfen ob die Scheduler aktiv sind  
+10.  Überprüfen ob die Scheduler (Aufdgabenplanung) aktiv sind  
 
 
 Written by Achim Mertens
