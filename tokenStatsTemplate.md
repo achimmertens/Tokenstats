@@ -62,21 +62,12 @@ https://github.com/achimmertens
 
 ---
 # Some More Words
-Last week I asked you if you wanted to get tagged or not. I got several different answers to my reports. Some of them said "Yes" others "Hmm, it might be not so cool for everyone".
-So instead of stopping tagging everyone, I decided to enhance my code with the following lines:
-```
-        donTagMeMembers.forEach(member => {
-            const regex = new RegExp(member, 'g');
-            replacedTemplate = replacedTemplate.replace(regex, member.substring(1));
-        });
-```
-Now I remove for everyone, who wants it, the "@"Symbol in the list. So these people are not tagged any more.
-This means for you, that if you don't want to be tagged any more, please write:
-> "Please stop tagging me"
+Last week one person, wanderingmoon, asked me for beeing put into my blacklist. He doesn't get bothered any more by my reports. 
+So if you also don't want to be tagged any more, just give me a reply "please don't tag me anymore".
+The the "@" will be removed from your name.
+Btw. I added this feature in 1,5 hour developing (from understanding until last, commit including tests) , with the help of ai. This was the fastest feature I have implemented so far ;-)
 
-into the comments.
-I will put you then into my personal blacklist and you don't get annoyed any more.
-I hope this is a good compromise.
+I wish you a nice week,
 
 
 
