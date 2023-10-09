@@ -32,6 +32,5 @@ Written by Achim Mertens
 
 Todo:
 - Beerbot automatisieren
-- Dasfür sorgen, dass Programm nicht abstürzt, wenn keine Daten gefunden werden
 - Script schreiben, dass den Screenshotsordner kopiert
 - advertisingbot soll Reports übernehmen

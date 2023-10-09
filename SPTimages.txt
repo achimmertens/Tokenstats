@@ -1,12 +1,12 @@
 
 
-![01_BoughtSptByTime.png](https://f005.backblazeb2.com/file/Hive-Upload/screenshots_2023-10-06/SPT/01_BoughtSptByTime.png)
+![01_BoughtSptByTime.png](https://f005.backblazeb2.com/file/Hive-Upload/screenshots_2023-10-09/SPT/01_BoughtSptByTime.png)
 
-![02_TopTenSptBuyers.png](https://f005.backblazeb2.com/file/Hive-Upload/screenshots_2023-10-06/SPT/02_TopTenSptBuyers.png)
+![02_TopTenSptBuyers.png](https://f005.backblazeb2.com/file/Hive-Upload/screenshots_2023-10-09/SPT/02_TopTenSptBuyers.png)
 
-![03_CommulatedAmountOfBoughtSpt.png](https://f005.backblazeb2.com/file/Hive-Upload/screenshots_2023-10-06/SPT/03_CommulatedAmountOfBoughtSpt.png)
+![03_CommulatedAmountOfBoughtSpt.png](https://f005.backblazeb2.com/file/Hive-Upload/screenshots_2023-10-09/SPT/03_CommulatedAmountOfBoughtSpt.png)
 
-![04_CommulatedAmountOfSoldSpt.png](https://f005.backblazeb2.com/file/Hive-Upload/screenshots_2023-10-06/SPT/04_CommulatedAmountOfSoldSpt.png)
+![04_CommulatedAmountOfSoldSpt.png](https://f005.backblazeb2.com/file/Hive-Upload/screenshots_2023-10-09/SPT/04_CommulatedAmountOfSoldSpt.png)
 
-![05_PriceOfSpt.png](https://f005.backblazeb2.com/file/Hive-Upload/screenshots_2023-10-06/SPT/05_PriceOfSpt.png)
+![05_PriceOfSpt.png](https://f005.backblazeb2.com/file/Hive-Upload/screenshots_2023-10-09/SPT/05_PriceOfSpt.png)
 

@@ -70,7 +70,18 @@ async function main() {
   console.log('Warte 2 Sekunden...');
   await sleep(duration);
 
+  //----- BEERBot   ---
+  var fileFolder = 'screenshots_'+folderDate+'\/BEERBot';
+  var fileName = '01_StakedBeerByHistory.png';
+  await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)
+  console.log('Warte 2 Sekunden...');
+  await sleep(duration);
 
+  var fileFolder = 'screenshots_'+folderDate+'\/BEERBot';
+  var fileName = '02_Top20BeerRecievers.png';
+  await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)
+  console.log('Warte 2 Sekunden...');
+  await sleep(duration);
 
   // --- LEO ---
    var fileFolder = 'screenshots_'+folderDate+'\/LEO';
