@@ -71,7 +71,7 @@ async function main() {
         const TokenImage06 = matchB6 ? matchB6[0] : null;
 
         let filename = `./screenshots_${currentDate.toISOString().slice(0, 10)}/${token}/${token}Text.md`;
-        let tagToken = token.toLowerCase();
+        let tagToken = token.toLowerCase(); 
 
         const { buyersTableResult, sellersTableResult, buyVsSellResult } = await getTables(tagToken, oneWeekAgoString, currentDateString);
         let replacedTemplate = template
@@ -80,7 +80,7 @@ async function main() {
             .replace('[OT01]', otherTokenImage01)
             .replace('[OT02]', otherTokenImage02)
             .replace('[OT03]', otherTokenImage03)
-            .replace('[TAG]', tagToken)
+           // .replace('[TAG]', tagToken)
             .replace('BILD_01', TokenImage01)
             .replace('BILD_02', TokenImage02)
             .replace('BILD_03', TokenImage03)
@@ -91,11 +91,6 @@ async function main() {
             .replace('TABLE02', sellersTableResult)
             .replace('[BUYVSSELLERTABLE]',buyVsSellResult)
             .split('[TOKEN]').join('$' + token)
-        // for (let member of donTagMeMembers){
-        //     let finalTemplate = replacedTemplate
-        //     .replace(member,"AUSGETAUSCHT")
-        //     return finalTemplate
-        // }
 
         // Durchlaufe die Mitgliederliste und entferne das @-Symbol
         donTagMeMembers.forEach(member => {
@@ -114,7 +109,37 @@ async function main() {
         console.log('sellersTableResult = \n', sellersTableResult);
         console.log('buyVsSellResult = ', buyVsSellResult)
     }
-    
+
+    // BEERBot
+    let BeerBotTemplate = fs.readFileSync('beerBotTemplate.md', 'utf-8');
+    let token = 'BEERBot';
+    let TokenImages = fs.readFileSync(`BEERBotimages.txt`, 'utf-8');
+    const BILD_01 = /\!\[01(.*?)\)/;
+    const matchB1 = BILD_01.exec(TokenImages);
+    const TokenImage01 = matchB1 ? matchB1[0] : null;
+    const BILD_02 = /\!\[02(.*?)\)/;
+    const matchB2 = BILD_02.exec(TokenImages);
+    const TokenImage02 = matchB2 ? matchB2[0] : null;
+    let filename = `./screenshots_${currentDate.toISOString().slice(0, 10)}/${token}/${token}Text.md`;
+    let tagToken = token.toLowerCase();
+    let replacedTemplate = BeerBotTemplate
+        .replace('[DATE_FRAME]', dateFrame)
+        .replace('BILD_01', TokenImage01)
+        .replace('BILD_02', TokenImage02)
+    // Durchlaufe die Mitgliederliste und entferne das @-Symbol
+    donTagMeMembers.forEach(member => {
+        const regex = new RegExp(member, 'g');
+        replacedTemplate = replacedTemplate.replace(regex, member.substring(1));
+    });
+    fs.writeFile(filename, replacedTemplate, function (err) {
+        if (err) {
+            console.log(err);
+        } else {
+            console.log(`Die Datei ${filename} wurde erfolgreich erstellt!`);
+        }
+    });
+
 }
 
 main();
+
