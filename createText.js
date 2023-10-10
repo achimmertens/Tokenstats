@@ -4,6 +4,7 @@
 
 const fs = require('fs');
 const getTables = require('./gettables.js');
+const getTableBeerBot = require('./getTableBeerBot.js');
 //const members=require('./dontTagMe.txt', 'utf-8');
 const members = fs.readFileSync('./dontTagMe.txt', 'utf-8');
 const donTagMeMembers = JSON.parse(members);
@@ -122,10 +123,12 @@ async function main() {
     const TokenImage02 = matchB2 ? matchB2[0] : null;
     let filename = `./screenshots_${currentDate.toISOString().slice(0, 10)}/${token}/${token}Text.md`;
     let tagToken = token.toLowerCase();
+    const { stakedBeerTableResult } = await getTableBeerBot(tagToken, oneWeekAgoString, currentDateString);
     let replacedTemplate = BeerBotTemplate
         .replace('[DATE_FRAME]', dateFrame)
         .replace('BILD_01', TokenImage01)
         .replace('BILD_02', TokenImage02)
+        .replace('[TABLE]', stakedBeerTableResult)
     // Durchlaufe die Mitgliederliste und entferne das @-Symbol
     donTagMeMembers.forEach(member => {
         const regex = new RegExp(member, 'g');

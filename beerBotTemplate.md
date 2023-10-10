@@ -23,7 +23,7 @@ BILD_02
 This table shows the top 20 reveivers of staked $BEER by the bot in the given time period:
 |Receipient of staked BEER|BEER|
 |-|-|
-TABLE
+[TABLE]
 ----
 # Disclaimer
 
