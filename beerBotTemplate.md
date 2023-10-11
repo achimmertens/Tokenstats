@@ -4,7 +4,7 @@ Hello friends of $BEER, Friends of $HIVE and all others,
 
 here are the:
 
-# BEERBOT Statistics for the last week [DATE_FRAME]:
+# BEERBOT Statistics for the last [DAYS] Days, [DATE_FRAME]:
 
 ## Staked $BEER By History
 This figure shows, to whom the Beer-bot has staked how much $BEER on which date:

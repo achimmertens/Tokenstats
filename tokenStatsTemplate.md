@@ -2,7 +2,7 @@ Hello dear Hivers,
 
 here are the:
 
-# [TOKEN] Statistics For The Last Week, [DATE_FRAME]:
+# [TOKEN] Statistics For The Last [DAYS] Days, [DATE_FRAME]:
 
 ## Who has bought how many [TOKEN] at which time:
 
@@ -62,10 +62,8 @@ https://github.com/achimmertens
 
 ---
 # Some More Words
-Last week one person, wanderingmoon, asked me for beeing put into my blacklist. He doesn't get bothered any more by my reports. 
-So if you also don't want to be tagged any more, just give me a reply "please don't tag me anymore".
-The the "@" will be removed from your name.
-Btw. I added this feature in 1,5 hour developing (from understanding until last, commit including tests) , with the help of ai. This was the fastest feature I have implemented so far ;-)
+I have worked on my tokenstats code last week. I have added the beerbot statistics. They are automated now also. And they are back. I have left them out in the last weeks, because they are manual work and I didn't had the time to do it. But for the future, they should appear regularly.
+I have worked on the timeframe automation. Until now, it was static to 7 days. But when I leave one week out in my statistics, I want to have a 14 days statistics afterwards. This ment to me, that I had to do some manual work in the code. Now I have one place, where I just type in the number of days, for which I want to do the statistics.
 
 I wish you a nice week,
 
