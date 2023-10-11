@@ -4,11 +4,16 @@
 
 const fs = require('fs');
 const getTables = require('./gettables.js');
+const getTableBeerBot = require('./getTableBeerBot.js');
+const getDateFrame = require('./getDateFrame.js');
+//const members=require('./dontTagMe.txt', 'utf-8');
+const members = fs.readFileSync('./dontTagMe.txt', 'utf-8');
+const donTagMeMembers = JSON.parse(members);
 
 async function main() {
-    let template = fs.readFileSync('tokenStatsTemplate.txt', 'utf-8');
-    let otherTokens = fs.readFileSync('otherTokensTemplate.txt', 'utf-8');
-    let otherTokenImages = fs.readFileSync('otherTokenImages.txt', 'utf-8');
+    let template = fs.readFileSync('tokenStatsTemplate.md', 'utf-8');
+    let otherTokens = fs.readFileSync('TokensTemplate.txt', 'utf-8');
+    let otherTokenImages = fs.readFileSync('TokenImages.txt', 'utf-8');
 
     const OT1 = /\!\[01(.*?)\)/;
     console.log("OT1 = ", OT1);
@@ -31,20 +36,9 @@ async function main() {
     const otherTokenImage03 = matchOT3 ? matchOT3[0] : null;
     console.log("otherTokenImage03 = ", otherTokenImage03); // gibt "03_TableOfTokenPrices.png" aus
 
-    // Datum von vor einer Woche
-
-    let timeFrame = 28;
-    let oneWeekAgo = new Date();
-    let currentDate = new Date();
-    let currentDateString = currentDate.toISOString().slice(0, 10)+"T05:30:00.000Z";
-    oneWeekAgo.setDate(oneWeekAgo.getDate() - timeFrame);
-    let oneWeekAgoString = oneWeekAgo.toISOString().slice(0, 10)+"T05:30:00.000Z";
-    // Bei Bedarf überschreiben:
-    //oneWeekAgoString = '2023-05-09T07:30:08.988Z'
-    //currentDateString = '2023-05-16T07:30:08.988Z'
-    let dateFrame = `${oneWeekAgoString.slice(0, 10)} to ${currentDateString.slice(0, 10)}`;
-    console.log("dateFrame = ",dateFrame);
-
+    let {dateFrame, currentDateString, oneWeekAgoString} = getDateFrame();
+    console.log("dateFrame = ", dateFrame, " currentDateString = ", currentDateString, " oneWeekAgoString = ", oneWeekAgoString);
+    
     let tokens = ["ALIVE", "BEER", "LEO", "POB", "SPT"];
     for (let token of tokens) {
         let TokenImages = fs.readFileSync(`${token}images.txt`, 'utf-8');
@@ -67,8 +61,8 @@ async function main() {
         const matchB6 = BILD_06.exec(TokenImages);
         const TokenImage06 = matchB6 ? matchB6[0] : null;
 
-        let filename = `./screenshots/${token}/${token}Text.txt`;
-        let tagToken = token.toLowerCase();
+        let filename = `./screenshots_${currentDateString.slice(0, 10)}/${token}/${token}Text.md`;
+        let tagToken = token.toLowerCase(); 
 
         const { buyersTableResult, sellersTableResult, buyVsSellResult } = await getTables(tagToken, oneWeekAgoString, currentDateString);
         let replacedTemplate = template
@@ -77,7 +71,7 @@ async function main() {
             .replace('[OT01]', otherTokenImage01)
             .replace('[OT02]', otherTokenImage02)
             .replace('[OT03]', otherTokenImage03)
-            .replace('[TAG]', tagToken)
+           // .replace('[TAG]', tagToken)
             .replace('BILD_01', TokenImage01)
             .replace('BILD_02', TokenImage02)
             .replace('BILD_03', TokenImage03)
@@ -88,6 +82,13 @@ async function main() {
             .replace('TABLE02', sellersTableResult)
             .replace('[BUYVSSELLERTABLE]',buyVsSellResult)
             .split('[TOKEN]').join('$' + token)
+
+        // Durchlaufe die Mitgliederliste und entferne das @-Symbol
+        donTagMeMembers.forEach(member => {
+            const regex = new RegExp(member, 'g');
+            replacedTemplate = replacedTemplate.replace(regex, member.substring(1));
+        });
+
         fs.writeFile(filename, replacedTemplate, function (err) {
             if (err) {
                 console.log(err);
@@ -99,7 +100,39 @@ async function main() {
         console.log('sellersTableResult = \n', sellersTableResult);
         console.log('buyVsSellResult = ', buyVsSellResult)
     }
-    
+
+    // BEERBot
+    let BeerBotTemplate = fs.readFileSync('beerBotTemplate.md', 'utf-8');
+    let token = 'BEERBot';
+    let TokenImages = fs.readFileSync(`BEERBotimages.txt`, 'utf-8');
+    const BILD_01 = /\!\[01(.*?)\)/;
+    const matchB1 = BILD_01.exec(TokenImages);
+    const TokenImage01 = matchB1 ? matchB1[0] : null;
+    const BILD_02 = /\!\[02(.*?)\)/;
+    const matchB2 = BILD_02.exec(TokenImages);
+    const TokenImage02 = matchB2 ? matchB2[0] : null;
+    let filename = `./screenshots_${currentDateString.slice(0, 10)}/${token}/${token}Text.md`;
+    let tagToken = token.toLowerCase();
+    const { stakedBeerTableResult } = await getTableBeerBot(tagToken, oneWeekAgoString, currentDateString);
+    let replacedTemplate = BeerBotTemplate
+        .replace('[DATE_FRAME]', dateFrame)
+        .replace('BILD_01', TokenImage01)
+        .replace('BILD_02', TokenImage02)
+        .replace('[TABLE]', stakedBeerTableResult)
+    // Durchlaufe die Mitgliederliste und entferne das @-Symbol
+    donTagMeMembers.forEach(member => {
+        const regex = new RegExp(member, 'g');
+        replacedTemplate = replacedTemplate.replace(regex, member.substring(1));
+    });
+    fs.writeFile(filename, replacedTemplate, function (err) {
+        if (err) {
+            console.log(err);
+        } else {
+            console.log(`Die Datei ${filename} wurde erfolgreich erstellt!`);
+        }
+    });
+
 }
 
 main();
+
