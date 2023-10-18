@@ -36,6 +36,14 @@ async function main() {
     const otherTokenImage03 = matchOT3 ? matchOT3[0] : null;
     console.log("otherTokenImage03 = ", otherTokenImage03); // gibt "03_TableOfTokenPrices.png" aus
 
+    const COINMARKETCAP = /\!\[coin(.*?)\)/;
+    console.log("COINMARKETCAP = ", COINMARKETCAP);
+    const matchCMC = COINMARKETCAP.exec(otherTokenImages);
+    console.log("matchCMC = ", matchCMC);
+    const otherTokenImageCMC = matchCMC? matchCMC[0] : null;
+    console.log("otherTokenImageCMC = ", otherTokenImageCMC); // gibt "CoinMarketCap.png" aus
+
+
     let {dateFrame, currentDateString, oneWeekAgoString, timeFrame} = getDateFrame();
     console.log("dateFrame = ", dateFrame, " currentDateString = ", currentDateString, " oneWeekAgoString = ", oneWeekAgoString);
       
@@ -72,6 +80,7 @@ async function main() {
             .replace('[OT01]', otherTokenImage01)
             .replace('[OT02]', otherTokenImage02)
             .replace('[OT03]', otherTokenImage03)
+            .replace('[COINMARKETCAP]', otherTokenImageCMC)
            // .replace('[TAG]', tagToken)
             .replace('BILD_01', TokenImage01)
             .replace('BILD_02', TokenImage02)

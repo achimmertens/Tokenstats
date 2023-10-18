@@ -2,6 +2,10 @@ const { Builder, By, Key, until } = require('selenium-webdriver');
 const fs = require('fs');
 
 (async function example() {
+  let currentDate = new Date();
+  let folderDate = currentDate.toISOString().slice(0, 10)
+  var fileFolder = 'screenshots_'+folderDate+'\/Token';
+  var fileName = 'coinMarketCapChart.png';
   let driver = await new Builder().forBrowser('chrome').build();
   try {
     await driver.manage().window().setRect({ width: 1040, height: 768 });
@@ -23,7 +27,8 @@ const fs = require('fs');
 
     await new Promise(resolve => setTimeout(resolve, 1500));  // be sure, that everything is loaded
     let screenshot = await section.takeScreenshot();
-    fs.writeFileSync('chart.png', screenshot, 'base64');
+    fs.writeFileSync(fileFolder+'\/'+fileName, screenshot, 'base64');
+    console.log('Die Datei '+fileFolder+'\/'+fileName+' wurde erstellt');
   } finally {
     await driver.quit();
   }
