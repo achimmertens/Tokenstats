@@ -8,7 +8,7 @@ console.log('Lösche den Ordner "./screenshots"...');
 fs.removeSync('./screenshots');
 
 // Kopiere den Ordner "./screenshots_[YYYY-MM-DD]" nach "./screenshots"
-console.log('Kopiere den Ordner "./screenshots_[YYYY-MM-DD]" nach ');
+console.log('Kopiere den Ordner "./screenshots_[YYYY-MM-DD]" nach ./screenshots');
 
 const screenshotsDir = './screenshots';
 const screenshotsDateDir = `./screenshots_${new Date().toISOString().slice(0, 10)}`;

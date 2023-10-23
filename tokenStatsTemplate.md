@@ -46,7 +46,7 @@ Request|Received Hive|Received HIVE %|Sold [TOKEN]|Avg. Price
 |-|-|-|-|-|
 [BUYVSSELLERTABLE]
 
-
+---
 
 [OTHERTOKENS]
 
@@ -56,17 +56,22 @@ Request|Received Hive|Received HIVE %|Sold [TOKEN]|Avg. Price
 ![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23w2sCnvDzL4K2e18TYxwWLdrgJ5MRcTF6na2KebUEwGYMwbZeNED8LuLHWvFUW7jjSTW.png)
 
 Links:
-https://peakd.com/@achimmertens/posts?filter=stats
+https://peakd.com/@advertisingbot2/posts?filter=stats
 https://peakd.com/@anobel
+https://peakd.com/@achimmertens
 https://github.com/achimmertens
 
 ---
 # Some More Words
-I have worked on my tokenstats code last week. I have added the beerbot statistics. They are automated now also. And they are back. I have left them out in the last weeks, because they are manual work and I didn't had the time to do it. But for the future, they should appear regularly.
-I have worked on the timeframe automation. Until now, it was static to 7 days. But when I leave one week out in my statistics, I want to have a 14 days statistics afterwards. This ment to me, that I had to do some manual work in the code. Now I have one place, where I just type in the number of days, for which I want to do the statistics.
+I have switched the account for the reports. I have created the account "@advertisingbot2" and I use it to distribute the reports (accept for the Alive group, there you find it under my old name).
+This is because of spamminator. He and I don't have the same opinion about getting rewarded. I think, that when you do some work, which other people appreciate, you should get payed for it. Even if it is automated. (Btw. I don't spend it for myself, but forward it to @anobel and donate it there.)
 
-I wish you a nice week,
+But he thinks, that if you create content, that looks very similar to what you have posted before, it is spam.
+I could not explain to him, that the real content is in the figures and in the tables, so we don't come together.
 
+So this is my solution. I think, advertisingbot2 will get punished for it. But we will see. I need this motivation to go on.
+It's not the best solution, but better than burning all earned Hive.
 
+Regards,
 
 Achim Mertens

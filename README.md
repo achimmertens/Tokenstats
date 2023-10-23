@@ -17,14 +17,14 @@ You need to have installed node
 # Execute
 
 01. TokenStatsTemplate.md ein bisschen freitext reintun.
-2.  ggf. Timeframe (Standard: 7 Tage) in "getDateFrame.js" anpassen.
-3.  "node surfKibana.js" ausführen. (Achtung: Die Tokenordner werden alle gelöscht!)
-4.  "node getCoinMarketCap.js" ausführen.
-5.  "node FileUploadToBackBlaze.js" ausführen.
-6.  "node updateDateInTokenImagesTxt.js" ausführen, um das Datum in den jeweiligen TokenImages.txt zu aktualisieren.
-7.  "node createText.js" hier ausführen, um die Textbausteine für die jeweiligen Token zu erstellen.
-8.  Die Text.mds der Token überprüfen.
-9.  "node copyScreenshotsFolder.js" um den aktuellen Screenshots-Ordner nach "screenshots" zu kopieren. (Achtung! screenshots wird überschrieben!)
+02. ggf. Timeframe (Standard: 7 Tage) in "getDateFrame.js" anpassen.
+03. "node surfKibana.js" ausführen. (Achtung: Die Tokenordner werden alle gelöscht!)
+04. "node getCoinMarketCap.js" ausführen.
+05. "node FileUploadToBackBlaze.js" ausführen.
+06. "node updateDateInTokenImagesTxt.js" ausführen, um das Datum in den jeweiligen TokenImages.txt zu aktualisieren.
+07. "node createText.js" hier ausführen, um die Textbausteine für die jeweiligen Token zu erstellen.
+08. Die Text.mds der Token überprüfen.
+09. "node copyScreenshotsFolder.js" um den aktuellen Screenshots-Ordner nach "screenshots" zu kopieren. (Achtung! screenshots wird überschrieben!)
 10. Überprüfen ob die Scheduler (Aufgabenplanung) aktiv sind.  
 
 
@@ -34,8 +34,10 @@ Done Oktober:
 - Beerbot automatisieren
 - Datum nur an einer Stelle anpassen
 - Script schreiben, dass den Screenshotsordner kopiert
+- coinmarketcap Screenshot automatisieren
+- advertisingbot soll Reports übernehmen
+- Beerbot Statistic ist nur für einen Tag.
 
 Todo:
-- coinmarketcap Screenshot automatisieren
+
 - Nur noch ein Script, welches alle anderen Scripte ausführt erstellen.
-- advertisingbot soll Reports übernehmen

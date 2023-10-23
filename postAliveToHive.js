@@ -1,6 +1,8 @@
 const fs = require('fs');
 const postContentToHive = require('./postContentToHive.js');
 const moment = require('moment');
+const config = require('./steemConfig.js');
+const privateKey = config.privateKey;
 
 const now = moment();
 const CW = now.isoWeek();
@@ -21,5 +23,5 @@ const beneficiaries = [{ account: 'anobel', weight: 10000 }];
 // Den Inhalt der body.md-Datei lesen
 const body = fs.readFileSync(bodyFilePath, 'utf-8');
 
-postContentToHive(parentAuthor,parentPermlink,author,permlink,title,body,tags, beneficiaries);
+postContentToHive(privateKey,parentAuthor,parentPermlink,author,permlink,title,body,tags, beneficiaries);
 

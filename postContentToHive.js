@@ -1,9 +1,7 @@
 //const fs = require('fs');
 const hive = require('@hiveio/hive-js');
-const config = require('./steemConfig.js');
 
-const privateKey = config.privateKey;
-module.exports = async function postContentToHive(parentAuthor,parentPermlink,author,permlink,title,body,tags,beneficiaries)
+module.exports = async function postContentToHive(privateKey,parentAuthor,parentPermlink,author,permlink,title,body,tags,beneficiaries)
 {
 // Konfiguration der STEEM-API
 hive.api.setOptions({ url: 'https://api.hive.blog' });
