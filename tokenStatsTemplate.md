@@ -70,7 +70,7 @@ This is because of spamminator. He and I don't have the same opinion about getti
 But he thinks, that if you create content, that looks very similar to what you have posted before, it is spam.
 I could not explain to him, that the real content is in the figures and in the tables, so we don't come together.
 
-So this is my solution. I think, advertisingbot2 will get punished for it. But we will see. I need this motivation to go on.
+So this is my solution. I need this motivation to go on.
 It's not the best solution, but better than burning all earned Hive.
 
 ## Some Data Is Missing
