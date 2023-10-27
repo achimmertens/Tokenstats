@@ -16,6 +16,31 @@ async function main() {
   const result = await getTokenAndUrl();
   console.log("Der result von getTokenAndUrl in der main Methode sieht so aus: ", result);
   const duration=3000;
+
+
+  // --- OtherTokens ---
+  var fileFolder = 'screenshots_'+folderDate+'\/Token';
+
+  var fileName = 'coinMarketCapChart.png';
+  await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)
+  console.log('Warte 2 Sekunden...');
+  await sleep(duration);
+
+  var fileName = '01_HivePerToken.png';
+  await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)
+  console.log('Warte 2 Sekunden...');
+  await sleep(duration);
+
+  var fileName = '02_USDPerToken.png';
+  await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)
+  console.log('Warte 2 Sekunden...');
+  await sleep(duration);
+
+  var fileName = '03_TableOfTokenPrices.png';
+  await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)
+  console.log('Warte 2 Sekunden...');
+  await sleep(duration);
+
   // ------ ALIVE -----
   var fileFolder = 'screenshots_'+folderDate+'\/Alive';
   var fileName = '01_BoughtAliveByTime.png';
@@ -165,23 +190,7 @@ async function main() {
   await sleep(duration);
 
 
-// --- OtherTokens ---
-var fileFolder = 'screenshots_'+folderDate+'\/Token';
 
-var fileName = '01_HivePerToken.png';
-await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)
-console.log('Warte 2 Sekunden...');
-await sleep(duration);
-
-var fileName = '02_USDPerToken.png';
-await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)
-console.log('Warte 2 Sekunden...');
-await sleep(duration);
-
-var fileName = '03_TableOfTokenPrices.png';
-await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)
-console.log('Warte 2 Sekunden...');
-await sleep(duration);
 
 // var fileName = '04_HivePrice.png';
 // await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)

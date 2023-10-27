@@ -2,7 +2,7 @@ Hello dear Hivers,
 
 here are the:
 
-# [TOKEN] Statistics For The Last Week, [DATE_FRAME]:
+# [TOKEN] Statistics For The Last [DAYS] Days, [DATE_FRAME]:
 
 ## Who has bought how many [TOKEN] at which time:
 
@@ -46,7 +46,7 @@ Request|Received Hive|Received HIVE %|Sold [TOKEN]|Avg. Price
 |-|-|-|-|-|
 [BUYVSSELLERTABLE]
 
-
+---
 
 [OTHERTOKENS]
 
@@ -56,19 +56,27 @@ Request|Received Hive|Received HIVE %|Sold [TOKEN]|Avg. Price
 ![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23w2sCnvDzL4K2e18TYxwWLdrgJ5MRcTF6na2KebUEwGYMwbZeNED8LuLHWvFUW7jjSTW.png)
 
 Links:
-https://peakd.com/@achimmertens/posts?filter=stats
+https://peakd.com/@advertisingbot2/posts?filter=stats
 https://peakd.com/@anobel
+https://peakd.com/@achimmertens
 https://github.com/achimmertens
 
 ---
 # Some More Words
-Last week one person, wanderingmoon, asked me for beeing put into my blacklist. He doesn't get bothered any more by my reports. 
-So if you also don't want to be tagged any more, just give me a reply "please don't tag me anymore".
-The the "@" will be removed from your name.
-Btw. I added this feature in 1,5 hour developing (from understanding until last, commit including tests) , with the help of ai. This was the fastest feature I have implemented so far ;-)
+## New Account "advertisingbot2"
+I have switched the account for the reports. I have created the account "@advertisingbot2" and I use it to distribute the reports (accept for the Alive group, there you find it under my old name).
+This is because of spamminator. He and I don't have the same opinion about getting rewarded. I think, that when you do some work, which other people appreciate, you should get payed for it. Even if it is automated. (Btw. I don't spend it for myself, but forward it to @anobel and donate it there.)
 
-I wish you a nice week,
+But he thinks, that if you create content, that looks very similar to what you have posted before, it is spam.
+I could not explain to him, that the real content is in the figures and in the tables, so we don't come together.
+
+So this is my solution. I need this motivation to go on.
+It's not the best solution, but better than burning all earned Hive.
+
+## Some Data Is Missing
+I don't know why. All my systems to collect the data where up and running and I didn't touch them during 19.10. and 21.10.23. But in this timeframe I didn't get any data.
 
 
+Regards,
 
 Achim Mertens

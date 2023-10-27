@@ -5,7 +5,7 @@ const config = require('./steemConfig.js');
 const privateKey = config.privateKey;
 const parentAuthor = ''; // Leer lassen, da es sich um einen eigenständigen Post handelt
 const parentPermlink = 'hive-121566'; // Community = DACH
-const author = 'achimmertens';
+//const author = 'achimmertens';
 const permlink = new Date().toISOString().replace(/[^a-zA-Z0-9]+/g, '').toLowerCase();
 const title = 'Wann ist es genug?';
 const bodyFilePath = 'test.md';
