@@ -12,7 +12,7 @@ const fs = require('fs');
     await driver.get('https://coinmarketcap.com/currencies/hive-blockchain/');
     //await new Promise(resolve => setTimeout(resolve, 1500));  // be sure, that everything is loaded
     //let button2 = await driver.findElement(By.xpath("//li[text()='7D']"));
-    let button2 = await driver.findElement(By.id('react-tabs-34'));
+    let button2 = await driver.findElement(By.id('react-tabs-2'));
     await button2.click();
 
     //let section = await driver.findElement(By.id('__next'));

@@ -15,7 +15,7 @@ async function main() {
   console.log ("FolderDate = ", folderDate);
   const result = await getTokenAndUrl();
   console.log("Der result von getTokenAndUrl in der main Methode sieht so aus: ", result);
-  const duration=3000;
+  const duration=4000;
 
 
   // --- OtherTokens ---

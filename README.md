@@ -6,7 +6,10 @@ This Tool creates statistics for HIVE tokens.
 ### Chrome Driver
 You need to download and set set a path to the chromedriver:
 https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json
-Download the latest Chromedriver Win64-Zip file (I.e.: https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.92/win64/chromedriver-win64.zip).
+
+Download the latest Chromedriver Win64-Zip file 
+from here: https://googlechromelabs.github.io/chrome-for-testing/#stable
+(I.e.: https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.92/win64/chromedriver-win64.zip).
 
 ![](./chromdriver.png)
 Speicherort: C:\Users\User\AppData\Local\Microsoft\WindowsApps

@@ -62,19 +62,13 @@ https://peakd.com/@achimmertens
 https://github.com/achimmertens
 
 ---
-# Some More Words
-## New Account "advertisingbot2"
-I have switched the account for the reports. I have created the account "@advertisingbot2" and I use it to distribute the reports (accept for the Alive group, there you find it under my old name).
-This is because of spamminator. He and I don't have the same opinion about getting rewarded. I think, that when you do some work, which other people appreciate, you should get payed for it. Even if it is automated. (Btw. I don't spend it for myself, but forward it to @anobel and donate it there.)
+# Data is complete now
+The Data problem from the week before last week is definitely solved now. After changing the API server I have had no outages any more.
 
-But he thinks, that if you create content, that looks very similar to what you have posted before, it is spam.
-I could not explain to him, that the real content is in the figures and in the tables, so we don't come together.
-
-So this is my solution. I need this motivation to go on.
-It's not the best solution, but better than burning all earned Hive.
-
-## Some Data Is Missing
-I don't know why. All my systems to collect the data where up and running and I didn't touch them during 19.10. and 21.10.23. But in this timeframe I didn't get any data.
+# My Week On Hive
+This week I have had two main topics: Working on my advertisingbot automation and creating a ChatGPT Assistant. In both I made good progress.
+The advertisingbot has got some small features, which help me to do less manual work. To see what he is doing, follow @advertisingbot2.
+And with the GPT Assistant I made a breakthrough: I have created an assistant on Openai, I can chat with it and I have put some lokal data into it. The result is fascinating: https://peakd.com/hive-139531/@achimmertens/mein-erster-gpt-assistent (It is in German language. If you want to read it in English, click on AI/translation.)
 
 
 Regards,
