@@ -62,13 +62,11 @@ https://peakd.com/@achimmertens
 https://github.com/achimmertens
 
 ---
-# Data is complete now
-The Data problem from the week before last week is definitely solved now. After changing the API server I have had no outages any more.
 
-# My Week On Hive
-This week I have had two main topics: Working on my advertisingbot automation and creating a ChatGPT Assistant. In both I made good progress.
-The advertisingbot has got some small features, which help me to do less manual work. To see what he is doing, follow @advertisingbot2.
-And with the GPT Assistant I made a breakthrough: I have created an assistant on Openai, I can chat with it and I have put some lokal data into it. The result is fascinating: https://peakd.com/hive-139531/@achimmertens/mein-erster-gpt-assistent (It is in German language. If you want to read it in English, click on AI/translation.)
+# My last Week 
+Last week was totally different from the previous weeks. In our company we have a lot of movements. My job position is in danger and we shall reduce our team. So we had a lot of emotional discussions. 
+So that week I didn't work a lot for Hive as my head was somewhere else, but not here. 
+I hope we get more clearness and therefore better planings for the future in the next days.
 
 
 Regards,
