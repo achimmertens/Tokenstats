@@ -4,7 +4,7 @@
 All stats are without warranty.
 They are taken from:
 
-    curl -XPOST -H "Content-type: application/json" -d '{ "jsonrpc": "2.0", "method": "find", "params": { "contract": "market", "table": "tradesHistory", "query": { "symbol": "TOKEN"}, "limit":1000, "offset": 0 }, "id": 1 }' 'https://api.hive-engine.com/rpc/contracts'
+curl -XPOST -H "Content-type: application/json" -d '{ "jsonrpc": "2.0", "method": "find", "params": { "contract": "market", "table": "tradesHistory", "query": { "symbol": "ALIVE"}, "limit":1000, "offset": 0 }, "id": 1 }' 'https://herpc.kanibot.com/contracts'
 
 I have put them into logfiles and uploaded them to Kibana, from which I took the screenshots.
 If you find errors, please tell me!

@@ -64,10 +64,11 @@ https://github.com/achimmertens
 ---
 
 # My last Week 
-Last week was totally different from the previous weeks. In our company we have a lot of movements. My job position is in danger and we shall reduce our team. So we had a lot of emotional discussions. 
-So that week I didn't work a lot for Hive as my head was somewhere else, but not here. 
-I hope we get more clearness and therefore better planings for the future in the next days.
-
+For me the new years starts great. Private everithng is fine and so I can go on with my hobby: "Make Hive great" ;-)
+I managed to create my first Javascript, that pays automatecally Hive Users. So I made some rules to pay them only once to get not poor during the testphase ;-)
+This is my first smart contract!!!
+I have created a json file with recipients (which come from the advertising contests, details see @advertisingbot2) and now I can just type in a command, and the winners of the contest get payed automatecally.
+Now I have 90% of the automation done and can go on with bug fixing and promotion of my advertising project.
 
 Regards,
 
