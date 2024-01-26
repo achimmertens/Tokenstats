@@ -40,15 +40,9 @@ You need to have installed node
 
 Written by Achim Mertens
 
-Done Oktober:
-- Beerbot automatisieren
-- Datum nur an einer Stelle anpassen
-- Script schreiben, dass den Screenshotsordner kopiert
-- coinmarketcap Screenshot automatisieren
-- advertisingbot soll Reports übernehmen
-- Beerbot Statistic ist nur für einen Tag.
--  Nur noch ein Script, welches alle anderen Scripte ausführt erstellen.
+
 
 Todo:
+- Pomotion tour for the advertising Process
 
 

@@ -64,11 +64,10 @@ https://github.com/achimmertens
 ---
 
 # My last Week 
-For me the new years starts great. Private everithng is fine and so I can go on with my hobby: "Make Hive great" ;-)
-I managed to create my first Javascript, that pays automatecally Hive Users. So I made some rules to pay them only once to get not poor during the testphase ;-)
-This is my first smart contract!!!
-I have created a json file with recipients (which come from the advertising contests, details see @advertisingbot2) and now I can just type in a command, and the winners of the contest get payed automatecally.
-Now I have 90% of the automation done and can go on with bug fixing and promotion of my advertising project.
+This week my focus was on creating a task for Hive users. You can see it here: https://peakd.com/hive-154303/@achimmertens/ich-biete-einen-taski-offer-a-task-expense-60-minutes-reward-30-hive-topic-curation
+There I offer a task, where one can earn 30 Hive for a about 60 Minute work.
+It is a test balloon. If this works, I want to invest more time into a Hive-Job-Exchange. So this offer has a special format. It can be used for further task offers or searches. If it grows bigger, we can create like "linkedIn" with Hive.
+I also created a new advertising campaing. This time for myself, as I want my task offer to be seen by more people: https://peakd.com/hive-154303/@advertisingbot2/hive-marketing-campaign-24012601-week-4-for-achimmertens
 
 Regards,
 
