@@ -1,0 +1,82 @@
+{
+  "id": "81dd8b96-672a-45f0-8ef8-ce4475d3cb35",
+  "version": "2.0",
+  "name": "Hive_in_Coinmarketcap",
+  "url": "https://coinmarketcap.com",
+  "tests": [{
+    "id": "e60eba8f-e417-429a-87f1-f38d1db3c9c5",
+    "name": "Hive_in_CoinMarketCap",
+    "commands": [{
+      "id": "409e1191-8e96-4bc2-9509-14a4d5aaaf97",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a4336d9-5ce1-4b50-8fc3-d6085626da2b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1127x811",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e071898-b41c-4ea7-9f2f-fbba938ea21a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-57d352ec-1:nth-child(1) > .sc-aef7b723-0",
+      "targets": [
+        ["css=.sc-57d352ec-1:nth-child(1) > .sc-aef7b723-0", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bb4ea16-7c6f-45b2-97f3-480acd3b43d7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.desktop-input",
+      "targets": [
+        ["css=.desktop-input", "css:finder"],
+        ["xpath=//input[@value='Hive']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div/div/div[2]/div[2]/div/div[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Hive"
+    }, {
+      "id": "e9c1ec1a-f201-4c6f-a807-1725df4197b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focused .kKpPOn",
+      "targets": [
+        ["css=.focused .kKpPOn", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div/div/div[2]/div[2]/div/div[3]/div/div[2]/div[2]/div/a/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Hive')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c747526f-246f-4745-9b3d-86e7b2530f78",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-tabs-8",
+      "targets": [
+        ["id=react-tabs-8", "id"],
+        ["css=#react-tabs-8", "css:finder"],
+        ["xpath=//li[@id='react-tabs-8']", "xpath:attributes"],
+        ["xpath=//div[@id='section-coin-chart']/div/div/div/div/div/div/div[2]/div/div[2]/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'7D')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6400f8a6-7d7a-4834-b007-b819f9fecff3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e60eba8f-e417-429a-87f1-f38d1db3c9c5"]
+  }],
+  "urls": ["https://coinmarketcap.com/"],
+  "plugins": []
+}

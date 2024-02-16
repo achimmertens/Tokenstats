@@ -19,7 +19,7 @@ You need to have installed node
 
 # Execute
 ## Weitgehend Automatisierte Version:
-1. In TokenStatsTemplate.md ein bisschen freitext reintun (z.B. Werbung).
+1. In TokenStatsTemplate.md ein bisschen freitext reintun (z.B. Werbung oder Charity Findings).
 2. "node runAll.js" ausführen.
 3. Qualitätskontrolle im Ordner Screenshots durchführen.
 4. Überprüfen ob die Scheduler (Aufgabenplanung) aktiv sind (Post[TOKEN]ToHive.js).
@@ -43,6 +43,7 @@ Written by Achim Mertens
 
 
 Todo:
-- Pomotion tour for the advertising Process
+- Charity helper promoten
+- Promotion tour for the advertising Process
 
 
