@@ -67,23 +67,20 @@ https://github.com/achimmertens
 
 https://peakd.com/hive-149312/@achimmertens/the-results-of-my-charity-research-task-die-ergebnisse-meiner-wohltatigkeitsforschungsaufgabe
 
-Please follow @awuahbenjamin.
-He helped some orphans in Ghana. Here is his post about it:
-https://peakd.com/hive-176874/@awuahbenjamin/as-we-remember-our-love-ones-this-seasons-lets-remember-the-ophans
-He is also very engaged in the hive community and helps others to find to us. He is really worth some attention.
-I allready have send him a small gift:
 
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tbKPNi46tyk7keVnvME6RmY2PRHZ5AmeT3FAbWMtPiZXHpTHtqZGSiiJjEMVPn73vGx.png)
+Please follow @hive.samadi.
+She helped pregnant mothers by giving them a meal as you can see here: https://peakd.com/hive-174578/@hive.samadi/providing-a-nutritious-diet-to-pregnant-mothers
+
+![](https://images.hive.blog/0x0/https://files.peakd.com/file/peakd-hive/hive.samadi/AKU5q4VEnHkkpsmusFy1ob14YDMAJRxeNUawffHaSbYKDkbtfg1NWZ4L1uZcDdN.png)
+
+I allready have send her a small gift (i.e. from the money, that I earn with these reports here):
+
+![grafik.png](https://files.peakd.com/file/peakd-hive/anobel/23t7939qwyAqow8epdY1RmfitqrncGDiQczcDssVKAkA6N7ZrQ7cabAfeCVH9Wv7BjVk9.png)
 
 # My last Week 
-I was in the streets of Eschweiler (a city in west germany, the center of Rheinland ;-)  and celebrated Karneval. Here are some impressions:
-|||
-|-|-|
-|![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23xydsu21KqSaobngLmTmJGwt3Mpr5fJVVM9WtKHQV9avqq4YigTw2eF6dyA4JHAnLSm1.jpg)|![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/244Up4hSVsUPo3iDKqQiuy2fDGekKPXFWSuhqaccprVy17rifjQL9eG1HABV8ogSQ9B8g.png)|
-|![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23vhuRAahJ8iFw6JPC8giRRz5TEWDH8Nr2xB8oZXxNa5ACb8pZv5V3HjgByL8ySaC1UzX.png)|![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eops1oer8aZt3y6e8VfcaMmZ1F7eBvQTRHBkLrPQBsZBxiqDuHfm25K5rGdYpnd4j2h.png)|
-|![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/EpVBcL3vwP2cnN961LCBGWHH6vCKiX8NybvNAN3DSiApK2UDwYLUFUt6NNbSYf4GCEs.png)|![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23vsNg37KfoRS3rSfAADTDgt71NnX2FynumT2TtZkuzAJxRXhspT1J6rTQSCPo3n22EMr.png)
-|![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/242DGWoYp2cvXcNuwaeSgm5v9T9PUgmkarqoh1BNDUeqBfVBXYisd2yicAuWh35eVLLaw.png)|![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23zkrdoe4p4wH7hp25dmRC3RRpXEMkrnstzuEQjdmiSukGXxWmKNid4ZVRFnFgkbhQa9i.png)|
-
+My main adventure from the last week were two days full of live in Bonn (Germany) with the "Human Centered Technology" meeting. I already made a report about it: https://peakd.com/hive-121566/@achimmertens/telekom-human-centered-technology-treffen-in-bonn
+![](https://images.hive.blog/0x0/https://files.peakd.com/file/peakd-hive/achimmertens/23z7DqpeghRgiv2MFKicsEEPEu3v3kojsbZmnE8hjCT6mPC8ukVmgv6J1MCfrdeaseTSX.png)
+![](https://images.hive.blog/0x0/https://files.peakd.com/file/peakd-hive/achimmertens/23wWxrf5xfRvCh4nJb6aNe1umygYVmJKWPP7M5k5xmgLdqAVnB1FnHh8JE9oEVkqFxjYC.png)
 
 Regards,
 

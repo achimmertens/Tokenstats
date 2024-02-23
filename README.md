@@ -43,7 +43,10 @@ Written by Achim Mertens
 
 
 Todo:
+
 - Charity helper promoten
 - Promotion tour for the advertising Process
 
 
+Done:
+21.02.2024 Blaklist: @cwow2
