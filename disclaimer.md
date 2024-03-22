@@ -24,4 +24,6 @@ You may follow @anobel and support my work there. See the latest [post](https://
 ---
 # Charity Helper Of The Week
 As you may have seen, I started a job offer to find some people here on hive, that help other people in need. (Link see below.)
+
+
 I want to give these charity supporters a small special reward and hope, that you also give them some love by following and upvoting them. Maybe you give them also a small donation. Here is my charity helper for this week:

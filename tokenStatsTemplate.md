@@ -63,24 +63,32 @@ https://peakd.com/@achimmertens
 https://github.com/achimmertens
 
 ---
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/Eo6D7MMCuC6NraHK5r9TsHPk1SjoXbZ7QUnwvX1BkezknVPVeTNuCNbAZ59X7gFMmrG.png)
-
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tkjzfCeVcJMqWheUzRFYQGF1sgRJmpfcm5x5DzWfweubSMMEVh8w1P1CVUNDoipxKTb.png)
 https://peakd.com/hive-149312/@achimmertens/the-results-of-my-charity-research-task-die-ergebnisse-meiner-wohltatigkeitsforschungsaufgabe
 
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23t7DLqTFyZ8HHDm5cwjFGnXhAvn9AYgBzMAgXxcNc51FYvwd585xpqq58gYhXkxYTii4.png)
 
-Please follow @hive.samadi.
-She helped pregnant mothers by giving them a meal as you can see here: https://peakd.com/hive-174578/@hive.samadi/providing-a-nutritious-diet-to-pregnant-mothers
 
-![](https://images.hive.blog/0x0/https://files.peakd.com/file/peakd-hive/hive.samadi/AKU5q4VEnHkkpsmusFy1ob14YDMAJRxeNUawffHaSbYKDkbtfg1NWZ4L1uZcDdN.png)
 
-I allready have send her a small gift (i.e. from the money, that I earn with these reports here):
 
-![grafik.png](https://files.peakd.com/file/peakd-hive/anobel/23t7939qwyAqow8epdY1RmfitqrncGDiQczcDssVKAkA6N7ZrQ7cabAfeCVH9Wv7BjVk9.png)
+## Please follow @adaezeinchrist
+She collected food and commodities for widows in Ghana. She took nice pictures of the ladies and herself as a proof of her help. Just see the happy smiles.
+![](https://images.ecency.com/DQmNpGEzve32DdFWJwmaT3zANjA1599huXcELveaEZ2wDX8/img_20231224_082223_408.jpg)
+Here is her post: https://peakd.com/hive-176874/@adaezeinchrist/my-project-for-the-widows
+
+
+I allready have send her a small gift via @anobel (i.e. from the money, that I earn with these reports here):
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23t76pL8LK9ohDUKRAgT2zVdy7piWe4C8ruyAK1PpwVCPt6nKLKz2JkAoDqdEs7ma4gV8.png)
+
+
 
 # My last Week 
-My main adventure from the last week were two days full of live in Bonn (Germany) with the "Human Centered Technology" meeting. I already made a report about it: https://peakd.com/hive-121566/@achimmertens/telekom-human-centered-technology-treffen-in-bonn
-![](https://images.hive.blog/0x0/https://files.peakd.com/file/peakd-hive/achimmertens/23z7DqpeghRgiv2MFKicsEEPEu3v3kojsbZmnE8hjCT6mPC8ukVmgv6J1MCfrdeaseTSX.png)
-![](https://images.hive.blog/0x0/https://files.peakd.com/file/peakd-hive/achimmertens/23wWxrf5xfRvCh4nJb6aNe1umygYVmJKWPP7M5k5xmgLdqAVnB1FnHh8JE9oEVkqFxjYC.png)
+The work never goes out. So my week was filled with it.
+But good, that there is not only work. My family has grown even bigger ;-)
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23w2kturqJNSdNsFC2Vb41cchGxRf9sUd7a6WFKNsnEQr2wiQR27UmqN52ZcWj9ippbxE.png)
+btw. Here is their daddy:
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23xKxeAP9HVcqvU3uYRR6P9jPV2zmv27KmNytnnMdhPgWqtxQiU1Zo99XP9gH8YZvn7Xi.jpg)
+
 
 Regards,
 
