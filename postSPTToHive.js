@@ -17,7 +17,7 @@ const parentPermlink = 'hive-13323' // Community=Splinterlands
 //const parentPermlink = 'hive-153112' // Community = API Testing
 const author = 'advertisingbot2';
 const permlink = new Date().toISOString().replace(/[^a-zA-Z0-9]+/g, '').toLowerCase();
-const title = 'Statistics For The $SPT Token For Week '+CW;
+const title = 'Statistics For The $SPT Token For Week '+CW+' including my diary';
 console.log ('Title = ',title)
 const bodyFilePath = './screenshots/SPT/SPTText.md';
 const tags = ['splinterlands','spt','leofinance','token','stats','hivestats','hive','statistics'];
@@ -28,3 +28,5 @@ const body = fs.readFileSync(bodyFilePath, 'utf-8');
 
 postContentToHive(privateKey,parentAuthor,parentPermlink,author,permlink,title,body,tags, beneficiaries);
 
+// rename the file to secure that it is not executed twice
+fs.renameSync(bodyFilePath,'./screenshots/SPT/SPTText_done.md');

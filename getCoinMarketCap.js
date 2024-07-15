@@ -11,7 +11,9 @@ const fs = require('fs');
     await driver.manage().window().setRect({ width: 1040, height: 768 });
     await driver.get('https://coinmarketcap.com/currencies/hive-blockchain/');
     await new Promise(resolve => setTimeout(resolve, 1500));  // be sure, that everything is loaded
-    let button2 = await driver.findElement(By.xpath("//li[text()='7D']"));
+    let button2 = await driver.findElement(By.xpath("//div[@class='Tab_label__7eec_']/h5[text()='7D']"));
+    
+    // let button2 = await driver.findElement(By.xpath("//li[text()='7D']"));
     //let button2 = await driver.findElement(By.id('react-tabs-8'));
     //let button2 = await driver.wait(until.elementLocated(By.xpath('//*[@id="react-tabs-8"]')), 5000);
 

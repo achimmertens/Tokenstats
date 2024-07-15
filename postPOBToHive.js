@@ -16,7 +16,7 @@ const parentPermlink = 'hive-150329' // Community = ProofOfBrain
 //const parentPermlink = 'hive-153112' // Community = API Testing
 const author = 'advertisingbot2';
 const permlink = new Date().toISOString().replace(/[^a-zA-Z0-9]+/g, '').toLowerCase();
-const title = 'Statistics For The $POB Token For Week '+CW;
+const title = 'Statistics For The $POB Token For Week '+CW+' including my diary';
 console.log ('Title = ',title)
 const bodyFilePath = './screenshots/POB/POBText.md';
 const tags = ['proofofbrain','pob','leofinance','token','stats','hivestats','hive','statistics'];
@@ -27,3 +27,5 @@ const body = fs.readFileSync(bodyFilePath, 'utf-8');
 
 postContentToHive(privateKey,parentAuthor,parentPermlink,author,permlink,title,body,tags, beneficiaries);
 
+// rename the file to secure that it is not executed twice
+fs.renameSync(bodyFilePath,'./screenshots/POB/POBText_done.md');

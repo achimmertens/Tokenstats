@@ -14,7 +14,7 @@ const parentPermlink = 'hive-155221'  // Community=Alive
 //const parentPermlink = 'hive-153112' // Community = API Testing
 const author = 'achimmertens';
 const permlink = new Date().toISOString().replace(/[^a-zA-Z0-9]+/g, '').toLowerCase();
-const title = 'Statistics For The $ALIVE Token For Week '+CW;
+const title = 'Statistics For The $ALIVE Token For Week '+CW+' including my diary';
 console.log ('Title = ',title)
 const bodyFilePath = './screenshots/Alive/ALIVEText.md';
 const tags = ['alive','leofinance','token','stats','hivestats','hive','statistics'];
@@ -25,3 +25,5 @@ const body = fs.readFileSync(bodyFilePath, 'utf-8');
 
 postContentToHive(privateKey,parentAuthor,parentPermlink,author,permlink,title,body,tags, beneficiaries);
 
+// Rename './screenshots/Alive/ALIVEText.md'into './screenshots/Alive/ALIVEText_done.md'
+fs.renameSync(bodyFilePath,'./screenshots/Alive/ALIVEText_done.md');

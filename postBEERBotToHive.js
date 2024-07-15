@@ -24,3 +24,6 @@ const body = fs.readFileSync(bodyFilePath, 'utf-8');
 
 postContentToHive(privateKey,parentAuthor,parentPermlink,author,permlink,title,body,tags, beneficiaries);
 
+
+// rename the file to secure that it is not executed twice
+fs.renameSync(bodyFilePath,'./screenshots/BEERBot/BEERBotText_done.md');

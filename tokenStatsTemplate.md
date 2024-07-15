@@ -13,7 +13,7 @@ The inside of the circle shows the buyers of [TOKEN], ordered by $HIVE they have
 BILD_02
 
 
-## Commulated Amount Of Bought [TOKEN] Per Person
+## Comulated Amount Of Bought [TOKEN] Per Person
 Top 10 [TOKEN] buyers, how much they got and how much $HIVE they spend for this. Sorted by $HIVE, that was spent:
 BILD_03
 
@@ -24,7 +24,7 @@ Buyer(Descending)|Sold $HIVE|% Sold $HIVE|Bought [TOKEN]|Avg. Price|Number of Tr
 |-|-|-|-|-|-|
 TABLE01
 
-## Commulated Amount Of Sold [TOKEN] Per Person
+## Comulated Amount Of Sold [TOKEN] Per Person
 Top 10 [TOKEN] Sellers, how much they sold and how much $HIVE they got for this, sorted by $HIVE:
 BILD_04
 
@@ -63,31 +63,18 @@ https://peakd.com/@achimmertens
 https://github.com/achimmertens
 
 ---
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23tkjzfCeVcJMqWheUzRFYQGF1sgRJmpfcm5x5DzWfweubSMMEVh8w1P1CVUNDoipxKTb.png)
-https://peakd.com/hive-149312/@achimmertens/the-results-of-my-charity-research-task-die-ergebnisse-meiner-wohltatigkeitsforschungsaufgabe
-
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23t7DLqTFyZ8HHDm5cwjFGnXhAvn9AYgBzMAgXxcNc51FYvwd585xpqq58gYhXkxYTii4.png)
-
-
-
-
-## Please follow @adaezeinchrist
-She collected food and commodities for widows in Ghana. She took nice pictures of the ladies and herself as a proof of her help. Just see the happy smiles.
-![](https://images.ecency.com/DQmNpGEzve32DdFWJwmaT3zANjA1599huXcELveaEZ2wDX8/img_20231224_082223_408.jpg)
-Here is her post: https://peakd.com/hive-176874/@adaezeinchrist/my-project-for-the-widows
-
-
-I allready have send her a small gift via @anobel (i.e. from the money, that I earn with these reports here):
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23t76pL8LK9ohDUKRAgT2zVdy7piWe4C8ruyAK1PpwVCPt6nKLKz2JkAoDqdEs7ma4gV8.png)
-
-
 
 # My last Week 
-The work never goes out. So my week was filled with it.
-But good, that there is not only work. My family has grown even bigger ;-)
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23w2kturqJNSdNsFC2Vb41cchGxRf9sUd7a6WFKNsnEQr2wiQR27UmqN52ZcWj9ippbxE.png)
-btw. Here is their daddy:
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/23xKxeAP9HVcqvU3uYRR6P9jPV2zmv27KmNytnnMdhPgWqtxQiU1Zo99XP9gH8YZvn7Xi.jpg)
+
+This week was finally a normal week again. That means I was able to concentrate on normal activities both at work and in my private life. However, it was also quite hot again, which slowed me down a bit. Do you know what it's like when you sit around after work and can't do anything with yourself?
+
+That will be a challenge for me over the next two weeks, because I'm on vacation now. My wife and I are going camping in southern Germany.
+
+Yes, I need some time to find myself again.
+
+That also means that there will be no statistics from me in the next two weeks.
+
+But tomorrow (Saturday) I'm going to the Hivemeetup in Aachen: https://peakd.com/meetup/@detlev/agenda-speakers-and-other-web3-communities-at-hivemeetupaachen-13
 
 
 Regards,
