@@ -66,15 +66,8 @@ https://github.com/achimmertens
 
 # My last Week 
 
-This week was finally a normal week again. That means I was able to concentrate on normal activities both at work and in my private life. However, it was also quite hot again, which slowed me down a bit. Do you know what it's like when you sit around after work and can't do anything with yourself?
-
-That will be a challenge for me over the next two weeks, because I'm on vacation now. My wife and I are going camping in southern Germany.
-
-Yes, I need some time to find myself again.
-
-That also means that there will be no statistics from me in the next two weeks.
-
-But tomorrow (Saturday) I'm going to the Hivemeetup in Aachen: https://peakd.com/meetup/@detlev/agenda-speakers-and-other-web3-communities-at-hivemeetupaachen-13
+This week was crazy! On Monday, I got a call from an old colleague, who asked me to join his company. I had applied there in march but didn't get an answer so far. Because of some parameters that have changed I decided to stay in the team in that I am now. But this call changed everything back and so I agreed to an interview, which I had on thursday. The interview was great and so I decided still in the call to agree. This means, in the next month I will start my work in the "Deutsche Rentenversicherungs Bund", with the same conditions (and still under the contract) from Deutsche Telekom.
+I am totally happy now - on the on hand. And on the other hand: My father in law is dying. He is 84 Years old and has cancer. He is getting weaker day by day...
 
 
 Regards,
