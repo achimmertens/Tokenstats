@@ -19,7 +19,7 @@ const fs = require('fs');
 
  // Warten auf den Cookie-Button und klicken
  try {
-  await page.waitForSelector('text="Accept Cookies & Continue"', { timeout: 5000 });
+  await page.waitForSelector('text="Accept Cookies & Continue"', { timeout: 2000 });
   await page.click('text="Accept Cookies & Continue"');
   console.log('Cookie-Banner akzeptiert');
 } catch (error) {
@@ -27,7 +27,7 @@ const fs = require('fs');
 }
   // Warten Sie einen Moment, damit die Seite auf den Klick reagieren kann
   await page.waitForTimeout(1000);
-  
+
   // Screenshot des Bereichs mit Beschneidung auf 768 Pixel Höhe
   const section = await page.locator('.main-content');
   const boundingBox = await section.boundingBox();
