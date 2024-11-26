@@ -1,47 +1,42 @@
-const { chromium } = require('playwright');
+const { Builder, By, Key, until } = require('selenium-webdriver');
 const fs = require('fs');
 
-(async () => {
-  const browser = await chromium.launch();
-  const page = await browser.newPage();
-  await page.setViewportSize({ width: 1040, height: 768 });
-  await page.goto('https://coinmarketcap.com/currencies/hive-blockchain/');
-  
-   // Warten, bis das Element geladen ist
-  const buttonSelector = '//div[@id="section-coin-chart"]/div/div/div/div/div/div[2]/div[2]/div/div/ul/li[2]/div/div/h5';
-  await page.waitForSelector(`xpath=${buttonSelector}`);
+(async function example() {
+  let currentDate = new Date();
+  let folderDate = currentDate.toISOString().slice(0, 10)
+  var fileFolder = 'screenshots_'+folderDate+'\/Token';
+  var fileName = 'coinMarketCapChart.png';
+  let driver = await new Builder().forBrowser('chrome').build();
+  try {
+    await driver.manage().window().setRect({ width: 1040, height: 768 });
+    await driver.get('https://coinmarketcap.com/currencies/hive-blockchain/');
+    await new Promise(resolve => setTimeout(resolve, 12000));  // be sure, that everything is loaded
+    await driver.get('https://coinmarketcap.com/currencies/hive-blockchain/');
+    await new Promise(resolve => setTimeout(resolve, 3000));  // be sure, that everything is loaded
+    let button2 = await driver.wait(until.elementLocated(By.xpath("//div[@id='section-coin-chart']/div/div/div/div/div/div[2]/div[2]/div/div/ul/li[2]/div/div/h5")), 10000);
+    // let button2 = await driver.findElement(By.xpath("//div[@class='sc-65e7f566-0 kCokPO base-text']/h5[text()='7D']"));
+    //let button2 = await driver.findElement(By.xpath("//div[@class='Tab_label__7eec_']/h5[text()='7D']"));
+    // let button2 = await driver.findElement(By.xpath("//li[text()='7D']"));
+    //let button2 = await driver.findElement(By.id('react-tabs-8'));
+    //let button2 = await driver.wait(until.elementLocated(By.xpath('//*[@id="react-tabs-8"]')), 5000);
 
-  // Auf den Knopf klicken
-  await page.click(`xpath=${buttonSelector}`);
+    
+    await button2.click();
 
-  // Warten Sie einen Moment, damit die Seite auf den Klick reagieren kann
-  await page.waitForTimeout(2000);
+    let section = await driver.findElement(By.className('main-content'));
 
- // Warten auf den Cookie-Button und klicken
- try {
-  await page.waitForSelector('text="Accept Cookies & Continue"', { timeout: 2000 });
-  await page.click('text="Accept Cookies & Continue"');
-  console.log('Cookie-Banner akzeptiert');
-} catch (error) {
-  console.log('Cookie-Banner nicht gefunden oder konnte nicht geklickt werden');
-}
-  // Warten Sie einen Moment, damit die Seite auf den Klick reagieren kann
-  await page.waitForTimeout(1000);
-  
-  // Screenshot des Bereichs mit Beschneidung auf 768 Pixel Höhe
-  const section = await page.locator('.main-content');
-  const boundingBox = await section.boundingBox();
-  
-  await page.screenshot({ 
-    path: `screenshots_${new Date().toISOString().slice(0, 10)}/Token/coinMarketCapChart.png`,
-    clip: {
-      x: boundingBox.x,
-      y: boundingBox.y,
-      width: boundingBox.width,
-      height: Math.min(768, boundingBox.height)
+    try {
+      let button = await driver.findElement(By.id('onetrust-accept-btn-handler'));
+      await button.click();
+    } catch (error) {
+      console.log('Button not found');
     }
-  });
 
-  await browser.close();
-  console.log('Screenshot erstellt und auf 768 Pixel Höhe beschnitten');
+    await new Promise(resolve => setTimeout(resolve, 1500));  // be sure, that everything is loaded
+    let screenshot = await section.takeScreenshot();
+    fs.writeFileSync(fileFolder+'\/'+fileName, screenshot, 'base64');
+    console.log('Die Datei '+fileFolder+'\/'+fileName+' wurde erstellt');
+  } finally {
+    await driver.quit();
+  }
 })();
