@@ -65,11 +65,12 @@ https://github.com/achimmertens
 ---
 
 # My last Week 
+Last Friday evening my wife and me were in the "Rockfabrik" in Übach Palenberg together with the "Lizzberries", a tribut to the Cranberries. They were really good.
+![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/244ohEoMEY8316qryyKK3v4TNQ1v9WRyHX5g7wKAkWkAggoJxTMehx843hLhYVvbCZXXs.png)
 
-This week was crazy! On Monday, I got a call from an old colleague, who asked me to join his company. I had applied there in march but didn't get an answer so far. Because of some parameters that have changed I decided to stay in the team in that I am now. But this call changed everything back and so I agreed to an interview, which I had on thursday. The interview was great and so I decided still in the call to agree. This means, in the next month I will start my work in the "Deutsche Rentenversicherungs Bund", with the same conditions (and still under the contract) from Deutsche Telekom.
-I am totally happy now - on the on hand. And on the other hand: My father in law is dying. He is 84 Years old and has cancer. He is getting weaker day by day...
+Do you know the feeling, that in general everything is fine, but you stress yourself out? On Monday and Tuesday I worked as beeing stupid and had no success in everything I did. All topics I touched kept empty. At least I got aware of my brainfuck and my impatience.
+And yes, the rest of the week was more succesfull.
+I managed to create a backup and restore method for podman images (I will write about it). I also managed to download docker images at my work, which is not easy because of a special proxy system.
 
-
-Regards,
 
 Achim Mertens
