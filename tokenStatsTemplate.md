@@ -64,13 +64,16 @@ https://github.com/achimmertens
 
 ---
 
-# My last Week 
-Last Friday evening my wife and me were in the "Rockfabrik" in Übach Palenberg together with the "Lizzberries", a tribut to the Cranberries. They were really good.
-![grafik.png](https://files.peakd.com/file/peakd-hive/achimmertens/244ohEoMEY8316qryyKK3v4TNQ1v9WRyHX5g7wKAkWkAggoJxTMehx843hLhYVvbCZXXs.png)
+# My last weeks
+Two of the last three weeks, I was on a great [holliday in Denmark](https://peakd.com/hive-163772/@achimmertens/urlaub-in-tversted-danemark-holliday-in-tversteddenmark)
+![](https://images.hive.blog/0x0/https://files.peakd.com/file/peakd-hive/achimmertens/23xKtZ8AfF4KNnBLU99XjsucJzqz8pnJobhqf7PX5pJA6Y5FmDuNsBobfWbeM84oiez18.jpeg)
+When I came back, a lot of work and bad news waited for me: 
+- One of them was, that my colleage and friend Attila Giori has died last week. He was younger than me.
+- Then I got a letter from my tax office, that I had to pay unexpedtedly 370 € and I didn't understood why. So I have to clarify that.
+- Our new car has not only a crack in the front window but also a screw in the wire. I had to clarify with the assurance, but I havn't got a contract yet (so new is the car).
+- I had to reset my smartphone and have to reinstall everything.
+- Then I wanted to pay the tax, but at the moment, I cannot pay anything via online banking, because of my reseted smartphone.
 
-Do you know the feeling, that in general everything is fine, but you stress yourself out? On Monday and Tuesday I worked as beeing stupid and had no success in everything I did. All topics I touched kept empty. At least I got aware of my brainfuck and my impatience.
-And yes, the rest of the week was more succesfull.
-I managed to create a backup and restore method for podman images (I will write about it). I also managed to download docker images at my work, which is not easy because of a special proxy system.
-
+But some issues are solved now. I found a garade that repaired my wire for 25 €. And we a reached a very big milestone on my work this week (The first Sailpoint server is up and running). So not everything was bad this week ;-)
 
 Achim Mertens
