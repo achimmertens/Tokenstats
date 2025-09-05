@@ -1,4 +1,5 @@
 const { Builder, By, Key, until } = require('selenium-webdriver');
+const chrome = require('selenium-webdriver/chrome');
 const fs = require('fs');
 
 (async function example() {
@@ -6,7 +7,20 @@ const fs = require('fs');
   let folderDate = currentDate.toISOString().slice(0, 10)
   var fileFolder = 'screenshots_'+folderDate+'\/Token';
   var fileName = 'coinMarketCapChart.png';
-  let driver = await new Builder().forBrowser('chrome').build();
+
+  // Set the ChromeDriver path explicitly
+  process.env.webdriver_chrome_driver = 'C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps\\chromedriver.exe';
+
+  // Configure Chrome service with explicit driver path
+  const options = new chrome.Options();
+  const service = new chrome.ServiceBuilder('C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps\\chromedriver.exe');
+  
+  let driver = await new Builder()
+    .forBrowser('chrome')
+    .setChromeService(service)
+    .setChromeOptions(options)
+    .build();
+
   try {
     await driver.manage().window().setRect({ width: 1040, height: 768 });
     await driver.get('https://coinmarketcap.com/currencies/hive-blockchain/');

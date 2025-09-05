@@ -5,7 +5,15 @@
 // ********************************************************
 
 const { Builder, By, key, until } = require('selenium-webdriver');
+const chrome = require('selenium-webdriver/chrome');
 const fs = require('fs');
+const chromeDriverPath = 'C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps\\chromedriver.exe';
+
+// Set Chrome Driver Path
+process.env.PATH = `${process.env.PATH};C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps`;
+const options = new chrome.Options();
+const service = new chrome.ServiceBuilder(chromeDriverPath);
+const path = require('path');
 const rimraf = require('rimraf');
 const getDateFrame = require('./getDateFrame.js');
 let {dateFrame, currentDateString, oneWeekAgoString, timeFrame} = getDateFrame();
@@ -62,7 +70,18 @@ async function runallFunctions() {
     await deleteDirs();
     let driver;
     try {
-        driver = await new Builder().forBrowser('chrome').build();
+        // Set the ChromeDriver path explicitly
+        process.env.webdriver_chrome_driver = 'C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps\\chromedriver.exe';
+        
+        const options = new chrome.Options();
+        const service = new chrome.ServiceBuilder('C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps\\chromedriver.exe');
+        
+        driver = await new Builder()
+            .forBrowser('chrome')
+            .setChromeService(service)
+            .setChromeOptions(options)
+            .build();
+            
         for (const query of queries) {
             const filename = query[0];
             const duration = query[1];
@@ -153,4 +172,4 @@ async function main() {
     });
     }
 
-main();   
+main();
