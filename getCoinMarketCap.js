@@ -35,18 +35,50 @@ const path = require('path');
     const chartLocator = By.id('section-coin-chart');
     await driver.wait(until.elementLocated(chartLocator), 10000);
 
-    // Try to accept cookies if present (non-blocking)
-    (async () => {
-      try {
-        const cookieBtn = await driver.findElements(By.id('onetrust-accept-btn-handler'));
-        if (cookieBtn.length) {
-          console.log('Clicking cookie accept button');
-          await cookieBtn[0].click();
-        }
-      } catch (e) {
-        console.log('Cookie accept button not clickable or not present');
+    // Try to accept or hide cookie banner if present (non-blocking)
+    async function dismissCookieBanner() {
+      const clickSelectors = [
+        By.id('onetrust-accept-btn-handler'),
+        By.xpath("//button[contains(.,'Accept') or contains(.,'Accept Cookies') or contains(.,'Accept & Continue')]"),
+        By.xpath("//button[contains(.,'Accept') or contains(.,'Continue')]") ,
+        By.css("button[aria-label*='accept']"),
+        By.css('.onetrust-close-btn-handler')
+      ];
+
+      for (const sel of clickSelectors) {
+        try {
+          const els = await driver.findElements(sel);
+          if (els && els.length) {
+            for (const el of els) {
+              try {
+                if (!await el.isDisplayed()) continue;
+                console.log('Clicking cookie button via selector', sel);
+                await el.click();
+                await driver.sleep(300);
+                return true;
+              } catch (e) {
+                try { await driver.executeScript('arguments[0].click();', el); await driver.sleep(300); return true;} catch(_){}
+              }
+            }
+          }
+        } catch (e) {}
       }
-    })();
+
+      // fallback: hide known cookie containers via CSS
+      try {
+        await driver.executeScript(`
+          var els = document.querySelectorAll('.onetrust-banner, .onetrust-overlay, .cookie-consent, .cookie-banner, #onetrust-banner-sdk');
+          els.forEach(e=>{ e.style.display='none'; e.style.visibility='hidden'; });
+        `);
+        await driver.sleep(200);
+        return true;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    // attempt dismiss before interacting with page
+    try { await dismissCookieBanner(); } catch(e) { console.log('Cookie dismiss failed', e.message); }
 
     // Robust finder-and-click helper for the 7D button
     async function findAndClick7D(attempts = 3) {
@@ -112,6 +144,9 @@ const path = require('path');
     }
 
     let screenshot;
+    // ensure cookie banner removed right before screenshot
+    try { await dismissCookieBanner(); } catch(e) { console.log('Final cookie dismiss failed', e.message); }
+
     if (targetElement) {
       console.log('Taking element screenshot of chart...');
       screenshot = await targetElement.takeScreenshot();
