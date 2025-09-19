@@ -64,16 +64,12 @@ https://github.com/achimmertens
 
 ---
 
-# My last weeks
-Two of the last three weeks, I was on a great [holliday in Denmark](https://peakd.com/hive-163772/@achimmertens/urlaub-in-tversted-danemark-holliday-in-tversteddenmark)
-![](https://images.hive.blog/0x0/https://files.peakd.com/file/peakd-hive/achimmertens/23xKtZ8AfF4KNnBLU99XjsucJzqz8pnJobhqf7PX5pJA6Y5FmDuNsBobfWbeM84oiez18.jpeg)
-When I came back, a lot of work and bad news waited for me: 
-- One of them was, that my colleage and friend Attila Giori has died last week. He was younger than me.
-- Then I got a letter from my tax office, that I had to pay unexpedtedly 370 € and I didn't understood why. So I have to clarify that.
-- Our new car has not only a crack in the front window but also a screw in the wire. I had to clarify with the assurance, but I havn't got a contract yet (so new is the car).
-- I had to reset my smartphone and have to reinstall everything.
-- Then I wanted to pay the tax, but at the moment, I cannot pay anything via online banking, because of my reseted smartphone.
+# My last week
+Last saturday I collected some boxes full of pine cones for the winter to burn in our oven.
+This week was a little bit quit. This gave me the chance to work on my paper stuff (insurance, house chores...) and to get some things done. So I am happy about this week. 
+In my job I managed to connect the code to the local gitlab Server and to write a README.md
+In my sparetime I worked on an MCP Server. Maybe I will show you the results in the next days.
+Yesterday evening I played "Northguard", I start loving it. It is a nice kind of "Settlers".
 
-But some issues are solved now. I found a garade that repaired my wire for 25 €. And we a reached a very big milestone on my work this week (The first Sailpoint server is up and running). So not everything was bad this week ;-)
 
 Achim Mertens
