@@ -81,24 +81,138 @@ async function runallFunctions() {
             .setChromeService(service)
             .setChromeOptions(options)
             .build();
-            
+        // set window size once
+        try { await driver.manage().window().setRect({ width: 1200, height: 900 }); } catch (e) {}
+
+        // helper: small sleep
+        const sleep = ms => new Promise(res => setTimeout(res, ms));
+
+        // helper: wait for page ready - document ready and no visible loaders
+        async function waitForPageReady(timeoutMs = 30000) {
+            const start = Date.now();
+            while (Date.now() - start < timeoutMs) {
+                try {
+                    const ready = await driver.executeScript('return document.readyState');
+                    if (ready !== 'complete') { await sleep(200); continue; }
+                    // check for common loader indicators
+                    const loaders = await driver.findElements(By.css('.euiLoadingSpinner, .kbnLoader, .loading, .globalLoader'));
+                    let anyVisible = false;
+                    for (const l of loaders) {
+                        try { if (await l.isDisplayed()) { anyVisible = true; break; } } catch(e){}
+                    }
+                    if (anyVisible) { await sleep(200); continue; }
+                    return true;
+                } catch (e) {
+                    await sleep(200);
+                }
+            }
+            return false;
+        }
+
+        // helper: wait until Kibana visualization has rendered data
+        async function waitForKibanaRendered(timeoutMs = 30000) {
+            const start = Date.now();
+            const sleep = ms => new Promise(res => setTimeout(res, ms));
+
+            // selectors that indicate a rendered visualization
+            const dataSelectors = [
+                '#visualization canvas',
+                '#visualization svg',
+                '.euiDataGrid',
+                '.visTable__table',
+                '.euiTable',
+                '.visualization',
+                'canvas',
+                'svg'
+            ];
+
+            while (Date.now() - start < timeoutMs) {
+                try {
+                    // if page still shows Kibana loading text, wait
+                    const loadingEls = await driver.findElements(By.xpath("//*[contains(text(),'Loading Elastic Kibana') or contains(text(),'Loading')]" ));
+                    let loadingVisible = false;
+                    for (const el of loadingEls) {
+                        try { if (await el.isDisplayed()) { loadingVisible = true; break; } } catch(e){}
+                    }
+                    if (loadingVisible) { await sleep(300); continue; }
+
+                    // check for at least one data indicator element that is visible and has size
+                    for (const sel of dataSelectors) {
+                        const elems = await driver.findElements(By.css(sel));
+                        if (elems && elems.length) {
+                            for (const e of elems) {
+                                try {
+                                    if (!(await e.isDisplayed())) continue;
+                                    // for canvas/svg check size
+                                    const size = await driver.executeScript('return (function(el){ if(!el) return null; const r = el.getBoundingClientRect(); return {w: r.width, h: r.height}; })(arguments[0]);', e);
+                                    if (size && size.w > 10 && size.h > 10) {
+                                        return true;
+                                    }
+                                    // tables/grid: assume visible is enough
+                                    if (!size) return true;
+                                } catch (e) {
+                                    // ignore
+                                }
+                            }
+                        }
+                    }
+                } catch (err) {
+                    // ignore and retry
+                }
+                await sleep(300);
+            }
+            return false;
+        }
+
         for (const query of queries) {
             const filename = query[0];
             const duration = query[1];
             const url = query[2];
+            console.log(`Loading ${url}`);
             await driver.get(url);
-            try {
-                await driver.wait(until.elementLocated(By.className("euiIcon euiIcon--large euiIcon-isLoaded")), duration * 1000);
-                console.log("The Website " + url + " has been loaded");
+
+            const ready = await waitForPageReady(duration * 1000);
+            if (ready) {
+                console.log(`Page reported ready for ${url}`);
+            } else {
+                console.log(`WARN: Page not fully ready after ${duration} seconds for ${url}, attempting fallback waits`);
+                // try to wait for a visual element as a fallback
+                try {
+                    await driver.wait(until.elementLocated(By.css('canvas, svg, .visualization, .kbnCanvas')) , 5000);
+                } catch (e) {}
             }
-            catch (err) {
-                console.error(`Fehler beim Laden der Webseite`, err);
+
+            // ensure token folder exists
+            const outPath = path.join(screenshotsFolder, filename + '.png');
+            const outDir = path.dirname(outPath);
+            if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+
+            // wait specifically for Kibana visualization to render actual data
+            const kibanaReady = await waitForKibanaRendered(duration * 1000);
+            if (!kibanaReady) console.log(`WARN: Kibana visualization may not be fully rendered for ${url}`);
+
+            // slight pause for any dynamic rendering
+            await sleep(300);
+
+            // take screenshot with retry
+            let image;
+            let attempts = 0;
+            while (attempts < 3) {
+                try {
+                    image = await driver.takeScreenshot();
+                    break;
+                } catch (err) {
+                    attempts++;
+                    console.log(`Screenshot attempt ${attempts} failed for ${url}:`, err.message);
+                    await sleep(400);
+                }
             }
-            await new Promise(resolve => setTimeout(resolve, 1500));  // be sure, that everything is loaded
-            await driver.manage().window().setRect({ width: 1024, height: 768 });
-            const image = await driver.takeScreenshot();
-            await fs.promises.writeFile(screenshotsFolder + filename + '.png', image, 'base64');
-            console.log("The image " + screenshotsFolder + filename + ".png has been saved.");
+            if (!image) {
+                console.error(`Failed to capture screenshot for ${url}`);
+            } else {
+                await fs.promises.writeFile(outPath, image, 'base64');
+                console.log(`The image ${outPath} has been saved.`);
+            }
         }
     } catch (err) {
         console.error(`Fehler `, err);
