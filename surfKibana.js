@@ -88,7 +88,7 @@ async function runallFunctions() {
         const sleep = ms => new Promise(res => setTimeout(res, ms));
 
         // helper: wait for page ready - document ready and no visible loaders
-        async function waitForPageReady(timeoutMs = 30000) {
+        async function waitForPageReady(timeoutMs = 10000) {
             const start = Date.now();
             while (Date.now() - start < timeoutMs) {
                 try {
@@ -110,7 +110,7 @@ async function runallFunctions() {
         }
 
         // helper: wait until Kibana visualization has rendered data
-        async function waitForKibanaRendered(timeoutMs = 30000) {
+        async function waitForKibanaRendered(timeoutMs = 10000) {
             const start = Date.now();
             const sleep = ms => new Promise(res => setTimeout(res, ms));
 
@@ -144,18 +144,20 @@ async function runallFunctions() {
                                 try {
                                     if (!(await e.isDisplayed())) continue;
                                     // for canvas/svg check size
-                                    const size = await driver.executeScript('return (function(el){ if(!el) return null; const r = el.getBoundingClientRect(); return {w: r.width, h: r.height}; })(arguments[0]);', e);
+                                    const size = await driver.executeScript('return (function(el){ if(!el) return null; const r = el.getBoundingClientRect(); return {w: Math.round(r.width), h: Math.round(r.height), tag: el.tagName.toLowerCase()}; })(arguments[0]);', e);
                                     if (size && size.w > 10 && size.h > 10) {
+                                        // element has reasonable size; assume rendered (avoid expensive pixel checks)
                                         return true;
                                     }
                                     // tables/grid: assume visible is enough
                                     if (!size) return true;
-                                } catch (e) {
-                                    // ignore
+                                } catch (innerErr) {
+                                    // ignore and continue
                                 }
                             }
                         }
                     }
+                    // no secondary text checks; rely on visual element presence and size
                 } catch (err) {
                     // ignore and retry
                 }
@@ -191,8 +193,8 @@ async function runallFunctions() {
             const kibanaReady = await waitForKibanaRendered(duration * 1000);
             if (!kibanaReady) console.log(`WARN: Kibana visualization may not be fully rendered for ${url}`);
 
-            // slight pause for any dynamic rendering
-            await sleep(300);
+            // fixed short pause to allow Kibana to finish rendering complex visuals
+            await sleep(1000);
 
             // take screenshot with retry
             let image;
