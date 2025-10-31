@@ -64,12 +64,16 @@ https://github.com/achimmertens
 
 ---
 
-# My last week
-Last saturday I collected some boxes full of pine cones for the winter to burn in our oven.
-This week was a little bit quit. This gave me the chance to work on my paper stuff (insurance, house chores...) and to get some things done. So I am happy about this week. 
-In my job I managed to connect the code to the local gitlab Server and to write a README.md
-In my sparetime I worked on an MCP Server. Maybe I will show you the results in the next days.
-Yesterday evening I played "Northguard", I start loving it. It is a nice kind of "Settlers".
+# My last two weeks
+Yes, last week there were no stats, because I was off. My wife and me enjoyed the great nature environment in the "Eifel" in our [flat](https://fewo.amertens.me/).
+![alt text](image-4.png)
+![alt text](image-5.png)
+![](image-6.png)
+This week I was on a Keycloak training. Here are my notes, that I made: [Part 1](https://peakd.com/hive-121566/@achimmertens/keycloakschulung-mitschrift),[Part 2](https://peakd.com/hive-121566/@achimmertens/keycloakschulung-mitschrift-teil-23), and [Part 3](https://peakd.com/hive-121566/@achimmertens/keycloakschulung-mitschrift-teil-33).
+
+And, the most important and greatest news: My oldest daughter is going to marry, she got engaged last week.
+
+:-D
 
 
 Achim Mertens

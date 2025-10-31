@@ -122,8 +122,54 @@ const path = require('path');
       return false;
     }
 
-    const clicked = await findAndClick7D(4);
-    if (!clicked) console.log('WARNUNG: 7D button konnte nicht gefunden werden - weiter mit vorhandenem Zoom');
+    // Robust finder-and-click helper for the 1W button
+    async function findAndClick1W(attempts = 3) {
+      const selectors = [
+        By.xpath("//b[contains(text(),'1W')]"),
+        By.xpath("//span[contains(@title, '1W')]"),
+        By.xpath("//div[contains(@class, 'c-bUyOMB')]//span[contains(text(),'1W')]"),
+        By.xpath("//li//b[contains(text(),'1W')]"),
+        By.xpath("//div[@id='section-coin-chart']//b[contains(.,'1W')]") 
+      ];
+
+      for (let i = 0; i < attempts; i++) {
+        for (const sel of selectors) {
+          try {
+            const elems = await driver.findElements(sel);
+            if (elems && elems.length) {
+              // pick first visible/enabled
+              for (const e of elems) {
+                try {
+                  const displayed = await e.isDisplayed();
+                  if (!displayed) continue;
+                  console.log('Clicking 1W button using selector', sel);
+                  await e.click();
+                  return true;
+                } catch (clickErr) {
+                  // try JS click as fallback
+                  try {
+                    await driver.executeScript('arguments[0].click();', e);
+                    return true;
+                  } catch (_) {}
+                }
+              }
+            }
+          } catch (err) {
+            // ignore and try next selector
+          }
+        }
+        console.log('1W button not found yet, retrying...', i+1);
+        await sleep(700);
+      }
+      return false;
+    }
+
+    const clicked7D = await findAndClick7D(4);
+    if (!clicked7D) {
+      console.log('WARNUNG: 7D button konnte nicht gefunden werden, versuche 1W...');
+      const clicked1W = await findAndClick1W(4);
+      if (!clicked1W) console.log('WARNUNG: 1W button konnte ebenfalls nicht gefunden werden - weiter mit vorhandenem Zoom');
+    }
 
     // Wait shortly for chart to update
     await sleep(800);
