@@ -64,16 +64,18 @@ https://github.com/achimmertens
 
 ---
 
-# My last two weeks
-Yes, last week there were no stats, because I was off. My wife and me enjoyed the great nature environment in the "Eifel" in our [flat](https://fewo.amertens.me/).
-![alt text](image-4.png)
-![alt text](image-5.png)
-![](image-6.png)
-This week I was on a Keycloak training. Here are my notes, that I made: [Part 1](https://peakd.com/hive-121566/@achimmertens/keycloakschulung-mitschrift),[Part 2](https://peakd.com/hive-121566/@achimmertens/keycloakschulung-mitschrift-teil-23), and [Part 3](https://peakd.com/hive-121566/@achimmertens/keycloakschulung-mitschrift-teil-33).
+# My last 2 weeks
+As I got some downvotes, I decided to reduce the statistics. Details see [here](https://peakd.com/downvote/@advertisingbot2/i-give-up-some-of-my-statistic-reports)
 
-And, the most important and greatest news: My oldest daughter is going to marry, she got engaged last week.
+I had also some trouble with my statistic collecting tools. So I had to repair them. For this some stats are missing.
 
-:-D
+Two weeks ago I was with a friend in Dedenborn, a small village in the Eifel region, to work in the garden. The deal is, I help him to get some order and I get the wood for my oven. My oncle came to visit the house, because it can probably be rented next year. He traveled 5 hours from south Germany. But the decision is not made.
+Sunday, friends an I were eating in a restaurant and after that we went into a comedy show.
+That week was full of work and despite of a lot of meetings I managed to install 3 new servers (endsport for this year).
+
+The work continued this week. But we tackled all adventures. I manage the goal to install all 4 Servers in the development zone.
+
+Last sunday, we distributed some gifts for the poor people in our region. See [here](https://peakd.com/hive-121566/@achimmertens/geschenke-fur-bedurftige-in-eschweiler).
 
 
 Achim Mertens
