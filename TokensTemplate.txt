@@ -1,19 +1,5 @@
-# Comparison With Other Tokens
-## $HIVE/Token
-This figure shows the value of $HIVE compared to some tokens. Be aware of the nonlinear (root square) y-axes.
-
-[OT01]
-
-
-## US-Dollar/Token
-Value of $USD compared to some token. Be aware of the nonlinear (root square) y-axes.
-
-[OT02]
+# CoinmarketCap
 
 [COINMARKETCAP]
 *[Origin](https://coinmarketcap.com/currencies/hive-blockchain/)*
 
-## Table Of Token Prices in $HIVE and $USD
-Average value of the prices of the token. Hive and US-Dollar compared to the token:
-
-[OT03]

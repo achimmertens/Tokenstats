@@ -144,11 +144,13 @@ const path = require('path');
                   if (!displayed) continue;
                   console.log('Clicking 1W button using selector', sel);
                   await e.click();
+                  await sleep(800);
                   return true;
                 } catch (clickErr) {
                   // try JS click as fallback
                   try {
                     await driver.executeScript('arguments[0].click();', e);
+                    await sleep(900);
                     return true;
                   } catch (_) {}
                 }
@@ -195,7 +197,9 @@ const path = require('path');
 
     if (targetElement) {
       console.log('Taking element screenshot of chart...');
+      await sleep(3000);
       screenshot = await targetElement.takeScreenshot();
+      await sleep(3000);
     } else {
       console.log('Taking full page screenshot...');
       screenshot = await driver.takeScreenshot();

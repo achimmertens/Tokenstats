@@ -1,5 +1,6 @@
 const fs = require('fs');
-let tokens = ["ALIVE", "BEER", "BEERBot", "LEO", "POB", "SPT","Token"];
+//let tokens = ["ALIVE", "BEER", "BEERBot", "LEO", "POB", "SPT","Token"];
+let tokens = ["ALIVE", "BEERBot", "Token"];
 let currentDate = new Date().toISOString().split('T')[0]; // Aktuelles Datum im Format "YYYY-MM-DD"
 console.log("Das Datum wird gesetzt auf: ", currentDate);
 

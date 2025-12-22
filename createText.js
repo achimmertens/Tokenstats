@@ -47,7 +47,8 @@ async function main() {
     let {dateFrame, currentDateString, oneWeekAgoString, timeFrame} = getDateFrame();
     console.log("dateFrame = ", dateFrame, " currentDateString = ", currentDateString, " oneWeekAgoString = ", oneWeekAgoString);
       
-    let tokens = ["ALIVE", "BEER", "LEO", "POB", "SPT"];
+    //let tokens = ["ALIVE", "BEER", "LEO", "POB", "SPT"];
+    let tokens = ["ALIVE",  "Token"];
     for (let token of tokens) {
         let TokenImages = fs.readFileSync(`${token}images.txt`, 'utf-8');
         const BILD_01 = /\!\[01(.*?)\)/;

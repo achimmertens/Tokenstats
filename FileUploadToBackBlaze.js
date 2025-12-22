@@ -69,6 +69,7 @@ async function main() {
   await sleep(duration);
   
   //----- BEER   ---
+  /*
   var fileFolder = 'screenshots_'+folderDate+'\/BEER';
   var fileName = '01_BoughtBeerByTime.png';
   await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)
@@ -94,7 +95,7 @@ async function main() {
   await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)
   console.log('Warte 2 Sekunden...');
   await sleep(duration);
-
+*/
   //----- BEERBot   ---
   var fileFolder = 'screenshots_'+folderDate+'\/BEERBot';
   var fileName = '01_StakedBeerByHistory.png';
@@ -109,6 +110,7 @@ async function main() {
   await sleep(duration);
 
   // --- LEO ---
+  /*
    var fileFolder = 'screenshots_'+folderDate+'\/LEO';
   var fileName = '01_BoughtLeoByTime.png';
   await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)
@@ -188,7 +190,7 @@ async function main() {
   await uploadFileToBackBlaze(fileFolder, fileName, result.uploadAuthToken, result.uploadUrl)
   console.log('Warte 2 Sekunden...');
   await sleep(duration);
-
+*/
 
 
 
