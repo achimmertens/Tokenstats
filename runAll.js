@@ -37,9 +37,9 @@ async function runAll() {
     try {
         // Execute scripts in sequence
         await runScript('surfKibana.js');
-        await runScript('getCoinMarketCap.js');
-        await runScript('FileUploadToBackBlaze.js');
-        await runScript('updateDateInTokenImagesTxt.js');
+        //await runScript('getCoinMarketCap.js');
+        //await runScript('FileUploadToBackBlaze.js');
+        //await runScript('updateDateInTokenImagesTxt.js');
         await runScript('createText.js');
         console.log('Bitte überprüfen Sie die Text.mds der Token.');
         await runScript('copyScreenshotsFolder.js');
